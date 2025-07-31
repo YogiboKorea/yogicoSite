@@ -1,10 +1,12 @@
 'use client';
 
 import React, { useEffect, useRef } from 'react';
+import { useRouter } from 'next/navigation';
 import './Section01.css';
 
 export default function Section01() {
   const sectionRef = useRef(null);
+  const router = useRouter();
 
   useEffect(() => {
     const el = sectionRef.current;
@@ -26,9 +28,21 @@ export default function Section01() {
     return () => observer.disconnect();
   }, []);
 
+  const handleClick = () => {
+    router.push('/we/#sec8');
+  };
+
   return (
-    <section id="section01" ref={sectionRef}>
-      <h1 className="section01_line1">BUSINESS <br className="mobile-br" />CONSULTING</h1>
+    <section
+      id="section01"
+      ref={sectionRef}
+      onClick={handleClick}
+      style={{ cursor: 'pointer' }}
+    >
+      <h1 className="section01_line1">
+        BUSINESS <br className="mobile-br" />
+        CONSULTING
+      </h1>
       <h1 className="section01_line2">&amp; DEVELOPMENT</h1>
     </section>
   );
