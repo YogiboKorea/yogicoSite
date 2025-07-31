@@ -1,91 +1,136 @@
-/* BusinessSection_02.css */
-
 .BusinessSection_02 {
   position: relative;
-  padding: 120px 40px;
-  background-position: center;
-  color: #0f1f44;
-  font-family: 'Roboto Condensed', sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  padding: 140px 60px 100px;
+  box-sizing: border-box;
+  background: linear-gradient(to bottom, #0f1f44 0%, #0f1f44 55%, #172439 55%, #172439 100%);
+  color: #fff;
   overflow: hidden;
-}
-
-/* 부드러운 색조 필터 겹치기 (그린→블루) */
-.BusinessSection_02::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(135deg, rgba(223, 255, 223, 0.45), rgba(205, 225, 255, 0.45));
-  pointer-events: none;
-  z-index: 0;
+  font-size: 18px;
+  font-family: 'Roboto', system-ui, -apple-system, sans-serif;
 }
 
 /* 제목 */
 .bs2-title {
-  position: relative;
-  font-family: 'Anton', sans-serif;
-  font-size: clamp(50px, 6vw, 70px);
+  width: 100%;
+  max-width: 1200px;
   margin: 0 0 1rem;
+  font-family: 'Anton', sans-serif;
+  font-size: 72px;
   line-height: 1.05;
-  color: #0f1f44;
-  z-index: 1;
-  padding-bottom:100px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  text-align: left;
+  padding: 0;
+  padding-bottom:120px;
 }
 
-/* 항목 그리드: 3열 */
+/* 컨테이너: 위쪽/아래쪽 그룹 래핑 */
 .bs2-columns {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  max-width: 1600px;
+  margin: 0 auto;
+  width: 100%;
   position: relative;
+}
+
+/* 주요 6개 항목 - 3열 그리드 */
+.bs2-primary,
+.bs2-secondary {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 4.5rem 4rem;
-  margin-top: 1rem;
-  z-index: 1;
+  gap: 10rem 3rem;
+  padding-bottom:100px;
+  text-align:center;
 }
 
-/* ul을 제거하고 li를 그리드에 직접 놓이게 */
+/* 리스트 공통 */
 .bs2-list {
   list-style: none;
   padding: 0;
   margin: 0;
-  display: contents; /* li가 직접 .bs2-columns의 자식처럼 동작 */
+  display: contents;
 }
 
 .bs2-item {
+  position: relative;
+  padding: 0;
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity .45s ease, transform .45s ease;
   display: flex;
   flex-direction: column;
-  gap:2rem;
-  text-align:center;
+  gap: .35rem;
 }
 
 .bs2-item h3 {
   margin: 0;
-  font-size: 1.95rem;
-  font-weight: 700;
+  font-family: 'Anton', sans-serif;
+  font-size: 36px;
   line-height: 1.1;
 }
 
 .bs2-item p {
   margin: 0;
-  font-size:18px;
-  line-height: 1.45;
+  line-height: 1.35;
+  color: rgba(255, 255, 255, 0.9);
   font-weight: 400;
+  font-size: 22px;
+  margin-top:20px;
 }
 
-/* 반응형: 모바일/태블릿에서 한 열 */
-@media (max-width: 1000px) {
-  .bs2-columns {
+/* 순차 노출: 총 12개 항목 (primary 6 + secondary 6) */
+.BusinessSection_02.play .bs2-item:nth-child(1) { opacity: 1; transform: none; transition-delay: 0s; }
+.BusinessSection_02.play .bs2-item:nth-child(2) { opacity: 1; transform: none; transition-delay: 0.1s; }
+.BusinessSection_02.play .bs2-item:nth-child(3) { opacity: 1; transform: none; transition-delay: 0.2s; }
+.BusinessSection_02.play .bs2-item:nth-child(4) { opacity: 1; transform: none; transition-delay: 0.3s; }
+.BusinessSection_02.play .bs2-item:nth-child(5) { opacity: 1; transform: none; transition-delay: 0.4s; }
+.BusinessSection_02.play .bs2-item:nth-child(6) { opacity: 1; transform: none; transition-delay: 0.5s; }
+.BusinessSection_02.play .bs2-item:nth-child(7) { opacity: 1; transform: none; transition-delay: 0.6s; }
+.BusinessSection_02.play .bs2-item:nth-child(8) { opacity: 1; transform: none; transition-delay: 0.7s; }
+.BusinessSection_02.play .bs2-item:nth-child(9) { opacity: 1; transform: none; transition-delay: 0.8s; }
+.BusinessSection_02.play .bs2-item:nth-child(10){ opacity: 1; transform: none; transition-delay: 0.9s; }
+.BusinessSection_02.play .bs2-item:nth-child(11){ opacity: 1; transform: none; transition-delay: 1s; }
+.BusinessSection_02.play .bs2-item:nth-child(12){ opacity: 1; transform: none; transition-delay: 1.1s; }
+
+/* 반응형 */
+@media (max-width: 1100px) {
+  .bs2-title {
+    font-size: 64px;
+  }
+  .bs2-item h3 {
+    font-size: 32px;
+  }
+  .bs2-item p {
+    font-size: 20px;
+  }
+  .bs2-primary,
+  .bs2-secondary {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
-.bs2-item{
-  gap: 1rem;
-  margin-top:40px;
 }
+
+@media (max-width: 800px) {
   .bs2-title {
-    font-size: clamp(38px, 8vw, 54px);
-
+    font-size: 56px;
   }
+}
 
+@media (max-width: 500px) {
+  .bs2-title {
+    font-size: 48px;
+  }
   .bs2-item h3 {
-    font-size: 1.75rem;
+    font-size: 26px;
+  }
+  .bs2-item p {
+    font-size: 16px;
+  }
+  .BusinessSection_02 {
+    padding: 3.5rem 1rem 1rem;
   }
 }
