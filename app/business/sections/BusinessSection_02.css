@@ -23,7 +23,7 @@
   font-weight: 400;
   text-align: left;
   padding: 0;
-  padding-bottom:120px;
+  padding-bottom: 120px;
 }
 
 /* 컨테이너: 위쪽/아래쪽 그룹 래핑 */
@@ -31,20 +31,86 @@
   display: flex;
   flex-direction: column;
   gap: 6rem;
-  max-width: 1600px;
+  max-width: 1800px;
   margin: 0 auto;
   width: 100%;
   position: relative;
 }
 
-/* 주요 6개 항목 - 3열 그리드 */
+/* ========== 상단 3개 중앙 정렬 ========== */
+.bs2-top {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto 1.5rem;
+  text-align: center;
+  width: 100%;
+}
+
+.bs2-top .bs2-list {
+  display: flex;
+  gap: 5rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.bs2-top .bs2-item {
+  flex: 1;
+  min-width: 220px;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity .45s ease, transform .45s ease;
+}
+
+/* h3: 고정 영역, 한 줄이면 중앙, br 있는 두 줄이면 위 */
+.bs2-top .bs2-item h3,
+.bs2-primary .bs2-item h3,
+.bs2-secondary .bs2-item h3 {
+  margin: 0;
+  font-family: 'Anton', sans-serif;
+  font-size: 36px;
+  line-height: 1.1;
+  min-height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 4px;
+  white-space: pre-line;
+}
+
+/* br이 있는 제목은 위 정렬 */
+.bs2-top .bs2-item h3:has(br),
+.bs2-primary .bs2-item h3:has(br),
+.bs2-secondary .bs2-item h3:has(br) {
+  justify-content: flex-start;
+}
+
+.bs2-top-desc {
+  margin: 0;
+  font-size: 22px;
+  line-height: 1.35;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 400;
+}
+
+/* ========== 그 다음 3개(primary) & 하단 6개(secondary) 그리드 ========== */
 .bs2-primary,
 .bs2-secondary {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10rem 3rem;
-  padding-bottom:100px;
-  text-align:center;
+  gap: 3rem 3rem;
+  padding-bottom: 100px;
+  text-align: center;
 }
 
 /* 리스트 공통 */
@@ -66,44 +132,43 @@
   gap: .35rem;
 }
 
-.bs2-item h3 {
-  margin: 0;
-  font-family: 'Anton', sans-serif;
-  font-size: 36px;
-  line-height: 1.1;
-}
-
 .bs2-item p {
   margin: 0;
   line-height: 1.35;
   color: rgba(255, 255, 255, 0.9);
   font-weight: 400;
   font-size: 22px;
-  margin-top:20px;
+  margin-top: 20px;
 }
 
-/* 순차 노출: 총 12개 항목 (primary 6 + secondary 6) */
-.BusinessSection_02.play .bs2-item:nth-child(1) { opacity: 1; transform: none; transition-delay: 0s; }
-.BusinessSection_02.play .bs2-item:nth-child(2) { opacity: 1; transform: none; transition-delay: 0.1s; }
-.BusinessSection_02.play .bs2-item:nth-child(3) { opacity: 1; transform: none; transition-delay: 0.2s; }
-.BusinessSection_02.play .bs2-item:nth-child(4) { opacity: 1; transform: none; transition-delay: 0.3s; }
-.BusinessSection_02.play .bs2-item:nth-child(5) { opacity: 1; transform: none; transition-delay: 0.4s; }
-.BusinessSection_02.play .bs2-item:nth-child(6) { opacity: 1; transform: none; transition-delay: 0.5s; }
-.BusinessSection_02.play .bs2-item:nth-child(7) { opacity: 1; transform: none; transition-delay: 0.6s; }
-.BusinessSection_02.play .bs2-item:nth-child(8) { opacity: 1; transform: none; transition-delay: 0.7s; }
-.BusinessSection_02.play .bs2-item:nth-child(9) { opacity: 1; transform: none; transition-delay: 0.8s; }
-.BusinessSection_02.play .bs2-item:nth-child(10){ opacity: 1; transform: none; transition-delay: 0.9s; }
-.BusinessSection_02.play .bs2-item:nth-child(11){ opacity: 1; transform: none; transition-delay: 1s; }
-.BusinessSection_02.play .bs2-item:nth-child(12){ opacity: 1; transform: none; transition-delay: 1.1s; }
+/* ========== 순차 노출: 상단 3 → primary 3 → secondary 6 ========== */
+.BusinessSection_02.play .bs2-top .bs2-item:nth-child(1) { opacity: 1; transform: none; transition-delay: 0s; }
+.BusinessSection_02.play .bs2-top .bs2-item:nth-child(2) { opacity: 1; transform: none; transition-delay: 0.1s; }
+.BusinessSection_02.play .bs2-top .bs2-item:nth-child(3) { opacity: 1; transform: none; transition-delay: 0.2s; }
 
-/* 반응형 */
+.BusinessSection_02.play .bs2-primary .bs2-item:nth-child(1) { opacity: 1; transform: none; transition-delay: 0.3s; }
+.BusinessSection_02.play .bs2-primary .bs2-item:nth-child(2) { opacity: 1; transform: none; transition-delay: 0.4s; }
+.BusinessSection_02.play .bs2-primary .bs2-item:nth-child(3) { opacity: 1; transform: none; transition-delay: 0.5s; }
+
+.BusinessSection_02.play .bs2-secondary .bs2-item:nth-child(1) { opacity: 1; transform: none; transition-delay: 0.6s; }
+.BusinessSection_02.play .bs2-secondary .bs2-item:nth-child(2) { opacity: 1; transform: none; transition-delay: 0.7s; }
+.BusinessSection_02.play .bs2-secondary .bs2-item:nth-child(3) { opacity: 1; transform: none; transition-delay: 0.8s; }
+.BusinessSection_02.play .bs2-secondary .bs2-item:nth-child(4) { opacity: 1; transform: none; transition-delay: 0.9s; }
+.BusinessSection_02.play .bs2-secondary .bs2-item:nth-child(5) { opacity: 1; transform: none; transition-delay: 1s; }
+.BusinessSection_02.play .bs2-secondary .bs2-item:nth-child(6) { opacity: 1; transform: none; transition-delay: 1.1s; }
+
+/* ========== 반응형 ========== */
 @media (max-width: 1100px) {
   .bs2-title {
     font-size: 64px;
   }
-  .bs2-item h3 {
+  .bs2-top .bs2-item h3,
+  .bs2-primary .bs2-item h3,
+  .bs2-secondary .bs2-item h3 {
     font-size: 32px;
+    min-height: 72px;
   }
+  .bs2-top-desc,
   .bs2-item p {
     font-size: 20px;
   }
@@ -111,6 +176,11 @@
   .bs2-secondary {
     grid-template-columns: 1fr;
     gap: 2rem;
+  }
+  .bs2-top {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
   }
 }
 
@@ -124,16 +194,23 @@
   .bs2-title {
     font-size: 48px;
   }
-  .bs2-item h3 {
+  .bs2-top .bs2-item h3,
+  .bs2-primary .bs2-item h3,
+  .bs2-secondary .bs2-item h3 {
     font-size: 26px;
+    min-height: 60px;
   }
+  .bs2-top-desc,
   .bs2-item p {
     font-size: 16px;
   }
   .BusinessSection_02 {
     padding: 3.5rem 1rem 1rem;
   }
-  .bs2-title{font-size:40px;
-    text-align:center;
-    padding: 0 0 40px;}
+  .bs2-title {
+    font-size: 40px;
+    text-align: center;
+    padding: 0 0 40px;
+  }
+  .bs2-primary, .bs2-secondary{padding-bottom:20px;padding-top:20px;}
 }

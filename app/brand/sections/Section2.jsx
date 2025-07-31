@@ -9,7 +9,6 @@ import 'swiper/css/pagination';
 import './BrandSection_02.css';
 
 const IMGS = [
-  'https://yogibo.kr/web/product/big/202505/b7f68d4caec1c86288b4c60f571db81c.png',
   'https://yogibo.kr/web/product/big/202502/61b2d64c466bd82135bba11c08afac36.png',
   'https://yogibo.kr/web/product/big/202412/1cf4d954f314ad51c5b04b09394bad6b.png',
   'https://yogibo.kr/web/product/big/202502/68a4304d3420f20611c3114d5eba1255.png',

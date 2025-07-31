@@ -37,7 +37,7 @@ export default function BrandSection_05({ id = 'BrandSec5' }) {
           </p>
           <div className="bs5-item-img">
             <img
-              src="https://yogibo.openhost.cafe24.com/yogico/img/mainBanner/data.webp"
+              src="https://yogibo.openhost.cafe24.com/yogico/img/icon/img.png"
               alt="Certificate of Design Registration"
             />
           </div>
