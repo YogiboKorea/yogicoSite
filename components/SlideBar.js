@@ -10,7 +10,7 @@ const menuItems = [
   { href: '/who', label: 'WHO WE ARE' },
   { href: '/we', label: 'WHAT WE DO' },
   { href: '/news', label: 'NEWS' },
-  { href: '/recruit', label: 'RECRUIT' },
+  // { href: '/recruit', label: 'RECRUIT' },
   
 ];
 

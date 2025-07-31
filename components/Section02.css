@@ -103,6 +103,7 @@
 
 
 @media (max-width: 400px) {
+  .section02_text{width:100%;}
   .section02_line1,
   .section02_line2 {
     width:90%;
