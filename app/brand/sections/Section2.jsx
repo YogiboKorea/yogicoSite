@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper';
 import 'swiper/css';
@@ -17,18 +17,25 @@ const IMGS = [
   'https://yogibo.kr/web/product/big/202502/60a0fd8e620b53386dd440f4f635e0c1.png',
   'https://yogibo.kr/web/product/big/202502/52d448cd509dec86ade7d89744677acb.png',
   'https://yogibo.kr/web/product/big/202502/be77824a51fcf9fda40b49e45450d09e.png',
-
-
 ];
 
 export default function BrandSection_02({ id = 'BrandSec2' }) {
   const ref = useRef(null);
+  const [mounted, setMounted] = useState(false);
 
+  // 1) 마운트 플래그 세팅 (SSR 시엔 false, 클라이언트에 올라오면 true)
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  // 2) IntersectionObserver (변경 없음)
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
     const io = new IntersectionObserver(
-      ([e]) => e.isIntersecting ? el.classList.add('play') : el.classList.remove('play'),
+      ([e]) => e.isIntersecting
+        ? el.classList.add('play')
+        : el.classList.remove('play'),
       { threshold: 0.35 }
     );
     io.observe(el);
@@ -38,7 +45,7 @@ export default function BrandSection_02({ id = 'BrandSec2' }) {
   return (
     <section id={id} ref={ref} className="BrandSection_02">
       <div className="ps2-wrap">
-        {/* 1) 텍스트 블록 */}
+        {/* 텍스트 블록 */}
         <div className="ps2-text">
           <img
             src="https://yogibo.kr/web/img/icon/new2/main_logo_off.png"
@@ -55,33 +62,34 @@ export default function BrandSection_02({ id = 'BrandSec2' }) {
           </p>
         </div>
 
-        {/* 3) Swiper 슬라이더 */}
+        {/* Swiper: 오직 클라이언트에서만 렌더링 */}
         <div className="ps2-swiper">
-          <Swiper
-            modules={[Navigation, Pagination, Autoplay]}
-            slidesPerView={4}
-            spaceBetween={20}
-            navigation
-            pagination={{ clickable: true }}
-            loop
-            // autoplay={{ delay: 3000, disableOnInteraction: false }}
-            breakpoints={{
-              0:   { slidesPerView: 1 },
-              600: { slidesPerView: 2 },
-              900: { slidesPerView: 4 },
-            }}
-          >
-            {IMGS.map((src, i) => (
-              <SwiperSlide key={i}>
-                <div className="ps2-card">
-                  <img src={src} alt={`yogibo-${i}`} />
-                </div>
-              </SwiperSlide>
-            ))}
-          </Swiper>
+          {mounted && (
+            <Swiper
+              modules={[Navigation, Pagination, Autoplay]}
+              slidesPerView={4}
+              spaceBetween={20}
+              navigation
+              pagination={{ clickable: true }}
+              loop
+              breakpoints={{
+                0:   { slidesPerView: 1 },
+                600: { slidesPerView: 2 },
+                900: { slidesPerView: 4 },
+              }}
+            >
+              {IMGS.map((src, i) => (
+                <SwiperSlide key={i}>
+                  <div className="ps2-card">
+                    <img src={src} alt={`yogibo-${i}`} />
+                  </div>
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          )}
         </div>
 
-        {/* 2) 버튼: 슬라이더 바로 위로 */}
+        {/* 버튼 */}
         <a
           href="https://www.yogibo.kr"
           target="_blank"
@@ -89,8 +97,7 @@ export default function BrandSection_02({ id = 'BrandSec2' }) {
           className="ps2-see-more"
         >
           VISIT SITE
-        </a>       
-
+        </a>
       </div>
     </section>
   );

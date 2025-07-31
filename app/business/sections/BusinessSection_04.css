@@ -173,7 +173,7 @@
   /* 소형 스크린: 500px 이하 (1열 + 중앙정렬) */
   @media (max-width: 900px) {
     .bs4-title{font-size:50px;color:#3da4ff;text-align: center;}
-    .bs4-desc{font-size:20px;}
+    .bs4-desc{font-size:20px;text-align:left;}
     .bs4-logo{height:70px;}
     .BusinessSection_04{padding:10vh 4vw;}
     .bs4-card_name{font-size:25px;font-weight:600;}
@@ -182,7 +182,7 @@
   
   @media (max-width: 500px) {
     .bs4-title{font-size:40px;color:#3da4ff;}
-    .bs4-desc{font-size:18px;    margin: 0 0 6vh;}
+    .bs4-desc{font-size:18px;;text-align:left;    margin: 0 0 6vh;}
     .bs4-logo{height:70px;}
     .BusinessSection_04{padding:10vh 4vw;}
     .bs4-card_name{font-size:25px;font-weight:600;}

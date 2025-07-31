@@ -137,17 +137,18 @@
 
 
 
-
-
 /*폰트 부분*/
 @media (min-width: 1300px) {
   .ps2-present{color:#c9c9c9;font-size:18px;}
   .ps2-p{width:80%;margin:0 auto;margin-top:30px;font-size:16px;}
+  .ps2-p{line-height:1.6;}
+
 }
 
 @media (max-width: 1299px) {
   .ps2-present{color:#c9c9c9;font-size:18px;}
   .ps2-p{width:80%;margin:0 auto;margin-top:30px;font-size:16px;}
+  .ps2-p{line-height:1.6;}
 }
 
 @media (max-width: 900px) {
@@ -155,12 +156,14 @@
   .ps2-p{width:100%;margin-top:30px;font-size:14px;}
   .br{display:none;}
   .BrandSection_02 { padding: 4rem 1rem 1rem;}
+  .ps2-p{line-height:1.6;}
 }
 
 @media (max-width: 550px) {
   .ps2-present{color:#c9c9c9;font-size:16px;}
   .ps2-p{width:100%;margin-top:30px;font-size:14px;text-align:left;}
   .br{display:none;}
+  .ps2-p{line-height:1.6;}
 }
 
 
@@ -168,5 +171,6 @@
   .ps2-present{color:#c9c9c9;font-size:16px;}
   .ps2-p{width:100%;margin-top:30px;font-size:14px;text-align:left;}
   .br{display:none;}
+  .ps2-p{line-height:1.6;}
 }
 

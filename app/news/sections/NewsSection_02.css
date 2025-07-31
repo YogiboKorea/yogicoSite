@@ -96,4 +96,6 @@
   .NewsSection_02{
     padding-bottom:100px;
   }
+  .NewsSection_02_grid{width:90%;}
+  .NewsSection_02_cardTitle{font-size:20px;font-weight:500;}
 }

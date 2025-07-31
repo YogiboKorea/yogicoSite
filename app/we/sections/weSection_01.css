@@ -103,6 +103,8 @@
     text-align: left;
   }
   .br{display:none;}
+  .br2{display:none;}
+
 }
 
 /* 4) 중간 모바일 (550px 이하) */
@@ -122,6 +124,8 @@
     text-align: center;
   }
   .br{display:block;}
+  .br2{display:block;}
+
 }
 
 /* 5) 작은 모바일 (400px 이하) */
@@ -142,6 +146,7 @@
     text-align: center;
   }
   .br{display:block;}
+  .br2{display:block;}
 }
 
 /* 6) 극소형 모바일 (330px 이하) */
@@ -158,4 +163,5 @@
     text-align: center;
   }
   .br{display:block;}
+  .br2{display:block;}
 }
