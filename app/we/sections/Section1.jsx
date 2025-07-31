@@ -34,8 +34,8 @@ export default function Section1({ id = 'sec1' }) {
   return (
     <section id={id} ref={sectionRef} className="weSection_01">
       <div className="weSection_01_text">
-        <h1 className="weSection_01_line1">NO RESULTS</h1>
-        <h1 className="weSection_01_line2">NO <br className="br"/>BUSINESS</h1>
+        <h1 className="weSection_01_line1">NO <p className="br"></p>RESULTS</h1>
+        <h1 className="weSection_01_line2">NO <p  className="br"></p>BUSINESS</h1>
       </div>
     </section>
   );

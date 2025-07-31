@@ -123,8 +123,7 @@
     font-weight: 400;
     text-align: center;
   }
-  .br{display:block;}
-  .br2{display:block;}
+  .br{display:block;position:relative;width:100%;}
 
 }
 
@@ -145,8 +144,7 @@
     font-weight: 400;
     text-align: center;
   }
-  .br{display:block;}
-  .br2{display:block;}
+  .br{display:block;position:relative;width:100%;}
 }
 
 /* 6) 극소형 모바일 (330px 이하) */
@@ -162,6 +160,5 @@
     font-weight: 400;
     text-align: center;
   }
-  .br{display:block;}
-  .br2{display:block;}
+  .br{display:block;position:relative;width:100%;}
 }
