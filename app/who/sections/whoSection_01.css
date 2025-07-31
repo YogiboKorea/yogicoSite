@@ -1,0 +1,137 @@
+/*───────────────────────────────────────────────
+  whoSection_01.css 반응형 추가
+───────────────────────────────────────────────*/
+
+/* 1) 기본 값 (이미 적용한 것) */
+#whoSection_01 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: url('https://yogibo.openhost.cafe24.com/yogico/img/banner/all_1.jpg');
+  background-size:100% 100%;
+  overflow: hidden;
+  font-family: 'Anton';
+}
+.whoSection_01_text {
+  width: 100%;
+  max-width: 1300px;
+  text-align:center;
+}
+.whoSection_01_line1,
+.whoSection_01_line2 {
+  color: #fff;
+  margin: 0;
+  opacity: 0;
+  transform: translateY(50px);
+  line-height: 1;
+}
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(50px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+#whoSection_01.play .whoSection_01_line1 { animation: fadeInUp 0.8s ease-out forwards; }
+#whoSection_01.play .whoSection_01_line2 { animation: fadeInUp 0.8s ease-out forwards 0.3s; }
+
+
+.mobile-br {
+  display: none;
+  
+}
+
+
+/*레이아웃 별 폰트 크기 수정 작업*/
+@media (min-width: 1300px) {
+  .whoSection_01_line1,
+  .whoSection_01_line2 {
+    font-size:200px;
+    line-height: 220px;
+    letter-spacing: -2px;
+    font-weight:400;
+    max-width:1000px;
+    margin:0 auto;
+  }
+}
+
+
+@media (max-width: 1299px) {
+  .whoSection_01_text{text-align:center;}
+  .whoSection_01_line1,
+  .whoSection_01_line2 {
+    font-size:170px;
+    line-height: 190px;
+    letter-spacing: -2px;
+    font-weight:400;
+  }
+}
+
+
+@media (max-width: 900px) {
+  .whoSection_01_line1,
+  .whoSection_01_line2 {
+    width:70%;
+    margin:0 auto;
+    display:inline-block;
+    font-size:120px;
+    line-height: 130px;
+    letter-spacing: -2px;
+    font-weight:400;
+    text-align:left;
+  }
+  .mobile-br {
+    display: block;
+  }
+}
+
+@media (max-width: 550px) {
+  .whoSection_01_line1,
+  .whoSection_01_line2 {
+    width:90%;
+    margin:0 auto;
+    display:inline-block;
+    font-size:120px;
+    line-height: 130px;
+    letter-spacing: -2px;
+    font-weight:400;
+  }
+  .mobile-br {
+    display: block;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .whoSection_01_line1,
+  .whoSection_01_line2 {
+    width:90%;
+    margin:0 auto;
+    display:inline-block;
+    font-size:85px;
+    line-height: 95px;
+    letter-spacing: -2px;
+    font-weight:400;
+  }
+  .mobile-br {
+    display: block;
+  }
+}
+
+
+
+@media (max-width: 330px) {
+  .whoSection_01_line1,
+  .whoSection_01_line2 {
+    width:90%;
+    margin:0 auto;
+    display:inline-block;
+    font-size:70px;
+    line-height: 80px;
+    letter-spacing: -2px;
+    font-weight:400;
+  }
+  .mobile-br {
+    display: block;
+  }
+}
+

@@ -1,0 +1,120 @@
+/* ───────────────────────────────────────────────
+   Strategic Partnership - Section 02 (2인 카드)
+   ─────────────────────────────────────────────── */
+
+   .ps02{
+    width:100%;
+    min-height:100vh;
+    background:linear-gradient(135deg,#c9f7df 0%, #8fb6ff 100%);
+    padding:6vw 5vw 10vw;
+    box-sizing:border-box;
+    color:#111;
+    font-family:'Pretendard','Noto Sans',sans-serif;
+    overflow:hidden;
+    opacity:0;
+    transform:translateY(40px);
+    transition:opacity .7s ease, transform .7s ease;
+  }
+  .ps02.play{
+    opacity:1;
+    transform:translateY(0);
+  }
+  
+  /* 타이틀 & 로고 */
+  .ps02-title{
+    font-family:'Anton',sans-serif;
+    font-size:clamp(2.3rem,5vw,3.6rem);
+    margin:0 0 2vw;
+    line-height:1.1;
+  }
+  .ps02-logos{
+    display:flex;
+    align-items:center;
+    gap:1.6vw;
+    margin-bottom:4vw;
+  }
+  .ps02-logo{
+    height:clamp(46px,5vw,80px);
+    width:auto;
+    object-fit:contain;
+  }
+  .ps02-x{
+    font-size:clamp(1.6rem,3.5vw,2.6rem);
+    font-weight:700;
+  }
+  
+  /* 카드 래퍼 */
+  .ps02-cards{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:3vw;
+  }
+  
+  /* 카드 */
+  .ps02-card{
+    background:rgba(255,255,255,.5);
+    border:3px solid #111;
+    border-radius:26px;
+    padding:2.5vw;
+    display:grid;
+    grid-template-columns: clamp(180px,28%,280px) 1fr;
+    gap:2vw;
+    align-items:start;
+  }
+  .ps02-photo{
+    width:100%;
+    border-radius:20px;
+    overflow:hidden;
+  }
+  .ps02-photo img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+  }
+  .ps02-info{
+    width:100%;
+  }
+  .ps02-name{
+    font-family:'Anton',sans-serif;
+    font-size:clamp(1.6rem,2.4vw,2.2rem);
+    margin:0 0 1.4vw;
+  }
+  .ps02-history{
+    list-style:none;
+    padding:0;
+    margin:0;
+    font-size:clamp(.95rem,1.15vw,1.1rem);
+    line-height:1.55;
+  }
+  .ps02-history li{
+    margin-bottom:1.1rem;
+  }
+  .ps02-history li span{
+    font-weight:600;
+  }
+  
+  /* 반응형 */
+  @media (max-width:1024px){
+    .ps02-cards{
+      grid-template-columns:1fr;
+      gap:6vw;
+    }
+    .ps02-card{
+      grid-template-columns: 1fr;
+      padding:6vw 5vw;
+    }
+    .ps02-photo{
+      max-width:340px;
+      margin:0 auto 4vw;
+    }
+    .ps02-name{
+      text-align:center;
+    }
+  }
+  @media (max-width:480px){
+    .ps02-title{ font-size:2rem; }
+    .ps02-logos{ gap:4vw; }
+    .ps02-x{ font-size:1.8rem; }
+  }
+  

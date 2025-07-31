@@ -1,0 +1,115 @@
+/* whoSection_03.css – WS2 기준 폰트·간격 커스터마이징 */
+
+/* ─── 기본 레이아웃 & 로직 (변경 없음) ───────────────────────────────── */
+.whoSection_03 {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding:100px;
+  box-sizing: border-box;
+  background: url('/img/bg_building.jpg') center/cover no-repeat, #0a1729;
+  color: #fff;
+  overflow: hidden;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+}
+
+.ws3-heading {
+    font-weight: 600;
+    display: inline-block;
+    width: 100%;
+    height: 150px;
+    font-size: 24px;
+    font-size: 40px;
+    font-family: 'Anton';
+    font-weight: 200;
+}
+
+.ws3-cards {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 4vw 3vw;
+  text-align:left;
+}
+
+.ws3-card {
+  text-align:left;
+  max-width: 420px;
+  margin: 0 auto;
+  opacity: 0;
+  transform: translateY(25px);
+  transition: opacity .6s ease, transform .6s ease;
+}
+.whoSection_03.play .ws3-card:nth-child(1) { opacity:1; transform:none; transition-delay:.1s; }
+.whoSection_03.play .ws3-card:nth-child(2) { opacity:1; transform:none; transition-delay:.2s; }
+.whoSection_03.play .ws3-card:nth-child(3) { opacity:1; transform:none; transition-delay:.3s; }
+
+.ws3-avatar {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 1.5rem;
+  border-radius: 50%;
+  background: #e5e5e5;
+  overflow: hidden;
+}
+.ws3-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+
+
+/* ─── 폰트 크기 조정 ―───────────────────────────────── */
+/* 대형 스크린: 1600px 이상 */
+@media (min-width:1310px) {
+  .ws3-name{margin-top:60px;font-size:20px;font-family: 'Anton';font-weight: 200;}
+  .ws3-role{margin-top:5px;font-size:20px;font-family: 'Anton';font-weight: 200;}
+  .ws3-bio{margin-top:10px;font-size:18px;}
+
+
+}
+/* 중간 스크린: 1300px 이하 (2열) */
+@media (max-width: 1300px) {
+  .ws3-cards {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6vw 4vw;
+  }
+
+  .ws3-name{margin-top:60px;font-size:18px;font-family: 'Anton';font-weight: 200;}
+  .ws3-role{margin-top:5px;font-size:18px;font-family: 'Anton';font-weight: 200;}
+  .ws3-bio{margin-top:10px;font-size:16px;}
+}
+
+/* 소형 스크린: 500px 이하 (1열 + 중앙정렬) */
+@media (max-width: 900px) {
+  .ws3-heading{text-align:center;}
+  .ws3-cards {
+    grid-template-columns: 1fr;
+    gap: 8vh 0;
+  }
+  .ws3-name{margin-top:60px;font-size:18px;font-family: 'Anton';font-weight: 200;}
+  .ws3-role{margin-top:5px;font-size:18px;font-family: 'Anton';font-weight: 200;}
+  .ws3-bio{margin-top:10px;font-size:16px;}
+  
+}
+
+
+@media (max-width: 500px) {
+  .ws3-heading{text-align:center;}
+  .ws3-cards {
+    grid-template-columns: 1fr;
+    gap: 8vh 0;
+  }
+  .ws3-heading{height:110px;}
+  .ws3-name{margin-top:40px;font-size:18px;font-family: 'Anton';font-weight: 200;}
+  .ws3-role{margin-top:5px;font-size:18px;font-family: 'Anton';font-weight: 200;}
+  .ws3-bio{margin-top:10px;font-size:16px;}
+  .whoSection_03{padding:100px 30px 30px 30px}
+  
+  
+}
+
+

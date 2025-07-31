@@ -1,0 +1,136 @@
+/* BrandSection_04.css */
+
+.BrandSection_04 {
+  position: relative;
+  width: 100%;
+  padding: 100px;
+  padding-top:150px;
+  box-sizing: border-box;
+  background: #EFF7FD;
+  color: #000;
+}
+
+.excl-title {
+  font-family: 'Anton', sans-serif;
+  margin-bottom: 1rem;
+}
+
+.excl-intro {
+  line-height: 1.6;
+  margin-bottom: 6rem;
+  color: #333;
+}
+
+.triple-chart {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  align-items: start;
+}
+
+.chart-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chart-block h4 {
+  margin-bottom: 0.5rem;
+  font-weight:500;
+}
+
+.chart-block canvas {
+  width: 100% !important;
+  height: 350px !important;
+}
+
+.chart-block p {
+  margin-top: 0.75rem;
+  color: #555;
+  text-align: center;
+}
+
+
+
+/* 태블릿: 2열 */
+@media (max-width: 900px) {
+  .triple-chart {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* 모바일: 1열 + 패딩 축소 */
+@media (max-width: 600px) {
+  .BrandSection_04 {
+    padding: 4rem 1rem 1rem;
+  }
+  .triple-chart {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .chart-block canvas {
+    height: 200px !important;
+  }
+  .chart-block h4 {
+  }
+  .chart-block p {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+  }
+}
+
+
+
+
+
+
+/* ─── 폰트 크기 조정 ―───────────────────────────────── */
+/* 대형 스크린: 1600px 이상 */
+@media (min-width:1310px) {
+  .excl-title {
+    color: #3ea6ff;
+    margin: 0 0 4vh;
+    font-size:50px;
+    font-family: 'Anton', sans-serif;
+    display: inline-block;
+  }
+  .excl-intro{
+    font-size:20px;
+  }
+}
+/* 중간 스크린: 1300px 이하 (2열) */
+@media (max-width: 1300px) {
+
+}
+/* 소형 스크린: 500px 이하 (1열 + 중앙정렬) */
+@media (max-width: 900px) {
+  .excl-title {
+    color: #3ea6ff;
+    margin: 0 0 4vh;
+    font-size:40px;
+    font-family: 'Anton', sans-serif;
+    display: inline-block;
+  }
+  .excl-intro{
+    font-size:18px;
+  }
+  
+}
+
+
+@media (max-width: 500px) {
+  .excl-title {
+    color: #3ea6ff;
+    margin: 0 0 4vh;
+    font-size:30px;
+    font-family: 'Anton', sans-serif;
+    display: inline-block;
+  }
+  .excl-intro{
+    font-size:16px;
+  }
+}
+
+
+
+

@@ -1,0 +1,33 @@
+{
+  "name": "yogico",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export:build": "next build && mv out build"
+  },
+  "dependencies": {
+    "@fontsource/open-sans": "^5.2.6",
+    "aos": "^2.3.4",
+    "chart.js": "^4.5.0",
+    "chartjs-plugin-datalabels": "^2.2.0",
+    "gsap": "^3.13.0",
+    "next": "15.3.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "splitting": "^1.1.0",
+    "swiper": "^8.4.7"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.4",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.10"
+  }
+}
