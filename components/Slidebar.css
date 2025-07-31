@@ -125,7 +125,7 @@
 
 .logo{
   position:absolute;
-  top:calc(30/720*100%);
+  top:calc(12/720*100%);
   left:calc(30/720*100%);
   width:calc(156/720*100%);
   z-index:1;
