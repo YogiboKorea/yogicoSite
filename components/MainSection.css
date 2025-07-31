@@ -107,7 +107,7 @@
 
 /*레이아웃 별 폰트 크기 수정 작업*/
 @media (min-width: 1300px) {
-  .main_line0{font-size:50px;padding-bottom:20px;}
+  .main_line0{font-size:80px;padding-bottom:20px;}
   .main_line1,
   .main_line2,
   .main_line3 {
@@ -148,7 +148,7 @@
 }
 
 @media (max-width: 550px) {
-
+  .main_line0{font-size:30px;}
   .main_line1,
   .main_line2,
   .main_line3 {
