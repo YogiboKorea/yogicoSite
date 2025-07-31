@@ -151,9 +151,10 @@
   .w2-intro1,
   .w2-intro2 {font-size:16px;}
   .w2-pillar-list {font-size:16px;font-weight:500;}
-  .w2-ceo-desc > strong {font-size:18px;font-weight:600;padding-top:50px;padding-bottom:30px;}
+  .w2-ceo-desc > strong {font-size:16px;font-weight:600;padding-top:50px;text-align:left;}
   .w2-ceo-desc {font-size:16px;}
+  .br{display:none;}
 
-  .w2-ceo-desc > strong{padding-bottom:10px;padding-top:20px;}
+  .w2-ceo-desc > strong{padding-bottom:10px;padding-top:20px;font-size:18px;}
 }
 
