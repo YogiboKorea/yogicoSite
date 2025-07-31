@@ -119,7 +119,7 @@
     line-height: 130px;
     letter-spacing: -2px;
     font-weight: 400;
-    text-align: left;
+    text-align: center;
   }
   .br{display:block;}
 }
@@ -139,7 +139,7 @@
     line-height: 95px;
     letter-spacing: -2px;
     font-weight: 400;
-    text-align: left;
+    text-align: center;
   }
   .br{display:block;}
 }
@@ -155,7 +155,7 @@
     line-height: 80px;
     letter-spacing: -2px;
     font-weight: 400;
-    text-align: left;
+    text-align: center;
   }
   .br{display:block;}
 }
