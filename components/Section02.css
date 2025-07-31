@@ -94,6 +94,7 @@
     line-height: 130px;
     letter-spacing: -2px;
     font-weight:400;
+    text-align:center!important;
   }
   .mobile-br {
     display: block;
@@ -111,6 +112,7 @@
     line-height: 95px;
     letter-spacing: -2px;
     font-weight:400;
+    text-align:center!important;
   }
   .mobile-br {
     display: block;
