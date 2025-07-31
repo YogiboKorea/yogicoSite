@@ -246,7 +246,7 @@
 
   /* 메뉴 폰트 크기 축소 */
   .inner #header ul li a {
-    font-size: 60px        /* 화면 너비의 5% */
+    font-size: 80px        /* 화면 너비의 5% */
   }
 
   /* 푸터 여백 조정 */
