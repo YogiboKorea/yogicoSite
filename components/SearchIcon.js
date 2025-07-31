@@ -37,9 +37,12 @@ export default function SearchIcon({ mapOpen, setMapOpen }) {
               className="info-logo"
             />
             <address>
-                125, Bongeunsa-ro, Gangnam-gu,<br/>
-                Seoul, Republic of Korea<br/>
-                02-557-0920
+            #201, 125, Bongeunsa-ro,<br/>
+            Gangnam-gu, Seoul, Korea<br/><br/>
+            <a href="tel:+82-10-2880-0721">
+              +82-10-2880-0721 
+            </a><br/>
+            <a href="mailto:contact@yogico.kr">contact@yogico.kr</a>
             </address>
           </div>
         </div>
@@ -47,3 +50,4 @@ export default function SearchIcon({ mapOpen, setMapOpen }) {
     </>
   );
 }
+

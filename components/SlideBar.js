@@ -10,7 +10,7 @@ const menuItems = [
   { href: '/who', label: 'WHO WE ARE' },
   { href: '/we', label: 'WHAT WE DO' },
   { href: '/news', label: 'NEWS' },
-  // { href: '/recruit', label: 'RECRUIT' },
+ { href: '/contact', label: 'CONTACT' },
   
 ];
 
@@ -49,12 +49,12 @@ export default function Slidebar({ isOpen, onClose }) {
             <address style={{fontFamily:'Roboto Condensed'}}>
               #201, 125, Bongeunsa-ro, <br />
               Gangnam-gu, Seoul, Korea<br />
-              <a href="tel:+82-10-2880-0721">
-                Tel +82-10-2880-0721 / Fax +82-303-3441-6747
-              </a>
             </address>
             <ul className="contact_mail">
               <li>
+                <a href="tel:+82-10-2880-0721">
+                  +82-10-2880-0721 
+                </a>
                 <a href="mailto:contact@yogico.kr">contact@yogico.kr</a>
               </li>
             </ul>

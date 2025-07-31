@@ -103,6 +103,11 @@
   .BusinessSection_03 {
     padding: 4rem 1rem 1rem;
   }
+    .bs3-grid {
+      grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+      gap: 2vw;
+      display: grid
+  }
 }
 
 

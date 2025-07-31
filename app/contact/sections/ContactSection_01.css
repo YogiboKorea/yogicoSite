@@ -1,33 +1,29 @@
 /*───────────────────────────────────────────────
-  NewsSection_01.css (fade-in-up)
+  ContactSection_01.css (fade-in-up)
 ───────────────────────────────────────────────*/
 
 /* 1) 섹션 기본 */
-.NewsSection_01{
+.ContactSection_01{
   display:flex;
   justify-content:center;
   align-items:center;
   width:100%;
   height:100vh;
-  background: url('https://yogibo.openhost.cafe24.com/yogico/img/banner/news_bg.jpg')
-  no-repeat center/cover;
-  color: #fff;
-  padding: 0 10px;         /* 양쪽 여유 조금 */
-  box-sizing: border-box;
-  font-family: 'Anton';
+  background:#000; /* 필요시 이미지로 교체 */
+  overflow:hidden;
 }
 
 /* 2) 텍스트 래퍼 */
-.NewsSection_01_text{
+.ContactSection_01_text{
   width:80%;
   max-width:1300px;
   text-align:left;
 }
 
 /* 3) 텍스트 기본 상태 */
-.NewsSection_01_line1,
-.NewsSection_01_line2,
-.NewsSection_01_line3{
+.ContactSection_01_line1,
+.ContactSection_01_line2,
+.ContactSection_01_line3{
   text-align:center;
   color:#fff;
   font-family:'Anton', sans-serif;
@@ -40,13 +36,13 @@
 }
 
 /* 4) play 붙었을 때 */
-.NewsSection_01.play .NewsSection_01_line1{
+.ContactSection_01.play .ContactSection_01_line1{
   animation:fadeInUp .8s ease-out forwards;
 }
-.NewsSection_01.play .NewsSection_01_line2{
+.ContactSection_01.play .ContactSection_01_line2{
   animation:fadeInUp .8s ease-out forwards .3s;
 }
-.NewsSection_01.play .NewsSection_01_line3{
+.ContactSection_01.play .ContactSection_01_line3{
   animation:fadeInUp .8s ease-out forwards .5s;
 }
 
@@ -58,10 +54,10 @@
 
 /* ───────── 반응형 ───────── */
 @media (max-width:767px){
-  .NewsSection_01_text{width:90%;}
-  .NewsSection_01_line1,
-  .NewsSection_01_line2,
-  .NewsSection_01_line3{
+  .ContactSection_01_text{width:90%;}
+  .ContactSection_01_line1,
+  .ContactSection_01_line2,
+  .ContactSection_01_line3{
     text-align:left;
     font-size:clamp(2rem,22vw,12rem);
     line-height:1.1;
@@ -69,19 +65,19 @@
   }
 }
 @media (min-width:768px) and (max-width:1199px){
-  .NewsSection_01_text{width:85%;}
-  .NewsSection_01_line1,
-  .NewsSection_01_line2,
-  .NewsSection_01_line3{
+  .ContactSection_01_text{width:85%;}
+  .ContactSection_01_line1,
+  .ContactSection_01_line2,
+  .ContactSection_01_line3{
     font-size:clamp(3rem,16vw,15rem);
     line-height:1.05;
   }
 }
 @media (min-width:1200px){
-  .NewsSection_01_text{width:80%;}
-  .NewsSection_01_line1,
-  .NewsSection_01_line2,
-  .NewsSection_01_line3{
+  .ContactSection_01_text{width:80%;}
+  .ContactSection_01_line1,
+  .ContactSection_01_line2,
+  .ContactSection_01_line3{
     font-size:clamp(4rem,14vw,18rem);
   }
 }

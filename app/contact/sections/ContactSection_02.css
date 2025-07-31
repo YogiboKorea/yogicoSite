@@ -1,0 +1,199 @@
+/* ContactModal centered overlay + modal */
+.contact-overlay {
+    position: fixed;
+    inset: 0;
+    background: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* 수직/수평 중앙 정렬 */
+    padding: 20px;
+    z-index: 0;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .contact-modal {
+    background: #111;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 1000px;
+    box-sizing: border-box;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  /* 헤더: 로고 + 닫기 */
+  .contact-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 24px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    gap: 12px;
+  }
+  
+  .logo-wrapper img {
+    max-width: 220px;
+    filter: invert(1);
+    display: block;
+    height: auto;
+  }
+  
+  .close-button {
+    background: none;
+    border: none;
+    font-size: 28px;
+    color: #fff;
+    cursor: pointer;
+    padding: 4px 8px;
+    line-height: 1;
+    transition: color .2s ease;
+    display:none;
+  }
+  .close-button:hover,
+  .close-button:focus {
+    color: #f0f0f0;
+    outline: none;
+  }
+  
+  /* 본문 */
+  .contact-modal-body {
+    padding: 32px 40px;
+    box-sizing: border-box;
+  }
+  
+  .contact-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .columns {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .left,
+  .right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  /* 입력 */
+  .styled-input {
+    width: 100%;
+    padding: 14px 16px;
+    background: #1f1f1f;
+    border: 1px solid #333;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  .styled-input::placeholder {
+    color: #888;
+  }
+  
+  .styled-textarea {
+    width: 100%;
+    min-height: 220px;
+    padding: 14px 16px;
+    background: #1f1f1f;
+    border: 1px solid #333;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    resize: vertical;
+    box-sizing: border-box;
+  }
+  .styled-textarea::placeholder {
+    color: #888;
+  }
+  
+  /* 파일 */
+  .file-input-wrapper {
+    position: relative;
+    width: 100%;
+  }
+  
+  .file-display-input {
+    width: 100%;
+    padding: 14px 16px;
+    padding-right: 120px;
+    background: #222;
+    border: 1px solid #333;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    box-sizing: border-box;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .file-display-input::placeholder {
+    color: #888;
+  }
+  
+  .search-button {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    padding: 8px 14px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+    color:#111;
+  }
+  
+  .hidden-file-input {
+    display: none;
+  }
+  
+  /* 전송 버튼 */
+  .send-button {
+    align-self: center;
+    margin-top: 8px;
+    padding: 14px 60px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 6px;
+    transition: background .2s ease;
+  }
+  
+  .send-button:hover:not(:disabled) {
+    background: rgba(255, 255, 255, 0.08);
+  }
+  
+  .send-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  /* 반응형 */
+  @media (max-width: 900px) {
+    .columns {
+      flex-direction: column;
+    }
+    .contact-modal-body {
+      padding: 24px 28px;
+    }
+    .send-button {
+      width: 100%;
+      padding: 14px 0;
+    }
+  }
+  
