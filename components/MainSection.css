@@ -107,12 +107,12 @@
 
 /*레이아웃 별 폰트 크기 수정 작업*/
 @media (min-width: 1300px) {
-  .main_line0{font-size:80px;padding-bottom:20px;}
+  .main_line0{font-size:150px;padding-bottom:20px;}
   .main_line1,
   .main_line2,
   .main_line3 {
-    font-size:200px;
-    line-height: 220px;
+    font-size:100px;
+    line-height: 110px;
     letter-spacing: -2px;
     font-weight:400;
   }
@@ -120,24 +120,26 @@
 
 
 @media (max-width: 1299px) {
+  .main_line0{font-size:120px;padding-bottom:20px;}
   .main_line1,
   .main_line2,
   .main_line3 {
-    font-size:170px;
-    line-height: 190px;
+    font-size:100px;
+    line-height: 110px;
     letter-spacing: -2px;
     font-weight:400;
   }
 }
 @media (max-width: 900px) {
+  .main_line0{font-size:90px;padding-bottom:20px;}
   .main_line1,
   .main_line2,
   .main_line3 {
     width:90%;
     margin:0 auto;
     display:inline;
-    font-size:90px;
-    line-height: 110px;
+    font-size:70px;
+    line-height:80px;
     letter-spacing: -2px;
     font-weight:400;
     white-space: normal;
@@ -148,15 +150,15 @@
 }
 
 @media (max-width: 550px) {
-  .main_line0{font-size:30px;}
+  .main_line0{font-size:50px;padding-bottom:20px;}
   .main_line1,
   .main_line2,
   .main_line3 {
     width:90%;
     margin:0 auto;
     display:inline;
-    font-size:60px;
-    line-height: 80px;
+    font-size:40px;
+    line-height: 50px;
     letter-spacing: -2px;
     font-weight:400;
     white-space: normal;
@@ -167,6 +169,7 @@
 
 
 @media (max-width: 330px) {
+  .main_line0{font-size:80px;padding-bottom:20px;}
   .main_line1,
   .main_line2,
   .main_line3 {
