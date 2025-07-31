@@ -1,128 +1,91 @@
+/* BusinessSection_02.css */
+
 .BusinessSection_02 {
   position: relative;
-  width: 100%;
-  min-height: 100vh;
-  padding: 140px 60px 100px;
-  box-sizing: border-box;
-  /* 위쪽은 기존 네이비, 아래 절반부터 #172439으로 구분된 배경 */
-  background: linear-gradient(to bottom, #0f1f44 0%, #0f1f44 55%, #172439 55%, #172439 100%);
-  color: #fff;
+  padding: 120px 40px;
+  background-position: center;
+  color: #0f1f44;
+  font-family: 'Roboto Condensed', sans-serif;
   overflow: hidden;
-  font-size: 18px;
 }
 
-/* 타이틀 */
+/* 부드러운 색조 필터 겹치기 (그린→블루) */
+.BusinessSection_02::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(223, 255, 223, 0.45), rgba(205, 225, 255, 0.45));
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* 제목 */
 .bs2-title {
-  width:100%;
-  text-align:center;
-  color: #3ea6ff;
-  margin: 0 0 2.5rem;
-  display: inline-block;
+  position: relative;
   font-family: 'Anton', sans-serif;
-  font-size: 72px;
+  font-size: clamp(50px, 6vw, 70px);
+  margin: 0 0 1rem;
   line-height: 1.05;
-  letter-spacing: 0.5px;
-  font-weight: 400;
+  color: #0f1f44;
+  z-index: 1;
+  padding-bottom:100px;
 }
 
-/* 한 칼럼 정리 */
+/* 항목 그리드: 3열 */
 .bs2-columns {
-  display: flex;
-  flex-direction: column;
-  gap: 10rem;
-  max-width: 960px;
-  margin: 0 auto;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4.5rem 4rem;
+  margin-top: 1rem;
+  z-index: 1;
 }
 
+/* ul을 제거하고 li를 그리드에 직접 놓이게 */
 .bs2-list {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: contents; /* li가 직접 .bs2-columns의 자식처럼 동작 */
 }
 
 .bs2-item {
-  position: relative;
-  padding: 1.4rem 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-  opacity: 0;
-  transform: translateY(12px);
-  transition: opacity .45s ease, transform .45s ease;
+  display: flex;
+  flex-direction: column;
+  gap:2rem;
+  text-align:center;
 }
 
 .bs2-item h3 {
-  margin: 0 0 .35rem;
-  color: #fff;
-  font-family: 'Anton', sans-serif;
-  font-size: 36px;
+  margin: 0;
+  font-size: 1.95rem;
+  font-weight: 700;
   line-height: 1.1;
 }
 
 .bs2-item p {
   margin: 0;
-  line-height: 1.35;
-  color: rgba(255, 255, 255, 0.9);
-  font-weight: 300;
-  font-size: 22px;
+  font-size:18px;
+  line-height: 1.45;
+  font-weight: 400;
 }
 
-/* 순차 노출 */
-.BusinessSection_02.play .bs2-item {
-  opacity: 1;
-  transform: none;
-}
-.BusinessSection_02.play .bs2-item:nth-child(1) { transition-delay: 0s; }
-.BusinessSection_02.play .bs2-item:nth-child(2) { transition-delay: 0.15s; }
-.BusinessSection_02.play .bs2-item:nth-child(3) { transition-delay: 0.3s; }
-.BusinessSection_02.play .bs2-item:nth-child(4) { transition-delay: 0.45s; }
-.BusinessSection_02.play .bs2-item:nth-child(5) { transition-delay: 0.6s; }
-.BusinessSection_02.play .bs2-item:nth-child(6) { transition-delay: 0.75s; }
-.BusinessSection_02.play .bs2-item:nth-child(7) { transition-delay: 0.9s; }
-.BusinessSection_02.play .bs2-item:nth-child(8) { transition-delay: 1.05s; }
-
-/* 그룹 구분 여백: 6번째 이후 앞에 약간 여유 */
-.bs2-item:nth-child(7) {
-  margin-top: 2rem;
-}
-
-/* 반응형 */
-@media (max-width: 1100px) {
-  .bs2-title {
-    font-size: 64px;
-  }
-  .bs2-item h3 {
-    font-size: 32px;
-  }
-  .bs2-item p {
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 800px) {
-  .bs2-title {
-    font-size: 56px;
-  }
+/* 반응형: 모바일/태블릿에서 한 열 */
+@media (max-width: 1000px) {
   .bs2-columns {
-    gap: 3rem;
+    grid-template-columns: 1fr;
+    gap: 2rem;
   }
-  .bs2-item h3 {
-    font-size: 30px;
-  }
-  .bs2-item p {
-    font-size: 18px;
-  }
+.bs2-item{
+  gap: 1rem;
+  margin-top:40px;
 }
-
-@media (max-width: 500px) {
   .bs2-title {
-    font-size: 48px;
+    font-size: clamp(38px, 8vw, 54px);
+
   }
+
   .bs2-item h3 {
-    font-size: 26px;
-  }
-  .bs2-item p {
-    font-size: 16px;
-  }
-  .BusinessSection_02 {
-    padding: 3.5rem 1rem 1rem;
+    font-size: 1.75rem;
   }
 }
