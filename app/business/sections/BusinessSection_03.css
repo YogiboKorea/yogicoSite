@@ -18,7 +18,7 @@
 
 .bs3-sub {
   margin: 0 0 6vh;
-  max-width: 1200px;
+  max-width: 1600px;
   line-height: 1.35;
   font-weight: 600;
 }
@@ -116,7 +116,7 @@
 /* 모바일: 한 줄에 5개 */
 @media (max-width: 900px) {
   .bs3-grid {
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 5vw 4vw;
   }
   .BusinessSection_03 {
@@ -140,7 +140,8 @@
     gap: 2vw;
   }
   .BusinessSection_03 {
-    min-height: 75vh;
+    min-height: 80vh;
     padding: 4rem 1rem 1rem;
   }
 }
+

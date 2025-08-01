@@ -288,7 +288,8 @@
 @media (max-width:400px) {
   .inner #header ul li a{font-size:40px}
   .inner #header ul li{margin:1rem 0;}
-  .slidebar{padding:0px;padding-top:100px;}
+  .slidebar{padding:0px;padding-top:40px;}
+  .inner #header ul{    padding: 20px 0 20px;}
 }
 
 

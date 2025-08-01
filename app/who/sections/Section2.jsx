@@ -25,15 +25,16 @@ export default function Section02({ id = 'sec2' }) {
             <div className="intro-paragraph">
               Founded in 2016 and based in Gangnam, Seoul, Yogi Corporation combines deep
               international experience with operational control across the full value chain.
-              We deliver strategic consulting and business development services while operating
+              We deliver strategic consulting and business development services <br/>while operating
               our own manufacturing and logistics infrastructure to ensure consistent quality
               and responsiveness.
             </div>
             <div className="intro-paragraph">
               As an integrated retail brand operator, we maintain an omnichannel presence through
-              both offline stores and dynamic e-commerce platforms. In essence, Yogi Corporation
+              both offline stores and dynamic<br/> e-commerce platforms. In essence,<br/> Yogi Corporation
               operates across two core business pillars:
             </div>
+
 
             <ul className="pillar-list">
               <li>
@@ -54,32 +55,42 @@ export default function Section02({ id = 'sec2' }) {
       {/* 구분선 */}
       <div className="section-divider" />
 
-      {/* 하단 CEO 섹션 (텍스트 먼저, 이미지 오른쪽) */}
+      {/* 하단 CEO 섹션 */}
       <div className="ceo-section">
         <div className="ceo-inner">
           <div className="ceo-text">
             <div className="ceo-name">
               Daejin (David) Park, Founder and CEO
             </div>
+
+            {/* 모바일 전용: 이름 다음에 나오는 이미지 */}
+            <div className="ceo-image mobile-inline">
+              <img
+                src="https://yogibo.kr/yogico/img/banner/boss.jpg"
+                alt="CEO Daejin David Park"
+                loading="lazy"
+              />
+            </div>
+
             <div className="ceo-desc">
-              After gaining 15 years of expertise across academia and industry in Israel,
-              including his work at KOTRA, David returned to South Korea and launched KOISRA,
-              a consulting firm specializing in facilitating cross-border business development
-              between Korea, Israel, and other global markets. He later co-founded KOISRA Seed
-              Partners, a startup accelerator that invests in and mentors early-stage startups
-              led by serial entrepreneurs. In addition to his entrepreneurial activities, David
-              authored the Korean-language book "Inside Business in Israel." Expanding his career
-              into the retail sector, he established infrastructure for import, manufacturing,
-              distribution, and export to build a portfolio of lifestyle brands. David currently
-              serves as CEO of Yogi Corporation, overseeing multiple businesses that reflect his
-              broad experience in international business and brand development.
+              After gaining 15 years of expertise across academia and industry in Israel, including his work at KOTRA, 
+              David returned to South Korea and launched KOISRA, a consulting firm specializing in facilitating cross-border 
+              business development between Korea, Israel, and other global markets.<br/>
+              He later co-founded KOISRA Seed Partners, a startup accelerator that invests in and mentors early-stage startups 
+              led by serial entrepreneurs.<br/>
+              In addition to his entrepreneurial activities, David authored the Korean-language book "Inside Business in Israel."<br/>
+              Expanding his career into the retail sector, he established infrastructure for import, manufacturing, distribution, 
+              and export to build a portfolio of lifestyle brands.<br/>
+              David currently serves as CEO of Yogi Corporation, <br/> overseeing multiple businesses that reflect his broad experience 
+              in international business and brand development.
             </div>
             <div className="quote">
               "WE DON'T JUST TALK. WE GET THINGS DONE"
             </div>
           </div>
 
-          <div className="ceo-image">
+          {/* 데스크탑 전용 이미지 */}
+          <div className="ceo-image desktop-only">
             <img
               src="https://yogibo.kr/yogico/img/banner/boss.jpg"
               alt="CEO Daejin David Park"

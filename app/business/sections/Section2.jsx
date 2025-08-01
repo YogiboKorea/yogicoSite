@@ -22,7 +22,7 @@ export default function BusinessSection_02({ id = 'bizSec2' }) {
 
   return (
     <section id={id} ref={ref} className="BusinessSection_02">
-      <h2 className="bs2-title">BUSINESS CONSULTING & DEVELOPMENT</h2>
+
 
 
 
