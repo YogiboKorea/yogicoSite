@@ -1,115 +1,146 @@
 /* 배경/섹션 */
-.BusinessSection_03{
-  position:relative;
-  width:100%;
-  min-height:100vh;
+.BusinessSection_03 {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
   padding: 150px 100px 100px;
-  padding-top:150px;
-  box-sizing:border-box;
-  background:#e3f0f9;
-  color:#000;
-  overflow:hidden;
+  box-sizing: border-box;
+  background: #e3f0f9;
+  color: #000;
+  overflow: hidden;
 }
 
 /* 타이틀/서브 */
-.bs3-title{
-  font-family:'Anton', sans-serif;
-  margin:0 0 1vh;
+.bs3-title {
+  font-family: 'Anton', sans-serif;
+  margin: 0 0 1vh;
 }
 
-.bs3-sub{
-  margin:0 0 6vh;
-  max-width:1200px;
-  line-height:1.35;
+.bs3-sub {
+  margin: 0 0 6vh;
+  max-width: 1200px;
+  line-height: 1.35;
+  font-weight: 600;
 }
 
-/* 그리드 */
-.bs3-grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fit, minmax(175px, 1fr));
-  gap:2vw 2vw;
+/* 그리드: 기본 한 줄에 8개 */
+.bs3-grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 2vw 2vw;
 }
 
-/* 박스(사각형) */
-.bs3-box{
-  background:#fff;
-  border-radius:8px;
-  aspect-ratio: 3 / 2;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  padding:10px;
-  box-shadow:0 3px 8px rgba(0,0,0,.08);
-  opacity:0;
-  transform:translateY(20px);
-  transition:opacity .4s ease, transform .4s ease;
+/* 박스: 비율 강제 (3:2) + 애니메이션 준비 */
+.bs3-box {
+  position: relative;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, .08);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity .4s ease, transform .4s ease;
 }
 
-.bs3-box img{
-  max-width:100%;
-  max-height:100%;
-  object-fit:contain;
+/* 3:2 비율 확보 */
+.bs3-box::before {
+  content: '';
+  display: block;
+  padding-top: 66.6667%; /* 2/3 비율 */
 }
 
-.bs3-box span{
-  font-family:'Anton', sans-serif;
-  text-align:center;
+/* 실제 컨텐츠 영역 */
+.bs3-box-content {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
-/* play 시 순차 등장 */
-.BusinessSection_03.play .bs3-box{
-  opacity:1;
-  transform:none;
+.bs3-box img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  display: block;
 }
-.BusinessSection_03.play .bs3-box:nth-child(1){transition-delay:.05s;}
-.BusinessSection_03.play .bs3-box:nth-child(2){transition-delay:.1s;}
-.BusinessSection_03.play .bs3-box:nth-child(3){transition-delay:.15s;}
-.BusinessSection_03.play .bs3-box:nth-child(4){transition-delay:.2s;}
-.BusinessSection_03.play .bs3-box:nth-child(5){transition-delay:.25s;}
-/* 필요하면 더 추가 */
 
-
-
-
-
-/* ─── 폰트 크기 조정 ―───────────────────────────────── */
-
-
-@media (min-width:1310px) {
-.bs3-title{font-size:50px;color:#192a44;font-family: 'Anton',sans-serif;;}
-.bs3-sub{font-size:32px;  font-family: 'Roboto Condensed', sans-serif;font-weight:600;}
-
+.bs3-box span {
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  word-break: break-word;
 }
-/* 중간 스크린: 1300px 이하 (2열) */
+
+/* play 시 순차 등장 (딜레이는 --delay 변수로 주입) */
+.BusinessSection_03.play .bs3-box {
+  opacity: 1;
+  transform: none;
+  transition-delay: var(--delay);
+}
+
+/* 폰트/타입 설정: 데스크탑 */
+@media (min-width: 1310px) {
+  .bs3-title {
+    font-size: 50px;
+    color: #192a44;
+    font-family: 'Anton', sans-serif;
+  }
+  .bs3-sub {
+    font-size: 32px;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+}
+
+/* 중간: 너비 줄어들면 패딩 변경 */
 @media (max-width: 1300px) {
-  .bs3-title{font-size:50px;color:#192a44;font-family: 'Anton',sans-serif;;}
-  .bs3-sub{font-size:22px;  font-family: 'Roboto Condensed', sans-serif;font-weight:600;}  
+  .bs3-title {
+    font-size: 50px;
+    color: #192a44;
+    font-family: 'Anton', sans-serif;
+  }
+  .bs3-sub {
+    font-size: 22px;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
   .BusinessSection_03 {
     padding: 4rem 1rem 1rem;
   }
-
+  /* Optional: 줄 수 조절 (예: 데스크탑 8개, 이 아래에서 6개) */
+  .bs3-grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
 }
-/* 소형 스크린: 500px 이하 (1열 + 중앙정렬) */
+
+/* 모바일: 한 줄에 5개 */
 @media (max-width: 900px) {
-  .bs3-grid{gap:5vw 4vw;}  
+  .bs3-grid {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5vw 4vw;
+  }
   .BusinessSection_03 {
     padding: 64px 64px 16px;
   }
 }
 
+/* 더 작은 모바일 */
 @media (max-width: 500px) {
-  .bs3-title{font-size:40px;color:#192a44;font-family: 'Anton',sans-serif;;}
-  .bs3-sub{font-size:20px; font-family: 'Roboto Condensed', sans-serif;font-weight:600;}  
+  .bs3-title {
+    font-size: 40px;
+    color: #192a44;
+    font-family: 'Anton', sans-serif;
+  }
+  .bs3-sub {
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  .bs3-grid {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2vw;
+  }
   .BusinessSection_03 {
+    min-height: 75vh;
     padding: 4rem 1rem 1rem;
   }
-    .bs3-grid {
-      grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
-      gap: 2vw;
-      display: grid
-  }
-  .BusinessSection_03{min-height: 70vh;}
 }
-
-
-

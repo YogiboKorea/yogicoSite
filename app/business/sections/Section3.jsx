@@ -30,7 +30,6 @@ const partners = [
   { name: 'MUZIGAE MANSION',   src: 'https://yogibo.openhost.cafe24.com/yogico/img/icon/img_24.webp' },
 ];
 
-
 export default function BusinessSection_03({ id = 'bizSec3' }) {
   const ref = useRef(null);
 
@@ -39,7 +38,11 @@ export default function BusinessSection_03({ id = 'bizSec3' }) {
     if (!el) return;
     const io = new IntersectionObserver(
       ([e]) => {
-        e.isIntersecting ? el.classList.add('play') : el.classList.remove('play');
+        if (e.isIntersecting) {
+          el.classList.add('play');
+        } else {
+          el.classList.remove('play');
+        }
       },
       { rootMargin: '-45% 0px -45% 0px', threshold: 0 }
     );
@@ -51,17 +54,23 @@ export default function BusinessSection_03({ id = 'bizSec3' }) {
     <section id={id} ref={ref} className="BusinessSection_03">
       <h2 className="bs3-title">PARTNERS</h2>
       <p className="bs3-sub">
-      “Our clients are called as partners, not customers. Because their success is our success“ 
+        “Our clients are called as partners, not customers. Because their success is our success“
       </p>
 
       <div className="bs3-grid">
         {partners.map((p, i) => (
-          <div key={i} className="bs3-box">
-            {p.src ? (
-              <img src={p.src} alt={p.name} />
-            ) : (
-              <span>{p.name}</span>
-            )}
+          <div
+            key={i}
+            className="bs3-box"
+            style={{ '--delay': `${(i + 1) * 0.05}s` }}
+          >
+            <div className="bs3-box-content">
+              {p.src ? (
+                <img src={p.src} alt={p.name} loading="lazy" />
+              ) : (
+                <span>{p.name}</span>
+              )}
+            </div>
           </div>
         ))}
       </div>
