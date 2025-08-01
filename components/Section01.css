@@ -105,7 +105,7 @@
   .section01_line1, .section01_line2{width:100%;}
   .section01_line1,
   .section01_line2 {
-    width:90%;
+    width:100%;
     margin:0 auto;
     display:inline;
     font-size:50px;
