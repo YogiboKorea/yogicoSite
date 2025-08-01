@@ -213,8 +213,7 @@
 }
 .inner #footer address {
   font-style: normal;
-  color: #888;
-  font-size: 0.9rem;
+  color: #fff;
   line-height: 1.4;
   display: block;
   margin-bottom: 1rem;
@@ -222,8 +221,10 @@
 }
 .inner #footer a {
   display: block;
-  color: #888;
+  color: #fff;
   text-decoration: none;
+  font-weight:400;
+  font-family: 'Roboto' Condensed, sans-serif;
 }
 
 
