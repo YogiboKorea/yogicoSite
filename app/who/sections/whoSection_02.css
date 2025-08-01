@@ -258,7 +258,8 @@
   .logo-block {
     flex: 0 0 50px;
   }
-
+  .ceo-name{line-height:1.2;}
+  .quote{line-height:1.2;}
   .quote {
     font-size: 22px;
   }
@@ -301,7 +302,6 @@ ul li{list-style:none;}
   .pillar-list {
     font-weight: 600;
   }
-
   .quote {
     font-size: 32px;
     font-weight: 600;
