@@ -102,11 +102,11 @@
 @media (max-width: 550px) {
   .BusinessSection_01_line1,
   .BusinessSection_01_line2 {
-    width:90%;
+    width:100%;
     margin:0 auto;
     display:inline;
-    font-size:60px;
-    line-height: 80px;
+    font-size:50px;
+    line-height: 70px;
     letter-spacing: -2px;
     font-weight:400;
     white-space: normal;
@@ -122,7 +122,7 @@
 @media (max-width: 330px) {
   .BusinessSection_01_line1,
   .BusinessSection_01_line2 {
-    width:90%;
+    width:100%;
     margin:0 auto;
     display:inline;
     font-size:50px;

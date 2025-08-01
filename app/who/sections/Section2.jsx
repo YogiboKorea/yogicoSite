@@ -81,7 +81,7 @@ export default function Section02({ id = 'sec2' }) {
 
           <div className="ceo-image">
             <img
-              src="https://yogibo.kr/yogico/img/banner/boss.webp"
+              src="https://yogibo.kr/yogico/img/banner/boss.jpg"
               alt="CEO Daejin David Park"
               loading="lazy"
             />

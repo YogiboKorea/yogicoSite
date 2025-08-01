@@ -162,3 +162,8 @@
   }
   .br{display:block;position:relative;width:100%;}
 }
+
+
+@media (max-width: 250px) {
+  .br{display:block;position:relative;width:100%;}
+}
