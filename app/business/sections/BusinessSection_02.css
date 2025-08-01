@@ -2,7 +2,7 @@
   position: relative;
   width: 100%;
   min-height: 100vh;
-  padding: 140px 60px 100px;
+  padding: 140px 60px 140px;
   box-sizing: border-box;
   background: linear-gradient(to bottom, #0f1f44 0%, #0f1f44 55%, #172439 55%, #172439 100%);
   color: #fff;
@@ -10,7 +10,7 @@
   font-size: 18px;
   font-family: 'Roboto', system-ui, -apple-system, sans-serif;
 }
-
+.bs2-secondary{padding-top:100px;}
 /* 제목 */
 .bs2-title {
   width: 100%;
@@ -109,10 +109,9 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 3rem 3rem;
-  padding-bottom: 100px;
   text-align: center;
 }
-
+.bs2-secondary{gap:6rem}
 /* 리스트 공통 */
 .bs2-list {
   list-style: none;
@@ -200,9 +199,15 @@
     font-size: 26px;
     min-height: 60px;
   }
+  .bs2-primary, .bs2-secondary{gap:4rem;}
+  .bs2-columns{gap:2rem;}
+  .bs2-item{
+    gap: 0rem;
+  }
   .bs2-top-desc,
   .bs2-item p {
     font-size: 16px;
+    margin-top:0px;
   }
   .BusinessSection_02 {
     padding: 3.5rem 1rem 1rem;
@@ -213,4 +218,6 @@
     padding: 0 0 40px;
   }
   .bs2-primary, .bs2-secondary{padding-bottom:20px;padding-top:20px;}
+
+  .bs2-columns{padding-bottom:60px;}
 }
