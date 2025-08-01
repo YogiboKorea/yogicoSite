@@ -52,12 +52,9 @@ export default function Slidebar({ isOpen, onClose }) {
             </address>
 
             <address style={{fontFamily:'Roboto Condensed'}}>
-            <a href="tel:+82-10-2880-0721">
-                  +82-10-2880-0721 
-                </a>
-            <a href="mailto:contact@yogico.kr">contact@yogico.kr</a><br />
+              +82-10-2880-0721  <br />
+              contact@yogico.kr<br />
             </address>
-
           </footer>
         </div>
       </nav>
