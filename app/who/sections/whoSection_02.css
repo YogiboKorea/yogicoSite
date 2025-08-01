@@ -2,7 +2,7 @@
 .whoSection_02 {
   width: 100%;
   font-family: 'Roboto Condensed', system-ui, -apple-system, sans-serif;
-  color: #f5f5f5;
+  color: #fff;
 }
 
 /* ===== 상단: 다크 인트로 ===== */
@@ -76,6 +76,9 @@
   margin: 6px 0;
 }
 
+.pillar-list li:hover {
+  color:#38b6ff 
+}
 /* 구분선 */
 .section-divider {
   width: 100%;
