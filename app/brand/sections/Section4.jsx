@@ -117,7 +117,7 @@ export default function TripleChart() {
 
   return (
     <section className="BrandSection_04">
-      <h2 className="excl-title" style={{color:'#192a44'}}>The Super Beads(HRF)</h2>
+      <h2 className="excl-title" style={{color:'#192a44'}}>THE SUPER BEADS(HRF)</h2>
       <p className="excl-intro">
         Yogi Corporation has carried out extensive trials and R&amp;D over the past five years,
         leading to the successful co‑development of HRF (High Resilience Foam), a specialized

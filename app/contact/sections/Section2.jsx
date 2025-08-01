@@ -71,14 +71,6 @@ export default function ContactModal({ onClose = () => {} }) {
           &times;
         </button>
 
-        <div className="logo-wrapper">
-          <img
-            src="https://yogibo.kr/yogico/img/icon/Signature03.png"
-            alt="Yogi Corporation Logo"
-          />
-        </div>
-        <br/><br/>
-       
         <form className="contact-form" onSubmit={handleSubmit}>
           <div className="columns">
             <div className="left">

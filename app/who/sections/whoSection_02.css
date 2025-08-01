@@ -245,8 +245,8 @@
 .intro-text-block{font-size:22px;}
 .pillar-list{font-weight:600;}
 
-.quote{font-size:40px;font-weight:600}
-.ceo-name{font-size:30px;font-weight:600;}
+.quote{font-size:32px;font-weight:600}
+.ceo-name{font-size:32px;font-weight:600;}
 .ceo-desc{font-size:22px;}
 }
 
@@ -266,10 +266,20 @@
   .intro-text-block{font-size:18px;}
   .pillar-list{font-weight:600;}
   
-  .quote{font-size:25px;font-weight:600;line-height:1.3;text-align:left;}
+  .quote{font-size:20px;font-weight:600;line-height:1.3;text-align:left;}
   .ceo-name{font-size:20px;font-weight:600;margin-top:20px;text-align:left}
   .ceo-desc{font-size:18px;text-align:left;}
   .ceo-text{margin-top:10px}
+
+  .ceo-image{
+    background:none;
+    border-radius: 14px;
+    flex: 0 0 340px;
+    min-width: 180px;
+    /* float: left; */
+    /* position: relative; */
+    overflow: hidden;
+  }
   }
   
 

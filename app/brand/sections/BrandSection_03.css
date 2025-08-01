@@ -33,25 +33,13 @@
   height:44px;
   line-height:43px;
   font-size:22px;
-  background: #3482e7;
-  color: #fff;
+  color: #111;
   text-decoration: none;
-  font-family:'Anton';
+font-weight:600;
   margin-top:40px;
 }
 
-
-
-/* Hover 시 그림자+살짝 떠 있는 효과 */
-.ps3-see-more:hover {
-  /* 아래로 퍼지는 그림자 */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  /* 약간 올라온 듯한 느낌 */
-  transform: translateY(-2px);
-}
-
-
-
+.ps3-p{text-align:left;}
 /* ─── 5. Swiper 래퍼 ───────────────────────────────── */
 .ps3-swiper {
   margin-top:70px;
@@ -141,13 +129,13 @@
 
 /*폰트 부분*/
 @media (min-width: 1300px) {
-  .ps3-present{color:#c9c9c9;font-size:18px;}
+  .ps3-present{color:#000;font-size:18px;}
   .ps3-p{width:80%;margin:0 auto;margin-top:30px;font-size:16px;}
   .ps3-p{line-height:1.6;}
 }
 
 @media (max-width: 1299px) {
-  .ps3-present{color:#c9c9c9;font-size:18px;}
+  .ps3-present{color:#000;font-size:18px;}
   .ps3-p{width:80%;margin:0 auto;margin-top:30px;font-size:16px;}
   .ps3-p{line-height:1.6;}
 }
@@ -157,14 +145,14 @@
     padding: 4rem 1rem 1rem;
   }
 
-  .ps3-present{color:#c9c9c9;font-size:16px;}
+  .ps3-present{color:#000;font-size:16px;}
   .ps3-p{width:100%;margin-top:30px;font-size:14px;text-align:left;}
   .ps3-p{line-height:1.6;}
   .br{display:none;}
 }
 
 @media (max-width: 550px) {
-  .ps3-present{color:#c9c9c9;font-size:16px;}
+  .ps3-present{color:#000;font-size:16px;}
   .ps3-p{width:100%;margin-top:30px;font-size:14px;text-align:left;}
   .ps3-p{line-height:1.6;}
   .br{display:none;}
@@ -172,7 +160,7 @@
 
 
 @media (max-width: 330px) {
-  .ps3-present{color:#c9c9c9;font-size:16px;}
+  .ps3-present{color:#000;font-size:16px;}
   .ps3-p{width:100%;margin-top:30px;font-size:14px;}
   .ps3-p{line-height:1.6;}
   .br{display:none;}

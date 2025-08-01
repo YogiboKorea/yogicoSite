@@ -94,7 +94,7 @@ export default function BrandSection_02({ id = 'BrandSec2' }) {
           rel="noreferrer"
           className="ps2-see-more"
         >
-          VISIT SITE
+         www.yogibo.kr
         </a>
       </div>
     </section>

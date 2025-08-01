@@ -22,7 +22,9 @@ export default function BusinessSection_02({ id = 'bizSec2' }) {
 
   return (
     <section id={id} ref={ref} className="BusinessSection_02">
-      <h2 className="bs2-title">Business Consulting & Development</h2>
+      <h2 className="bs2-title">BUSINESS CONSULTING & DEVELOPMENT</h2>
+
+
 
       <div className="bs2-columns">
   
@@ -31,7 +33,7 @@ export default function BusinessSection_02({ id = 'bizSec2' }) {
           <ul className="bs2-list">
             <li className="bs2-item">
               <h3>
-              Business Consulting
+              Business<br /> Consulting
               </h3>
               <p>
             Unlock the designated markets <br/>
@@ -40,7 +42,7 @@ export default function BusinessSection_02({ id = 'bizSec2' }) {
               </p>
             </li>
             <li className="bs2-item">
-              <h3>Market Analysis</h3>
+              <h3>Market<br /> Analysis</h3>
             <p>
                 Gain a comprehensive understanding<br/>
                 of the markets, key trends,<br/>
@@ -64,7 +66,7 @@ export default function BusinessSection_02({ id = 'bizSec2' }) {
 
         {/* 그 다음 3개 */}
         <div className="bs2-primary">
-          <ul className="bs2-list">
+          <ul className="bs2-list"  id="hoe1">
             <li className="bs2-item">
               <h3>
                 Supplier Sourcing<br />
@@ -76,7 +78,7 @@ export default function BusinessSection_02({ id = 'bizSec2' }) {
               </p>
             </li>
             <li className="bs2-item">
-              <h3>Partner & Client Matching</h3>
+              <h3>Partner & Client <br />Matching</h3>
               <p>
               Discover and connect with<br/>
               the right partners—distributors,<br/> agents, importers, or end clients.
@@ -84,8 +86,8 @@ export default function BusinessSection_02({ id = 'bizSec2' }) {
             </li>
             <li className="bs2-item">
               <h3>
-                Technology Scouting &<br />
-                Innovation Search
+                Technology Scouting <br />
+                & Innovation Search
               </h3>
               <p>
               Explore cutting-edge technologies<br/> and innovations from startups, <br/>corporates, and universities.
@@ -95,7 +97,7 @@ export default function BusinessSection_02({ id = 'bizSec2' }) {
         </div>
 
         {/* 기존 하단 6개 */}
-        <div className="bs2-secondary">
+        <div className="bs2-secondary" id="hoe2">
           <ul className="bs2-list">
             <li className="bs2-item">
               <h3>
@@ -109,7 +111,7 @@ export default function BusinessSection_02({ id = 'bizSec2' }) {
               </p>
             </li>
             <li className="bs2-item">
-              <h3>Payroll And HR Services</h3>
+              <h3>Payroll And HR<br /> Services</h3>
               <p>
                 Salary calculation and payment, tax<br/>
                 and insurance deductions,<br/>
@@ -150,7 +152,7 @@ export default function BusinessSection_02({ id = 'bizSec2' }) {
               </p>
             </li>
             <li className="bs2-item">
-              <h3>Importer of Record (IOR) Services</h3>
+              <h3>Importer of Record<br /> Services</h3>
               <p>
               Ensure compliance,<br />
               manage local product registration,<br /> and act as your official importer 

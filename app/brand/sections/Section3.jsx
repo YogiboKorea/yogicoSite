@@ -83,7 +83,7 @@ export default function BrandSection_03({ id = 'BrandSec2' }) {
           rel="noreferrer"
           className="ps3-see-more"
         >
-          VISIT SITE
+          www.sallyfell.com
         </a>       
 
       </div>

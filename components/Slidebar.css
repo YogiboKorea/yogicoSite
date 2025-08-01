@@ -201,7 +201,7 @@
 }
 .inner #header ul li a:hover,
 .inner #header ul li a.banrdBusinessFont {  /* Business Consulting 강조 */
-  color: #3ea6ff!important;
+  color:  #38B6FF!important;
 }
 
 /* ─── 푸터 전폭 라인 + 주소 ───────────────────────────── */
@@ -256,8 +256,9 @@
   }
   .inner #footer address,
   .inner #footer a {
-    font-size: 0.8rem;      /* 폰트 살짝 작게 */
+    font-size: 18px;;      /* 폰트 살짝 작게 */
     line-height: 1.3;
+    color:#fff;
   }
   /* 하단 라인 위치 조정 */
   .inner #footer::after {
@@ -293,5 +294,5 @@
 
 .slidebar nav ul li a.active,
 .inner #header ul li a.active {
-  color: #3ea6ff !important;
+  color:  #38B6FF!important;
 }

@@ -36,7 +36,7 @@ export default function Section3({ id = 'sec3' }) {
           <p className="ws3-role">CO‑Founder &amp; COO</p>
           <p className="ws3-bio">
             Jay has over a decade of expertise in materials research and product innovation.
-            He spent 11 years as a researcher at KCG, specializing in advanced materials and
+            He spent 11 years as a researcher at KCC, specializing in advanced materials and
             industrial applications. With a strong background in Materials Engineering from
             Hongik University, he combines technical depth with operational leadership in
             building forward‑thinking businesses.
@@ -48,7 +48,7 @@ export default function Section3({ id = 'sec3' }) {
           <div className="ws3-avatar">
            <img src="https://yogibo.kr/yogico/step/Y_step_02.jpg" alt="Kyungsoo Kim" />
           </div>
-          <h3 className="ws3-name">KYUNGSOO KIN</h3>
+          <h3 className="ws3-name">KYUNGSOO KIM</h3>
           <p className="ws3-role">CRO</p>
           <p className="ws3-bio">
             Dr. Kim is a R&amp;D leader with a Ph.D. in Chemical Engineering from Wayne State

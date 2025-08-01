@@ -6,6 +6,17 @@ import './BusinessSection_04.css';
 // 각 파트너의 데이터를 여기에 정의합니다.
 const partners = [
   {
+    name: 'Nimrod Moyal',
+    avatar: 'https://yogibo.openhost.cafe24.com/yogico/img/partners/Nimrod Moyal.png',
+    experiences: [
+      { period: '2024 – Present', role: 'Global Partner of Orchestra · Global Project Director in NM REAL Intelligence (Partnership With Dynata Group) Hague, Netherlands' },
+      { period: '1994 – 2024',    role: 'Managing Director in ADK INSIGHTS Hoofddorp, Netherlands' }
+    ],
+    education: [
+      'Erasmus University, Rotterdam School of Management MBA'
+    ]
+  },
+  {
     name: 'Gilad Kroner',
     avatar: 'https://yogibo.openhost.cafe24.com/yogico/img/partners/Gilad Kroner.png',
     experiences: [
@@ -19,17 +30,7 @@ const partners = [
       'The Hebrew University of Jerusalem B.A. Business and Economics'
     ]
   },
-  {
-    name: 'Nimrod Moyal',
-    avatar: 'https://yogibo.openhost.cafe24.com/yogico/img/partners/Nimrod Moyal.png',
-    experiences: [
-      { period: '2024 – Present', role: 'Global Partner of Orchestra · Global Project Director in NM REAL Intelligence (Partnership With Dynata Group) Hague, Netherlands' },
-      { period: '1994 – 2024',    role: 'Managing Director in ADK INSIGHTS Hoofddorp, Netherlands' }
-    ],
-    education: [
-      'Erasmus University, Rotterdam School of Management MBA'
-    ]
-  },
+
   {
     name: 'Ran Landau',
     avatar: 'https://yogibo.openhost.cafe24.com/yogico/img/partners/Ran Landau.png',

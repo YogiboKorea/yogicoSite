@@ -7,8 +7,9 @@
   background: linear-gradient(to bottom, #0f1f44 0%, #0f1f44 55%, #172439 55%, #172439 100%);
   color: #fff;
   overflow: hidden;
-  font-size: 18px;
-  font-family: 'Roboto', system-ui, -apple-system, sans-serif;
+  font-size: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  overflow: hidden;
 }
 .bs2-secondary{padding-top:100px;}
 /* 제목 */
@@ -136,7 +137,7 @@
   line-height: 1.35;
   color: rgba(255, 255, 255, 0.9);
   font-weight: 400;
-  font-size: 22px;
+  font-size: 20px;
   margin-top: 20px;
 }
 
@@ -190,6 +191,9 @@
 }
 
 @media (max-width: 500px) {
+  .BusinessSection_02{
+    background: linear-gradient(#0f1f44 0% 40%, #172439 60% 100%);
+  }
   .bs2-title {
     font-size: 48px;
   }
