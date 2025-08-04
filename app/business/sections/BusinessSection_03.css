@@ -8,12 +8,14 @@
   background: #e3f0f9;
   color: #000;
   overflow: hidden;
+  text-align:center;
 }
 
 /* 타이틀/서브 */
 .bs3-title {
   font-family: 'Anton', sans-serif;
   margin: 0 0 1vh;
+  width:100%;
 }
 
 .bs3-sub {
@@ -22,6 +24,7 @@
   line-height: 1.35;
   font-weight: 600;
   color:#192a44;
+  text-align: center;
 }
 
 /* 그리드: 기본 한 줄에 8개 */
@@ -87,6 +90,7 @@
     font-size: 50px;
     color: #192a44;
     font-family: 'Anton', sans-serif;
+    text-align: center;;
   }
   .bs3-sub {
     font-size: 24px;

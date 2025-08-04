@@ -44,9 +44,9 @@ export default function BrandSection_03({ id = 'BrandSec2' }) {
           />
           <span className="ps3-present">Developed by Yogi Corporation</span>
           <p className="ps3-p">
-                <strong>SallyFeel</strong>  isthe first "Well-Living" brand, inspired by the belief that good things happen even by chance. We aim to bring moments of delightful serendipity into everyday life. 
-                <br/><br/>By combining wellness and living, SallyFeel goes beyond simply promoting a healthy lifestyly, proposing a holistic Well-Living way of life that enhances quality of life and encourages harmony in daily routines.
-                <br/><br/>SallyFeel embraces a positive worldview where abundance flows naturally and good things find their way into our customers’ lives.            
+                <strong>SallyFeel</strong>  is the first "Well-Living" brand, inspired by the belief that good things happen even by chance. We aim to bring moments of delightful serendipity into everyday life. 
+                <br/><br/>By combining wellness and living, SallyFeel goes beyond simply promoting a healthy lifestyle, proposing a holistic Well-Living way of life that enhances quality of life and encourages harmony in daily routines.
+              <br/>SallyFeel embraces a positive worldview where abundance flows naturally and good things find their way into our customers’ lives.            
           </p>
         </div>
 

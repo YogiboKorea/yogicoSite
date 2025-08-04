@@ -13,6 +13,8 @@
 .excl-title {
   font-family: 'Anton', sans-serif;
   margin-bottom: 1rem;
+  text-align:center;
+  width:100%;
 }
 
 .excl-intro {

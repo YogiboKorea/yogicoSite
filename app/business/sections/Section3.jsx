@@ -54,7 +54,7 @@ export default function BusinessSection_03({ id = 'bizSec3' }) {
     <section id={id} ref={ref} className="BusinessSection_03">
       <h2 className="bs3-title">PARTNERS</h2>
       <p className="bs3-sub">
-      “OUR CLIENTS ARE CALLED AS PARTNERS, NOT CUSTOMERS. BECAUSE THEIR SUCCESS IS OUR SUCCESS“
+      “OUR CLIENTS ARE CALLED AS PARTNERS, NOT CUSTOMERS. BECAUSE THEIR SUCCESS IS OUR SUCCESS.“
       </p>
 
       <div className="bs3-grid">

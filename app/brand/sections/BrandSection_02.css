@@ -14,7 +14,7 @@
 
 /* ─── 2. 내부 래퍼 ───────────────────────────────── */
 .ps2-wrap {
-  max-width: 1200px;
+  max-width: 1900px;
   margin: 0 auto;
   text-align: center;
 }
@@ -131,7 +131,7 @@
 /*폰트 부분*/
 @media (min-width: 1300px) {
   .ps2-present{color:#000;font-size:20px;}
-  .ps2-p{width:80%;margin:0 auto;margin-top:30px;font-size:20px;}
+  .ps2-p{width:100%;margin:0 auto;margin-top:30px;font-size:20px;}
   .ps2-p{line-height:1.6;}
 
 }

@@ -17,7 +17,7 @@
   text-transform: uppercase;
   color: #3da4ff;
   margin: 0 0 1rem;
-  text-align: center;
+  text-align: center!important;
 }
 .bs5-subheading {
   display: block;
