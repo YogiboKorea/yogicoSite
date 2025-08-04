@@ -168,6 +168,11 @@
   order: 2;
 }
 
+.ceo-image.desktop-only img{
+  filter: grayscale(100%);
+}
+
+
 /* 반응형 */
 @media (max-width: 1200px) {
   .intro-inner,

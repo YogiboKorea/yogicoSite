@@ -156,7 +156,7 @@ font-weight:600;
   .ps3-p{width:100%;margin-top:30px;font-size:14px;text-align:left;}
   .ps3-p{line-height:1.6;}
   .br{display:none;}
-  .ps3-see-more{font-size:16px;margin-top:20px;}
+  .ps3-see-more{font-size:16px;margin-top:10px;}
   .ps3-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -170,8 +170,7 @@ font-weight:600;
   .ps3-p{width:100%;margin-top:30px;font-size:14px;}
   .ps3-p{line-height:1.6;}
   .br{display:none;}
-  .ps3-see-more{font-size:16px;margin-top:20px;}
-  .ps3-see-more{font-size:16px;margin-top:20px;}
+  .ps3-see-more{font-size:16px;margin-top:10px;}
   .ps3-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
