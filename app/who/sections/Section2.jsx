@@ -85,9 +85,6 @@ export default function Section02({ id = 'sec2' }) {
               David currently serves as CEO of Yogi Corporation, overseeing multiple businesses that reflect his broad experience 
               in international business and brand development.
             </div>
-            <div className="quote" style={{display:'none'}}>
-              "WE DON'T JUST TALK. WE GET THINGS DONE"
-            </div>
           </div>
 
           {/* 데스크탑 전용 이미지 */}

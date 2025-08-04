@@ -144,7 +144,7 @@
 
 @media (max-width: 900px) {
   .ps2-present{color:#000;font-size:16px;}
-  .ps2-p{width:100%;margin-top:30px;font-size:14px;}
+  .ps2-p{width:100%;margin-top:30px;font-size:18px;}
   .br{display:none;}
   .BrandSection_02 { padding: 4rem 1rem 1rem;}
   .ps2-p{line-height:1.6;}
@@ -152,18 +152,18 @@
 
 @media (max-width: 550px) {
   .ps2-present{color:#000;font-size:16px;}
-  .ps2-p{width:100%;margin-top:30px;font-size:14px;text-align:left;}
+  .ps2-p{width:100%;margin-top:30px;font-size:18px;text-align:left;}
   .br{display:none;}
   .ps2-p{line-height:1.6;}
-  .ps2-see-more{font-size:16px;margin-top:10px;}
+  .ps2-see-more{font-size:16px;margin-top:0px;}
 }
 
 
 @media (max-width: 330px) {
-  .ps2-present{color:#000;font-size:16px;}
-  .ps2-p{width:100%;margin-top:30px;font-size:14px;text-align:left;}
+  .ps2-present{color:#000;font-size:18px;}
+  .ps2-p{width:100%;margin-top:30px;font-size:18px;text-align:left;}
   .br{display:none;}
   .ps2-p{line-height:1.6;}
-  .ps2-see-more{font-size:16px;margin-top:10px;}
+  .ps2-see-more{font-size:16px;margin-top:0px;}
 }
 

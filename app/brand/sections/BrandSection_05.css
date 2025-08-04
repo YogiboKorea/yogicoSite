@@ -143,11 +143,11 @@
     font-weight:600;
   }
   .bs5-item-ref{
-    font-size:16px;
+    font-size:18px;
     margin-top:20px;
   }
   .bs5-item-desc{
-    font-size:16px;
+    font-size:18px;
   }
 
 }
@@ -168,12 +168,12 @@
     text-align:left;
   }
   .bs5-item-ref{
-    font-size:16px;
+    font-size:18px;
     text-align:left;
     margin-top:5px;
   }
   .bs5-item-desc{
-    font-size:16px;
+    font-size:18px;
     text-align:left;
     margin-top:5px;
   }

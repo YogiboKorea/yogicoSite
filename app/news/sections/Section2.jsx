@@ -10,9 +10,9 @@ export default function Section1({ id = 'news' }) {
     {
       id: 1,
       imgSrc: 'https://yogibo.openhost.cafe24.com/yogico/img/banner/HDC%EC%98%81%EC%B0%BD.png',
-      title: 'Yogibo Participates as a Sponsor at the 2024 Seoul Beauty Travel Week',
+      title: 'Family Month Concert with HDC Youngchang and Yogibo',
       excerpt:
-        'HDC Youngchang and Yogibo held a joint Family Month event from May 10 to 18 at Starfield Hanam. The venue featured Kurzweil digital piano experience zones and Yogibo relaxation areas. On the opening day, live performances included a K-pop band and a jazz pianist-led band.',
+        'HDC Youngchang and Yogibo stage Family Month event May 10–18, 2025 at Hanam Starfield, showcasing new 2025 Kurzweil pianos with Yogibo relaxation zones; opening day features K-pop and jazz.',
       link: 'https://www.mk.co.kr/news/business/11310368',
     },
     {
@@ -34,7 +34,7 @@ export default function Section1({ id = 'news' }) {
     {
       id: 4,
       imgSrc: 'https://yogibo.kr/yogico/img/banner/뷰티트래블2.jpg',
-      title: 'Yogibo Participates in the 2024 Seoul Beauty Travel Week as a Sponsor.',
+      title: 'Discover the Unique Beauty of Seoul at 2024 Seoul Beauty Travel Week',
       excerpt:
         'The 2024 Seoul Beauty Travel Week runs from September 23 to 29 across Seoul Forest Park and Seongdong‑gu Business Wire, and will feature over 50 parks, galleries, museums, and local shops under the themes of revival, refreshment, and rejuvenation .',
       link: 'https://www.businesswire.com/news/home/20240919559349/en/Discover-the-Unique-Beauty-of-Seoul-at-2024-Seoul-Beauty-Travel-Week',

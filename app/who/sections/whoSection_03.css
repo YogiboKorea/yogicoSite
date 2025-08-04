@@ -80,7 +80,7 @@
 
   .ws3-name{margin-top:60px;font-size:18px;font-family: 'Anton';font-weight: 200;}
   .ws3-role{margin-top:5px;font-size:18px;font-family: 'Anton';font-weight: 200;}
-  .ws3-bio{margin-top:10px;font-size:16px;}
+  .ws3-bio{margin-top:10px;font-size:18px;}
 }
 
 /* 소형 스크린: 500px 이하 (1열 + 중앙정렬) */
@@ -92,7 +92,7 @@
   }
   .ws3-name{margin-top:60px;font-size:18px;font-family: 'Anton';font-weight: 200;}
   .ws3-role{margin-top:5px;font-size:18px;font-family: 'Anton';font-weight: 200;}
-  .ws3-bio{margin-top:10px;font-size:16px;}
+  .ws3-bio{margin-top:10px;font-size:18px;}
   
 }
 
@@ -106,7 +106,7 @@
   .ws3-heading{height:110px;}
   .ws3-name{margin-top:40px;font-size:18px;font-family: 'Anton';font-weight: 200;}
   .ws3-role{margin-top:5px;font-size:18px;font-family: 'Anton';font-weight: 200;}
-  .ws3-bio{margin-top:10px;font-size:16px;}
+  .ws3-bio{margin-top:10px;font-size:18px;}
   .whoSection_03{padding: 2rem 1.5rem;}
   
   

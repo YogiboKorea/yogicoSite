@@ -111,7 +111,7 @@
 .bs4-card_edu {
   margin-top: 1rem;
   width: 100%;
-  font-size:18px;
+  font-size:20px;
 }
 .bs4-card_edu strong {
   display: block;
@@ -155,8 +155,8 @@
   .bs4-desc{font-size:22px;}
   .bs4-logos{font-size:60px;font-weight:100;}
 
-  .bs4-card_name{font-size:25px;font-weight:600;}
-  .bs4-card_exps p{font-size:18px;}
+  .bs4-card_name{font-size:22px;font-weight:600;}
+  .bs4-card_exps p{font-size:20px;}
   }
   /* 중간 스크린: 1300px 이하 (2열) */
   @media (max-width: 1300px) {
@@ -165,7 +165,7 @@
     .bs4-logo{height:70px;}
     .bs4-logos{font-size:60px;font-weight:100;}
     .bs4-card_name{font-size:25px;font-weight:600;}
-    .bs4-card_exps p{font-size:16px;}
+    .bs4-card_exps p{font-size:18px;}
     .BusinessSection_04 {
       padding: 4rem 1rem 1rem;
     }
@@ -178,8 +178,9 @@
     .bs4-desc{font-size:20px;text-align:left;}
     .bs4-logo{height:70px;}
     .BusinessSection_04{padding:10vh 4vw;}
-    .bs4-card_name{font-size:25px;font-weight:600;}
-    .bs4-card_exps p{font-size:16px;}
+    .bs4-card_name{font-size:22px;font-weight:600;}
+    .bs4-card_exps p{font-size:18px;}
+    .bs4-card_edu{font-size:18px;}
   }
   
   @media (max-width: 500px) {
@@ -187,8 +188,9 @@
     .bs4-desc{font-size:18px;;text-align:left;    margin: 0 0 6vh;}
     .bs4-logo{height:70px;}
     .BusinessSection_04{padding:10vh 4vw;}
-    .bs4-card_name{font-size:25px;font-weight:600;}
-    .bs4-card_exps p{font-size:16px;}
+    .bs4-card_name{font-size:22px;font-weight:600;}
+    .bs4-card_exps p{font-size:18px;}
+    .bs4-card_edu{font-size:18px;}
   }
   
   
