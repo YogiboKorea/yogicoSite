@@ -157,6 +157,11 @@ font-weight:600;
   .ps3-p{line-height:1.6;}
   .br{display:none;}
   .ps3-see-more{font-size:16px;margin-top:20px;}
+  .ps3-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
 }
 
 
