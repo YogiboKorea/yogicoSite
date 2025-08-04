@@ -47,6 +47,8 @@ export default function Section02({ id = 'sec2' }) {
                   Brand Management Business
                 </Link>
               </li>
+              <br/>
+              <li style={{color:'#fff'}}>"WE DON'T JUST TALK.<br/> WE GET THINGS DONE"</li>
             </ul>
           </div>
         </div>
@@ -60,7 +62,7 @@ export default function Section02({ id = 'sec2' }) {
         <div className="ceo-inner">
           <div className="ceo-text">
             <div className="ceo-name">
-              Daejin (David) Park, Founder and CEO
+              Daejin (David) Park / Founder and CEO
             </div>
 
             {/* 모바일 전용: 이름 다음에 나오는 이미지 */}
@@ -83,7 +85,7 @@ export default function Section02({ id = 'sec2' }) {
               David currently serves as CEO of Yogi Corporation, overseeing multiple businesses that reflect his broad experience 
               in international business and brand development.
             </div>
-            <div className="quote">
+            <div className="quote" style={{display:'none'}}>
               "WE DON'T JUST TALK. WE GET THINGS DONE"
             </div>
           </div>

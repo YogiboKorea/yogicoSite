@@ -69,15 +69,14 @@
 .pillar-list {
   margin: 10px 0 0;
   list-style: decimal inside;
+  color:#38b6ff;
 }
 
 .pillar-list li {
   margin: 6px 0;
 }
 
-.pillar-list li:hover {
-  color: #38b6ff;
-}
+
 
 /* 구분선 */
 .section-divider {
@@ -261,13 +260,23 @@
 
 /* 더 작은 화면: 500px */
 @media (max-width: 500px) {
+
+  .intro-section {
+    padding: 50px 24px 40px;
+  }
+
+
+  .ceo-section {
+  padding: 30px 24px 40px;
+  }
   .logo-block {
     flex: 0 0 50px;
   }
-  .ceo-name{line-height:1.2;}
+  .ceo-name{line-height:1.4;}
   .quote{line-height:1.2;}
   .quote {
     font-size: 22px;
+    margin-top:20px
   }
 
   .intro-text-block {
@@ -279,9 +288,7 @@
   }
 
   .ceo-name {
-    font-size: 24px;
-    font-weight: 600;
-    margin-top: 20px;
+    font-size: 22px;
     text-align: left;
   }
 
@@ -298,6 +305,10 @@
     max-width: 100%;
     filter: grayscale(100%);
   }
+
+
+
+  
 }
 ul li{list-style:none;}
 /* 데스크탑 큰 화면 타이포 */
