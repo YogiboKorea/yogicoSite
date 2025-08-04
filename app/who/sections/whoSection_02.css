@@ -152,6 +152,12 @@
   text-transform: uppercase;
   margin-top: 6px;
 }
+.ceo-name {
+  text-align: left;
+  font-family: Anton;
+  font-weight: 200 !important;
+}
+
 
 .ceo-desc {
   font-size: 17px;

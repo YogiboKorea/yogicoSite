@@ -62,7 +62,7 @@ export default function Section02({ id = 'sec2' }) {
         <div className="ceo-inner">
           <div className="ceo-text">
             <div className="ceo-name">
-              Daejin (David) Park / Founder and CEO
+              Daejin (David) Park <br/> Founder and CEO
             </div>
 
             {/* 모바일 전용: 이름 다음에 나오는 이미지 */}
