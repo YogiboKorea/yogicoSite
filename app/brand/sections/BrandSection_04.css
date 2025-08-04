@@ -15,12 +15,14 @@
   margin-bottom: 1rem;
   text-align:center;
   width:100%;
+  font-size:50px;
 }
 
 .excl-intro {
   line-height: 1.6;
   margin-bottom: 6rem;
   color: #333;
+  font-size:20px;
 }
 
 .triple-chart {
@@ -58,6 +60,9 @@
 @media (max-width: 900px) {
   .triple-chart {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .BrandSection_04 {
+    padding: 4rem 1rem 1rem;
   }
 }
 
@@ -100,11 +105,8 @@
     font-size:20px;
   }
 }
-/* 중간 스크린: 1300px 이하 (2열) */
-@media (max-width: 1300px) {
 
-}
-/* 소형 스크린: 500px 이하 (1열 + 중앙정렬) */
+
 @media (max-width: 900px) {
   .excl-title {
     color: #3ea6ff;
