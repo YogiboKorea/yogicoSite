@@ -53,10 +53,9 @@ export default function BrandSection_02({ id = 'BrandSec2' }) {
           />
           <span className="ps2-present">Presented by Yogi Corporation</span>
           <p className="ps2-p">
-            <strong>Yogibo</strong> is a lifestyle brand offering bean bags, living Accessories,<br className="br"/>
-            body pillows, cushions, and stuffed animals featuring various character designs.
-            What sets Yogibo apart is its patented technology that allows a single product to transform into multiple forms. 
-            Founded in 2009 in the USA, Yogibo Became<br className="br"/> the world’s No.1 bean bag sofa brand within just seven years. Today, Yogibo has over 160
+            <strong>Yogibo</strong> is a lifestyle brand offering bean bags, living Accessories, body pillows, cushions, and stuffed animals featuring various character designs.
+            What sets <br/> <br/>Yogibo apart is its patented technology that allows a single product to transform into multiple forms. 
+            Founded in 2009 in the USA, Yogibo Became<br className="br"/> the world’s No.1 bean bag sofa brand within just seven years. <br/> <br/>Today, Yogibo has over 160
             stores worldwide, including the USA, Canada, Japan, South Korea, Taiwan, Thailand, Singapore, and various countries across Europe. 
           </p>
         </div>

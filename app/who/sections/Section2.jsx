@@ -24,14 +24,14 @@ export default function Section02({ id = 'sec2' }) {
           <div className="intro-text-block">
             <div className="intro-paragraph">
               Founded in 2016 and based in Gangnam, Seoul, Yogi Corporation combines deep
-              international experience with operational control across the full value chain.
-              We deliver strategic consulting and business development services <br/>while operating
+              international experience with operational control across the full value chain. <br/><br/>
+              We deliver strategic consulting and business development services while operating
               our own manufacturing and logistics infrastructure to ensure consistent quality
               and responsiveness.
             </div>
             <div className="intro-paragraph">
               As an integrated retail brand operator, we maintain an omnichannel presence through
-              both offline stores and dynamic<br/> e-commerce platforms. In essence,<br/> Yogi Corporation
+              both offline stores and dynamic<br/> e-commerce platforms.<br/><br/>   In essence, Yogi Corporation
               operates across two core business pillars:
             </div>
 
@@ -75,13 +75,12 @@ export default function Section02({ id = 'sec2' }) {
             <div className="ceo-desc">
               After gaining 15 years of expertise across academia and industry in Israel, including his work at KOTRA, 
               David returned to South Korea and launched KOISRA, a consulting firm specializing in facilitating cross-border 
-              business development between Korea, Israel, and other global markets.<br/>
+              business development between Korea, Israel, and other global markets.<br/><br/>
               He later co-founded KOISRA Seed Partners, a startup accelerator that invests in and mentors early-stage startups 
-              led by serial entrepreneurs.<br/>
-              In addition to his entrepreneurial activities, David authored the Korean-language book "Inside Business in Israel."<br/>
+              led by serial entrepreneurs. In addition to his entrepreneurial activities, David authored "Inside Business in Israel".<br/><br/>
               Expanding his career into the retail sector, he established infrastructure for import, manufacturing, distribution, 
-              and export to build a portfolio of lifestyle brands.<br/>
-              David currently serves as CEO of Yogi Corporation, <br/> overseeing multiple businesses that reflect his broad experience 
+              and export to build a portfolio of lifestyle brands.<br/><br/>
+              David currently serves as CEO of Yogi Corporation, overseeing multiple businesses that reflect his broad experience 
               in international business and brand development.
             </div>
             <div className="quote">

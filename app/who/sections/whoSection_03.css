@@ -65,9 +65,9 @@
 /* ─── 폰트 크기 조정 ―───────────────────────────────── */
 /* 대형 스크린: 1600px 이상 */
 @media (min-width:1310px) {
-  .ws3-name{margin-top:60px;font-size:20px;font-family: 'Anton';font-weight: 200;}
+  .ws3-name{margin-top:60px;font-size:22px;font-family: 'Anton';font-weight: 200;}
   .ws3-role{margin-top:5px;font-size:20px;font-family: 'Anton';font-weight: 200;}
-  .ws3-bio{margin-top:10px;font-size:18px;}
+  .ws3-bio{margin-top:10px;font-size:22px;}
 
 
 }

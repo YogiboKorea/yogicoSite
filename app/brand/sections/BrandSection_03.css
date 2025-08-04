@@ -35,7 +35,7 @@
   font-size:22px;
   color: #111;
   text-decoration: none;
-font-weight:600;
+font-weight:400;
   margin-top:40px;
 }
 
@@ -103,6 +103,7 @@ font-weight:600;
   font-size: 2rem;
 }
 
+.ps3-p{font-size:20px;}
 
 /* ─── 9. 반응형 그리드 ─────────────────────────────── */
 /* 900px 이하: 2열 */
@@ -129,14 +130,14 @@ font-weight:600;
 
 /*폰트 부분*/
 @media (min-width: 1300px) {
-  .ps3-present{color:#000;font-size:18px;}
-  .ps3-p{width:80%;margin:0 auto;margin-top:30px;font-size:16px;}
+  .ps3-present{color:#000;font-size:20px;}
+  .ps3-p{width:80%;margin:0 auto;margin-top:30px;font-size:20px;}
   .ps3-p{line-height:1.6;}
 }
 
 @media (max-width: 1299px) {
-  .ps3-present{color:#000;font-size:18px;}
-  .ps3-p{width:80%;margin:0 auto;margin-top:30px;font-size:16px;}
+  .ps3-present{color:#000;font-size:20px;}
+  .ps3-p{width:80%;margin:0 auto;margin-top:30px;font-size:20px;}
   .ps3-p{line-height:1.6;}
 }
 

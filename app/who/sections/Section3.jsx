@@ -32,8 +32,8 @@ export default function Section3({ id = 'sec3' }) {
           <div className="ws3-avatar">
           <img src="https://yogibo.kr/yogico/step/Y_step_01.png" alt="Jaehong (Jay) Lee" />
           </div>
-          <h3 className="ws3-name">JAEHONG (Jay) LEE </h3>
-          <p className="ws3-role">CO‑Founder &amp; COO</p>
+          <h3 className="ws3-name">JAEHONG (Jay) LEE / CO‑Founder &amp; COO</h3>
+  
           <p className="ws3-bio">
             Jay has over a decade of expertise in materials research and product innovation.
             He spent 11 years as a researcher at KCC, specializing in advanced materials and
@@ -48,8 +48,7 @@ export default function Section3({ id = 'sec3' }) {
           <div className="ws3-avatar">
            <img src="https://yogibo.kr/yogico/step/Y_step_02.jpg" alt="Kyungsoo Kim" />
           </div>
-          <h3 className="ws3-name">KYUNGSOO KIM</h3>
-          <p className="ws3-role">CRO</p>
+          <h3 className="ws3-name">KYUNGSOO KIM / CRO</h3>
           <p className="ws3-bio">
             Dr. Kim is a R&amp;D leader with a Ph.D. in Chemical Engineering from Wayne State
             University and over 30 years of experience in industrial research and technology
@@ -63,8 +62,7 @@ export default function Section3({ id = 'sec3' }) {
           <div className="ws3-avatar">
            <img src="https://yogibo.kr/yogico/step/Y_step_03.png" alt="Dukhee (Tim) Hong" />
           </div>
-          <h3 className="ws3-name">DUKHEE (TIM) HONG</h3>
-          <p className="ws3-role">CPO</p>
+          <h3 className="ws3-name">DUKHEE (TIM) HONG / CPO</h3>
           <p className="ws3-bio">
             Tim is a seasoned operations and finance professional with over 16 years of experience
             leading corporate support functions, including finance, HR, and administration. His

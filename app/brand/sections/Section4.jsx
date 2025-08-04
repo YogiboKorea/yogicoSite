@@ -117,14 +117,14 @@ export default function TripleChart() {
 
   return (
     <section className="BrandSection_04">
-      <h2 className="excl-title" style={{color:'#192a44'}}>SUPER BEADS<br/>(HRF)</h2>
+      <h2 className="excl-title" style={{color:'#192a44'}}>SUPER BEADS (HRF)</h2>
       <p className="excl-intro">
         Yogi Corporation has carried out extensive trials and R&amp;D over the past five years,
         leading to the successful co‑development of HRF (High Resilience Foam), a specialized
         filling material for beanbag sofas, in partnership with LOTTE Chemical. Commercialized
         on March 1, 2023, HRF addresses the limitations of conventional EPS (Expanded Polystyrene)
         and EPP (Expanded Polypropylene), which are widely used in beanbags both in Korea and
-        globally. It delivers superior performance in terms of both technology and cost‑
+        globally.<br/><br/> It delivers superior performance in terms of both technology and cost‑
         efficiency. Additionally, HRF is an antibacterial bead that inhibits the growth of harmful
         bacteria such as Staphylococcus aureus and E. coli by 99.9%, providing a timely solution
         to increased concerns over pathogens in the post‑COVID‑19 era.

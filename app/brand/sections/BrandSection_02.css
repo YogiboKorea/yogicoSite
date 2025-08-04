@@ -37,7 +37,7 @@
   color: #111;
   text-decoration: none;
   margin-top:40px;
-  font-weight:600!important;
+  font-weight:400!important;
 }
 
 
@@ -130,15 +130,15 @@
 
 /*폰트 부분*/
 @media (min-width: 1300px) {
-  .ps2-present{color:#000;font-size:18px;}
-  .ps2-p{width:80%;margin:0 auto;margin-top:30px;font-size:16px;}
+  .ps2-present{color:#000;font-size:20px;}
+  .ps2-p{width:80%;margin:0 auto;margin-top:30px;font-size:20px;}
   .ps2-p{line-height:1.6;}
 
 }
 
 @media (max-width: 1299px) {
-  .ps2-present{color:#000;font-size:18px;}
-  .ps2-p{width:80%;margin:0 auto;margin-top:30px;font-size:16px;}
+  .ps2-present{color:#000;font-size:20px;}
+  .ps2-p{width:80%;margin:0 auto;margin-top:30px;font-size:20px;}
   .ps2-p{line-height:1.6;}
 }
 

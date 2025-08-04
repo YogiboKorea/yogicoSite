@@ -146,6 +146,7 @@
   color: #ffffff;
   letter-spacing: 1px;
   margin: 0;
+  font-size:24px!important;
 }
 
 .ceo-name {
@@ -194,7 +195,7 @@
   }
 
   .quote {
-    font-size: 36px;
+    font-size: 24px;
   }
 
   .ceo-image.desktop-only {
