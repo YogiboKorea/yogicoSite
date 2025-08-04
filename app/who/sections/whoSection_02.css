@@ -1,4 +1,7 @@
 /* 전체 기본 */
+ul li {
+  list-style: none;
+}
 .whoSection_02 {
   width: 100%;
   font-family: 'Roboto Condensed', system-ui, -apple-system, sans-serif;
@@ -157,7 +160,6 @@
 }
 
 .ceo-desc {
-  font-size: 17px;
   line-height: 1.45;
   margin: 0;
   font-weight: 400;
@@ -175,29 +177,44 @@
   filter: grayscale(100%);
 }
 
-/* 반응형 */
-@media (max-width: 1200px) {
-  .intro-inner,
-  .ceo-inner {
-    flex-direction: column;
-    gap: 40px;
+
+/* 데스크탑 큰 화면 타이포 */
+@media (min-width: 1310px) {
+  .intro-text-block {
+    font-size: 22px;
   }
+  .pillar-list {
+    font-weight: 600;
+  }
+  .ceo-name {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .ceo-desc {
+    font-size: 22px;
+  }
+}
+
+
+/* 반응형 */
+@media (max-width: 1300px) {
 
   .logo-img-wrapper img {
     max-width: 260px;
   }
 
   .intro-text-block {
-    font-size: 15px;
+    font-size: 18x;
   }
 
   .pillar-list {
-    font-size: 16px;
+    font-size: 18x;
   }
 
-  .quote {
-    font-size: 24px;
-  }
+/*텍스트 글짜 태블릿 ~모바일까지*/
+.intro-text-block{font-size:18px}
+.ceo-name{font-size:18px;}
+.ceo-desc {font-size:18px}
 
   .ceo-image.desktop-only {
     width: 100%;
@@ -246,20 +263,15 @@
     margin-top: 0;
   }
 
-  .quote {
-    font-size: 22px;
-    text-align: left;
-    font-weight: 500;
-  }
 
   .ceo-name {
-    font-size: 24px;
+    font-size: 18px;
     text-align: left;
     font-weight: 500;
   }
 
   .ceo-desc {
-    font-size: 16px;
+    font-size: 18px;
     text-align: left;
   }
 }
@@ -323,27 +335,4 @@
   }
 }
 
-ul li {
-  list-style: none;
-}
 
-/* 데스크탑 큰 화면 타이포 */
-@media (min-width: 1310px) {
-  .intro-text-block {
-    font-size: 22px;
-  }
-  .pillar-list {
-    font-weight: 600;
-  }
-  .quote {
-    font-size: 32px;
-    font-weight: 600;
-  }
-  .ceo-name {
-    font-size: 24px;
-    font-weight: 600;
-  }
-  .ceo-desc {
-    font-size: 22px;
-  }
-}
