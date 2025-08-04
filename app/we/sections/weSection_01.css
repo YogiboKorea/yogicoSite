@@ -160,7 +160,7 @@
     font-weight: 400;
     text-align: center;
   }
-  .br{display:block;position:relative;width:100%;}
+  .br{display:block!important;position:relative;width:100%;}
 }
 
 

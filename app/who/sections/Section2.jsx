@@ -66,7 +66,7 @@ export default function Section02({ id = 'sec2' }) {
             {/* 모바일 전용: 이름 다음에 나오는 이미지 */}
             <div className="ceo-image mobile-inline">
               <img
-                src="https://yogibo.kr/yogico/img/banner/boss.jpg"
+                src="https://yogibo.openhost.cafe24.com/yogico/img/banner/boss.jpg"
                 alt="CEO Daejin David Park"
                 loading="lazy"
               />
