@@ -92,6 +92,8 @@
   width:100%;
   margin: .5rem 0 1rem;
   color: #fff;
+  font-family: Anton;
+  font-weight:200!important;
 }
 .bs4-card_exps{
   width:100%;
