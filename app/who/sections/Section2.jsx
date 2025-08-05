@@ -48,7 +48,7 @@ export default function Section02({ id = 'sec2' }) {
                 </Link>
               </li>
               <br/>
-              <li style={{color:'#fff'}}>"WE DON'T JUST TALK.<br/> WE GET THINGS DONE"</li>
+              <li style={{color:'#fff'}}>"WE DON'T JUST TALK.<br className="br"/> WE GET THINGS DONE"</li>
             </ul>
           </div>
         </div>

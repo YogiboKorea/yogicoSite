@@ -177,6 +177,7 @@ ul li {
   filter: grayscale(100%);
 }
 
+.br{display:none;}
 
 /* 데스크탑 큰 화면 타이포 */
 @media (min-width: 1310px) {
@@ -334,6 +335,7 @@ ul li {
     margin: 0 auto 1.5rem;
     overflow: hidden;
   }
+  .br{display:block;}
 }
 
 
