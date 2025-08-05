@@ -21,8 +21,8 @@ const anton = Anton({
 export const metadata = {
   title: 'YOGI CORPORATION',
   icons: {
-    icon: '/yogico.ico',
-    shortcut: '/yogico.ico',
+    icon: 'https://yogibo.openhost.cafe24.com/yogico.ico',
+    shortcut: 'https://yogibo.openhost.cafe24.com/yogico.ico',
     other: [
       { rel: 'icon', url: '/favicon.svg', sizes: 'any', type: 'image/svg+xml' }
     ],
