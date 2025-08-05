@@ -1,9 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // ─────────────── 정적 export 활성화 ───────────────
-  output: 'export',
-  // (이미지 최적화가 필요 없으면)
-  images: { unoptimized: true },
-};
+  // public/ 폴더 정적 파일만 그대로 서빙
+  images: {
+    unoptimized: true,
+  },
+  // output: 'export' 도 빼야 App Router가 동작합니다.
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig
