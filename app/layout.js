@@ -6,6 +6,7 @@ import { Roboto_Condensed } from 'next/font/google';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
+
 const roboto = Roboto_Condensed({
   weight: ['400'],
   subsets: ['latin'],
@@ -19,7 +20,7 @@ const anton = Anton({
 });
 
 export const metadata = {
-  title: 'My App',
+  title: 'YOGI CORPORATION',
   icons: {
     icon: '/yogico.ico',
     shortcut: '/yogico.ico',
