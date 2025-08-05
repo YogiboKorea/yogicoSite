@@ -13,14 +13,6 @@
   }
 }
 
-/* ── 기타 글로벌 스타일 ── */
-.logo { filter: none; }
-.btn_tl span { background: #000 !important; }
-
-.search-icon-btn img {
-  filter: brightness(0) !important;
-}
-
 /* ── Overlay ── */
 .contact-overlay {
   position: relative;

@@ -15,11 +15,11 @@ export default function Navbar() {
   return (
     <>
       <header className="navbar">
-        <h1 className="logo">
+        <h1 className="logo locoContact">
           <Link href="/" aria-label="Home"><img src="https://yogibo.kr/yogico/img/icon/symbol.png" className="logo" alt="로고"/></Link>
         </h1>
         <button
-          className={`menu btn_tl ${menuOpen ? 'open_btn' : ''}`}
+          className={`menu btn_tl ${menuOpen ? 'open_btn' : ''} btn_tl_contact`}
           onClick={toggleMenu}
           aria-label="Toggle menu"
         >

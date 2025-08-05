@@ -140,11 +140,12 @@ export default function ContactModal({ onClose = () => {} }) {
               Yogi Corporation is committed to protecting your personal information.
             </p>
             <p>
-              The information you provide will be securely managed in accordance with applicable laws and our privacy policy,<br/> and will be used solely for the purpose of responding to your inquiry and improving our services.
+              The information you provide will be securely managed in accordance with applicable laws and our privacy policy, and will be used solely for the purpose of responding to your inquiry and improving our services.
             </p>
           </div>
         </div>
       </div>
     </div>
+    
   );
 }

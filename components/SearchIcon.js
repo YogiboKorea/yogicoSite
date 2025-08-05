@@ -8,7 +8,7 @@ export default function SearchIcon({ mapOpen, setMapOpen }) {
   return (
     <>
       {/* 1) 검색 아이콘 버튼 */}
-      <button className="search-icon-btn" onClick={toggleMap}>
+      <button className="search-icon-btn search-icon-btnContact" onClick={toggleMap}>
         <img 
           src="https://yogibo.openhost.cafe24.com/yogico/img/icon/icon_map.png"
           alt="Search map"

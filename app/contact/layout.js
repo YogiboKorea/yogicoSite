@@ -16,7 +16,19 @@ const roboto = Roboto_Condensed({
 
 export default function WeLayout({ children }) {
   return (
+    
     <div className={`${roboto.className} h-full`}>
+        <style>{`
+            .locoContact {
+            filter: brightness(0) !important;
+            }
+            .btn_tl_contact span {
+            background: #000 !important;
+            }
+            .search-icon-btnContact img {
+            filter: brightness(0);
+            }
+        `}</style>
       <Navbar />
       {children}
       <Footer />
