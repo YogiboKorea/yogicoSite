@@ -21,10 +21,10 @@ const anton = Anton({
 export const metadata = {
   title: 'YOGI CORPORATION',
   icons: {
-    icon: 'https://yogibo.openhost.cafe24.com/yogico.ico',
-    shortcut: 'https://yogibo.openhost.cafe24.com/yogico.ico',
+    icon: '/yogico.ico',
+    shortcut: '/yogico.ico',
     other: [
-      { rel: 'icon', url: '/favicon.svg', sizes: 'any', type: 'image/svg+xml' }
+      { rel: 'icon', url: '/yogico.ico', sizes: 'any', type: 'image/svg+xml' }
     ],
   },
 };
