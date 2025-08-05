@@ -7,7 +7,7 @@
   min-height: 100vh;
   padding:100px;
   box-sizing: border-box;
-  background: url('/img/bg_building.jpg') center/cover no-repeat, #0a1729;
+  background:#0a1729;
   color: #fff;
   overflow: hidden;
   font-family: 'Roboto Condensed', sans-serif;
