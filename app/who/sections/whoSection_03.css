@@ -98,7 +98,7 @@
 
 
 @media (max-width: 500px) {
-  .ws3-heading{text-align:center;}
+  .ws3-heading{text-align:center;margin-bottom:2rem;}
   .ws3-cards {
     grid-template-columns: 1fr;
     gap: 8vh 0;

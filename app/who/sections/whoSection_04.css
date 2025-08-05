@@ -98,7 +98,7 @@
 
 
 @media (max-width: 500px) {
-  .ws4-heading{text-align:center;;}
+  .ws4-heading{text-align:center;margin-bottom:2rem;}
   .ws4-cards {
     grid-template-columns: 1fr;
     gap: 8vh 0;
