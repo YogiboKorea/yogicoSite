@@ -335,6 +335,7 @@ ul li {
     height: 200px;
     margin: 0 auto 1.5rem;
     overflow: hidden;
+    margin-top:20px;
   }
   .br{display:block;}
 }
