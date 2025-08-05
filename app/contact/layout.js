@@ -26,7 +26,7 @@ export default function WeLayout({ children }) {
             background: #000 !important;
             }
             .searchBlack{display:block!important;}
-            .searchWhite{display:none;}
+            .searchWhite{display:none!important;}
         `}</style>
       <Navbar />
       {children}
