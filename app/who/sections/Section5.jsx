@@ -27,7 +27,7 @@ export default function Section4({ id = 'sec4' }) {
       <p className="ws5-intro">
         Yogi Corporation collaborates with strategic advisors and accomplished business professionals
         who bring deep expertise across diverse fields and have accumulated extensive experience in
-        multiple countries. Through these partnerships, we minimize business risks while maximizing
+        multiple countries. <br/>Through these partnerships, we minimize business risks while maximizing
         opportunities and potential. By applying a proven business approach, we consistently deliver
         successful outcomes.
       </p>
