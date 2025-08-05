@@ -90,7 +90,7 @@
 
 .contact-subtitle {
   margin: 0 0 24px;
-  font-size: 16px;
+  font-size: 22px;
   color: #000;
   line-height: 1.2;
 }
@@ -198,6 +198,7 @@
   border-radius: 4px;
   cursor: pointer;
   transition: background 0.2s ease;
+  font-size:22px;
 }
 .send-button:hover:not(:disabled) {
   background: rgba(0, 0, 0, 0.05);
@@ -210,7 +211,7 @@
 /* ── Footer ── */
 .contact-footer {
   margin-top: 24px;
-  font-size: 12px;
+  font-size: 18px;
   line-height: 1.4;
   color: #777;
   text-align: left;
@@ -218,11 +219,14 @@
 
 /* ── Responsive ── */
 @media (max-width: 900px) {
+  .contact-subtitle{font-size:18px;}
+  .contact-footer{font-size:16px;}
+  .send-button{font-size:18px;}
   .columns {
     flex-direction: column;
   }
   .contact-modal-body {
-    padding: 24px 28px;
+    padding: 24px 20px;
   }
   .contact-modal-header {
     margin: 0;

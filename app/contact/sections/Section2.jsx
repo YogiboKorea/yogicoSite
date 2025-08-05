@@ -59,7 +59,7 @@ export default function ContactModal({ onClose = () => {} }) {
         <div className="contact-modal-header">
           <div className="logo-wrapper">
             <img
-              src="https://yogibo.openhost.cafe24.com/yogico/img/icon/coMake.png"
+              src="https://yogibo.openhost.cafe24.com/yogico/img/icon/coMake2.png"
               alt="Yogi Corporation"
             />
           </div>
@@ -67,9 +67,8 @@ export default function ContactModal({ onClose = () => {} }) {
 
         {/* ─── 본문 ─── */}
         <div className="contact-modal-body">
-          <h2 className="contact-title">Contact us</h2>
           <p className="contact-subtitle">
-            We appreciate your interest in Yogi Corporation. To submit a question, please complete the form below.<br />
+            We appreciate your interest in Yogi Corporation. <br/>To submit a question, please complete the form below.
             Required fields are indicated with an asterisk (*).
           </p>
 
@@ -138,8 +137,6 @@ export default function ContactModal({ onClose = () => {} }) {
           <div className="contact-footer">
             <p>
               Yogi Corporation is committed to protecting your personal information.
-            </p>
-            <p>
               The information you provide will be securely managed in accordance with applicable laws and our privacy policy, and will be used solely for the purpose of responding to your inquiry and improving our services.
             </p>
           </div>
