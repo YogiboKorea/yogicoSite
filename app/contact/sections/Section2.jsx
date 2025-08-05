@@ -68,8 +68,7 @@ export default function ContactModal({ onClose = () => {} }) {
         {/* ─── 본문 ─── */}
         <div className="contact-modal-body">
           <p className="contact-subtitle">
-            We appreciate your interest in Yogi Corporation. <br/>To submit a question, please complete the form below.
-            Required fields are indicated with an asterisk (*).
+          Thank you for your interest in Yogi Corporation. Please complete the form below to submit your inquiry.
           </p>
 
           <form className="contact-form" onSubmit={handleSubmit}>

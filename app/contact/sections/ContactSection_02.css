@@ -59,7 +59,10 @@
   justify-content: space-between;
   align-items: center;
   padding: 18px 24px;
-  margin-left: -80px;
+  /* margin-left: -80px; */
+  text-align: center;
+  align-content: space-around;
+  flex-direction: column;
 }
 
 .logo-wrapper img {
