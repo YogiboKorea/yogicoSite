@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@fontsource/open-sans": "^5.2.6",
+    "@vitalets/google-translate-api": "^9.2.1",
     "aos": "^2.3.4",
     "axios": "^1.11.0",
     "chart.js": "^4.5.0",

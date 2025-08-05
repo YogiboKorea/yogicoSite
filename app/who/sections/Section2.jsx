@@ -21,7 +21,7 @@ export default function Section02({ id = 'sec2' }) {
               </div>
             </div>
           </div>
-          <div className="intro-text-block">
+          <div className="intro-text-block translatable">
             <div className="intro-paragraph">
               Founded in 2016 and based in Gangnam, Seoul, Yogi Corporation combines deep
               international experience with operational control across the full value chain. <br/><br/>
@@ -61,7 +61,7 @@ export default function Section02({ id = 'sec2' }) {
       <div className="ceo-section">
         <div className="ceo-inner">
           <div className="ceo-text">
-            <div className="ceo-name">
+            <div className="ceo-name translatable">
               Daejin (David) Park <br/> Founder and CEO
             </div>
 
@@ -74,7 +74,7 @@ export default function Section02({ id = 'sec2' }) {
               />
             </div>
 
-            <div className="ceo-desc">
+            <div className="ceo-desc translatable">
               After gaining 15 years of expertise across academia and industry in Israel, including his work at KOTRA, 
               David returned to South Korea and launched KOISRA, a consulting firm specializing in facilitating cross-border 
               business development between Korea, Israel, and other global markets.<br/><br/>
@@ -102,6 +102,7 @@ export default function Section02({ id = 'sec2' }) {
           </div>
         </div>
       </div>
+      {/* <AutoTranslateButton to="ko" selector=".translatable" /> */}
     </section>
   );
 }
