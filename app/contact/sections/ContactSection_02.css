@@ -40,23 +40,7 @@
     display: block;
     height: auto;
   }
-  
-  .close-button {
-    background: none;
-    border: none;
-    font-size: 28px;
-    color: #fff;
-    cursor: pointer;
-    padding: 4px 8px;
-    line-height: 1;
-    transition: color .2s ease;
-    display:none;
-  }
-  .close-button:hover,
-  .close-button:focus {
-    color: #f0f0f0;
-    outline: none;
-  }
+
   
   /* 본문 */
   .contact-modal-body {
@@ -172,6 +156,7 @@
     font-size: 16px;
     border-radius: 6px;
     transition: background .2s ease;
+    width:100%;
   }
   
   .send-button:hover:not(:disabled) {

@@ -18,7 +18,7 @@
     font-weight: 600;
     display: inline-block;
     width: 100%;
-    height: 150px;
+    margin-bottom:6rem;
     font-size: 24px;
     font-size: 40px;
     font-family: 'Anton';
@@ -103,7 +103,6 @@
     grid-template-columns: 1fr;
     gap: 8vh 0;
   }
-  .ws3-heading{height:110px;}
   .ws3-name{margin-top:40px;font-size:18px;font-family: 'Anton';font-weight: 200;}
   .ws3-role{margin-top:5px;font-size:18px;font-family: 'Anton';font-weight: 200;}
   .ws3-bio{margin-top:10px;font-size:18px;}

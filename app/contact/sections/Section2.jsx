@@ -52,32 +52,17 @@ export default function ContactModal({ onClose = () => {} }) {
     }
   };
 
-  useEffect(() => {
-    const onKey = e => {
-      if (e.key === 'Escape') onClose();
-    };
-    window.addEventListener('keydown', onKey);
-    return () => window.removeEventListener('keydown', onKey);
-  }, [onClose]);
 
   return (
-    <div className="contact-overlay" onClick={onClose}>
+    <div className="contact-overlay">
       <div className="contact-modal" onClick={e => e.stopPropagation()}>
-        <button
-          aria-label="Close contact modal"
-          className="close-button"
-          onClick={onClose}
-        >
-          &times;
-        </button>
-
         <form className="contact-form" onSubmit={handleSubmit}>
           <div className="columns">
             <div className="left">
               <input
                 className="styled-input"
                 type="email"
-                placeholder="Company Email *"
+                placeholder="Email *"
                 value={companyEmail}
                 onChange={e => setCompanyEmail(e.target.value)}
                 required
@@ -85,7 +70,7 @@ export default function ContactModal({ onClose = () => {} }) {
               <input
                 className="styled-input"
                 type="text"
-                placeholder="Company Name"
+                placeholder="Name"
                 value={companyName}
                 onChange={e => setCompanyName(e.target.value)}
               />
@@ -116,7 +101,7 @@ export default function ContactModal({ onClose = () => {} }) {
             <div className="right">
               <textarea
                 className="styled-textarea"
-                placeholder="Describe your collaboration request"
+                placeholder="Describe your request"
                 value={message}
                 onChange={e => setMessage(e.target.value)}
               />

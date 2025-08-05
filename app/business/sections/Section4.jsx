@@ -27,7 +27,7 @@ const partners = [
     ],
     education: [
       'Erasmus University, Rotterdam School of Management MBA',
-      'The Hebrew University of Jerusalem B.A. Business and Economics'
+      'Hebrew University of Jerusalem B.A. Business & Economics'
     ]
   },
 
