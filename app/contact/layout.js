@@ -25,9 +25,8 @@ export default function WeLayout({ children }) {
             .btn_tl_contact span {
             background: #000 !important;
             }
-            .search-icon-btnContact img {
-            filter: brightness(0);
-            }
+            .searchBlack{display:block!important;}
+            .searchWhite{display:none;}
         `}</style>
       <Navbar />
       {children}

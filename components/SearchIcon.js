@@ -11,7 +11,14 @@ export default function SearchIcon({ mapOpen, setMapOpen }) {
       <button className="search-icon-btn search-icon-btnContact" onClick={toggleMap}>
         <img 
           src="https://yogibo.openhost.cafe24.com/yogico/img/icon/icon_map.png"
+          className="searchWhite"
           alt="Search map"
+        />
+         <img 
+          className="searchBlack"
+          src="https://yogibo.openhost.cafe24.com/yogico/img/icon/icon_map_black.png"
+          alt="Search map"
+          style={{display:'none'}}
         />
       </button>
 
