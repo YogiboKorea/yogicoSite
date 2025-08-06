@@ -1,224 +1,260 @@
-// components/sections/Section1.jsx
 'use client';
 
-import React from 'react';
+import React, { useContext } from 'react';
 import Link from 'next/link';
+import { LanguageContext } from '@/contexts/LanguageContext';
 import './NewsSection_02.css';
 
 export default function Section1({ id = 'news' }) {
+  const { lang } = useContext(LanguageContext);
+
   const newsItems = [
     {
       id: 1,
       imgSrc: 'https://yogibo.openhost.cafe24.com/yogico/img/banner/HDC%EC%98%81%EC%B0%BD.png',
-      title: 'Family Month Concert with HDC Youngchang and Yogibo',
-      excerpt:
+      title_en: 'Family Month Concert with HDC Youngchang and Yogibo',
+      excerpt_en:
         'HDC Youngchang and Yogibo stage Family Month event May 10–18, 2025 at Hanam Starfield, showcasing new 2025 Kurzweil pianos with Yogibo relaxation zones; opening day features K-pop and jazz.',
+      title_ko: 'HDC 영창과 요기보의 패밀리 먼스 콘서트',
+      excerpt_ko:
+        'HDC 영창과 요기보가 2025년 5월 10일부터 18일까지 하남 스타필드에서 패밀리 먼스 행사를 개최합니다. 2025년형 커츠와일 피아노와 요기보 휴식 존을 선보이며, 첫날에는 K-팝과 재즈 공연이 열립니다.',
       link: 'https://www.mk.co.kr/news/business/11310368',
     },
     {
       id: 2,
       imgSrc: 'https://yogibo.kr/yogico/img/banner/봄꽃.jpg',
-      title: 'Discover the Unique Beauty of Seoul at 2024 Beauty Travel Week',
-      excerpt:
+      title_en: 'Discover the Unique Beauty of Seoul at 2025 Beauty Travel Week',
+      excerpt_en:
         'Yogibo, the global beanbag brand, sponsored the 2025 Yeouido Spring Flower Festival in Yeongdeungpo held from April 4 to 8. As an official supporter, Yogibo offered special programs and branded relaxation zones during the festival.',
+      title_ko: '2025 서울 뷰티 트래블 위크에서 서울의 매력을 경험하세요',
+      excerpt_ko:
+        '글로벌 빈백 브랜드 요기보가 2025년 4월 4일부터 8일까지 영등포 여의도 봄꽃 축제를 공식 후원했습니다. 요기보는 특별 프로그램과 브랜드 휴식 존을 제공하여 방문객에게 편안함을 선사했습니다.',
       link: 'https://www.sisunnews.co.kr/news/articleView.html?idxno=222683',
     },
     {
       id: 3,
       imgSrc: 'https://yogibo.kr/yogico/img/banner/뷰티트래블.jpg',
-      title: 'Yogibo Participates in the 2024 Seoul Beauty Travel Week as a Sponsor.',
-      excerpt:
+      title_en: 'Yogibo Participates in the 2024 Seoul Beauty Travel Week as a Sponsor',
+      excerpt_en:
         'Yogibo is sponsoring the 2024 Seoul Beauty Travel Week, partnering with Haru Meditation to debut a signature beanbag wellness program. Held at Seoul Forest, the event features yoga, music, singing bowls, dance meditations, and exclusive giveaways.',
+      title_ko: '요기보, 2024 서울 뷰티 트래블 위크 공식 후원',
+      excerpt_ko:
+        '요기보가 하루 명상과 협업하여 2024 서울 뷰티 트래블 위크를 공식 후원합니다. 서울숲에서 열리는 행사에는 요가, 음악, 싱잉볼, 댄스 명상과 특별 기념품 증정이 포함됩니다.',
       link: 'http://www.kdpress.co.kr/news/articleView.html?idxno=132087',
     },
     {
       id: 4,
       imgSrc: 'https://yogibo.kr/yogico/img/banner/뷰티트래블2.jpg',
-      title: 'Discover the Unique Beauty of Seoul at 2024 Seoul Beauty Travel Week',
-      excerpt:
-        'The 2024 Seoul Beauty Travel Week runs from September 23 to 29 across Seoul Forest Park and Seongdong‑gu Business Wire, and will feature over 50 parks, galleries, museums, and local shops under the themes of revival, refreshment, and rejuvenation .',
+      title_en: 'Discover the Unique Beauty of Seoul at 2024 Seoul Beauty Travel Week',
+      excerpt_en:
+        'The 2024 Seoul Beauty Travel Week runs from September 23 to 29 across Seoul Forest Park and Seongdong-gu, featuring over 50 parks, galleries, museums, and local shops under themes of revival, refreshment, and rejuvenation.',
+      title_ko: '2024 서울 뷰티 트래블 위크에서 서울의 아름다움을 만끽하세요',
+      excerpt_ko:
+        '2024 서울 뷰티 트래블 위크가 9월 23일부터 29일까지 서울숲공원 및 성동구 일대에서 열립니다. 부흥, 상쾌함, 재충전 테마로 50여 개 공원·갤러리·박물관·로컬샵이 참여합니다.',
       link: 'https://www.businesswire.com/news/home/20240919559349/en/Discover-the-Unique-Beauty-of-Seoul-at-2024-Seoul-Beauty-Travel-Week',
-    }
-    ,
+    },
     {
       id: 56,
       imgSrc: 'https://yogibo.kr/yogico/img/banner/보스이미지.jpg',
-      title: 'Bose Offers a Unique Experience in the Brand Zone at the Beenzino Concert.',
-      excerpt:
-        'At Beenzino’s sold-out concert, Bose hosted a cinema-style booth streaming exclusive videos and unreleased audio on its speakers cnet.co.kr. Fans who shared on Instagram could win signed CDs and Bose headphones',
+      title_en: 'Bose Offers a Unique Experience in the Brand Zone at the Beenzino Concert',
+      excerpt_en:
+        'At Beenzino’s sold-out concert, Bose hosted a cinema-style booth streaming exclusive videos and unreleased audio on its speakers. Fans who shared on Instagram could win signed CDs and Bose headphones.',
+      title_ko: '비지노 콘서트 브랜드 존에서 보스의 특별 경험 제공',
+      excerpt_ko:
+        '비지노 매진 콘서트에서 보스는 시네마 스타일 부스를 운영하며 독점 영상과 미공개 오디오를 스피커로 스트리밍했습니다. 인스타그램 공유 고객에게는 사인 CD와 보스 헤드폰을 증정했습니다.',
       link: 'https://www.businesswire.com/news/home/20240919559349/en/Discover-the-Unique-Beauty-of-Seoul-at-2024-Seoul-Beauty-Travel-Week',
-    }
-    ,
+    },
     {
       id: 41,
       imgSrc: 'https://yogibo.kr/yogico/img/banner/신세계팝.png',
-      title: 'Gwangju Shinsegae Operates a Global Lifestyle Yogibo Experience Zone.',
-      excerpt:
-        'Gwangju Shinsegae is hosting a Yogibo experience zone in its main building plaza from June 18 to 30 under the “Perfect Relaxation, Yogibo Therapy” theme, offering premium beanbags and body pillows amid soothing aroma therapy sessions . Visitors can also enjoy natural herb cold/hot packs, try signature products like the Yogibo Max for free, and inquire about purchases at the B1 Yogibo store—an initiative driven by high satisfaction since the store’s March opening',
+      title_en: 'Gwangju Shinsegae Operates a Global Lifestyle Yogibo Experience Zone',
+      excerpt_en:
+        'Gwangju Shinsegae is hosting a Yogibo experience zone in its main plaza from June 18 to 30 under the “Perfect Relaxation, Yogibo Therapy” theme, offering premium beanbags and body pillows amid soothing aroma therapy sessions.',
+      title_ko: '광주 신세계, 요기보 글로벌 체험존 운영',
+      excerpt_ko:
+        '광주 신세계가 6월 18일부터 30일까지 “완벽한 휴식, 요기보 테라피”를 주제로 메인 광장에서 프리미엄 빈백과 바디필로우를 제공하며 아로마 테라피 세션을 진행합니다.',
       link: 'https://view.asiae.co.kr/article/2024062316474142366',
-    }
-    ,
+    },
     {
       id: 441,
       imgSrc: 'https://yogibo.kr/yogico/img/banner/img_yogicorporation2.jpg',
-      title: 'Yogi Corporation Signs Filling Material Supply Agreement with Beanbag Brand Bonita.',
-      excerpt:
-        'Yogi Corporation, Yogibo’s Korean distributor, will supply High Resilience Foam (HRF) to beanbag maker Bonita First-Clas HRF provides superior durability, elasticity and resilience to boost product quality First-Class ',
+      title_en: 'Yogi Corporation Signs Filling Material Supply Agreement with Bonita',
+      excerpt_en:
+        'Yogi Corporation, Yogibo’s Korean distributor, will supply High Resilience Foam (HRF) to beanbag maker Bonita. First-Class HRF provides superior durability, elasticity and resilience to boost product quality.',
+      title_ko: '요기 코퍼레이션, 보니타에 충전재 공급 계약 체결',
+      excerpt_ko:
+        '요기 코퍼레이션(요기보 한국 공식 유통사)이 보니타에 고탄성 폼(HRF)을 공급합니다. First-Class HRF는 뛰어난 내구성, 탄성력, 복원력을 제공하여 제품 품질을 향상시킵니다.',
       link: 'https://www.news1.kr/industry/general-industry/5511174',
-    }
-    ,
+    },
     {
       id: 4441,
       imgSrc: 'https://yogibo.kr/yogico/img/banner/뉴스_숙면여행존.jpg',
-      title: 'Yogibo Concludes Sleep Travel Zone in Partnership with S‑Omni.',
-      excerpt:
-        'Yogibo closed its “Sleep Travel Zone” at Hyundai Department Store Pangyo on January 20 with S‑OMNI, featuring the Waseda‑University–validated Yogibo Max and AI sleep coaching via the upcoming SOMNIA app . Over two days, 400 attendees rated it 8/10 or higher, and 98% said they would recommend the experience ',
+      title_en: 'Yogibo Concludes Sleep Travel Zone in Partnership with S-Omni',
+      excerpt_en:
+        'Yogibo closed its “Sleep Travel Zone” at Hyundai Department Store Pangyo on January 20 with S-OMNI, featuring the Waseda-University–validated Yogibo Max and AI sleep coaching via the upcoming SOMNIA app. Over two days, 400 attendees rated it 8/10 or higher, and 98% said they would recommend the experience.',
+      title_ko: '요기보, S-OMNI와 함께 수면 여행존 종료',
+      excerpt_ko:
+        '요기보는 1월 20일 현대백화점 판교점에서 S-OMNI와 함께 “수면 여행존”을 종료했습니다. 와세다대 검증 요기보 맥스와 AI 수면 코칭을 제공했으며, 2일간 400명 중 98%가 추천 의사를 밝혔습니다.',
       link: 'https://www.ajunews.com/view/20240125161636889',
-    }
-    ,
-
-
-
-    ,
+    },
     {
       id: 444431,
       imgSrc: 'https://yogibo.kr/yogico/img/banner/스카이-요기보존.jpg',
-      title: 'Seongnam FC Opens SKY Yogibo Zone at October 7 Home Match!',
-      excerpt:
-        'Seongnam FC opened a “SKY Yogibo Zone” at its October 7 home match vs. Chungnam Asan at Tancheon Stadium, featuring Yogibo Zoola beanbag sofas in 2‑ and 3‑person seats and offered complimentary Yogibo accessories to fans using the zone',
+      title_en: 'Seongnam FC Opens SKY Yogibo Zone at October 7 Home Match!',
+      excerpt_en:
+        'Seongnam FC opened a “SKY Yogibo Zone” at its October 7 home match vs. Chungnam Asan at Tancheon Stadium, featuring Yogibo Zoola beanbag sofas and complimentary Yogibo accessories for fans.',
+      title_ko: '성남 FC, 10월 7일 홈경기서 SKY 요기보 존 오픈',
+      excerpt_ko:
+        '성남 FC가 10월 7일 탄천종합운동장에서 열린 충남 아산전 홈경기에서 “SKY 요기보 존”을 오픈했습니다. 요기보 주라 빈백 소파와 팬에게 무료 액세서리를 제공했습니다.',
       link: 'https://www.interfootball.co.kr/news/articleView.html?idxno=615321',
-    }
-    ,
-
-
-
-    ,
+    },
     {
       id: 23423,
       imgSrc: 'https://yogibo.kr/yogico/img/banner/보코서울강남.jpg',
-      title: 'Boco Seoul Gangnam Offers “Camping with Yogibo” Package in Collaboration with Premium Beanbag Brand Yogibo',
-      excerpt:
-        'IHG’s voco Seoul Gangnam introduces a “Camping with Yogibo” package transforming its Royal and Presidential suites into urban glamping zones with Yogibo Zoola loungers, private pool, projector & screen, and in‑room Camp Set dining services',
+      title_en: 'Boco Seoul Gangnam Offers “Camping with Yogibo” Package',
+      excerpt_en:
+        'IHG’s voco Seoul Gangnam introduces a “Camping with Yogibo” package, transforming suites into urban glamping zones with Yogibo Zoola loungers, private pool, projector, and in-room Camp Set dining.',
+      title_ko: '보코 서울 강남, “요기보 캠핑” 패키지 선보여',
+      excerpt_ko:
+        '보코 서울 강남이 “요기보 캠핑” 패키지를 선보입니다. 요기보 주라 라운저, 전용 수영장, 프로젝터 및 인룸 캠프 세트 식사를 제공합니다.',
       link: 'https://www.cooknchefnews.com/news/view/1065573194725085',
-    }
-    ,
-
-
-    ,
+    },
     {
       id: 23423423,
       imgSrc: 'https://yogibo.kr/yogico/img/banner/노블레스-수현.jpg',
-      title: 'Marriage Information Company Noblesse Suhyun Partners with Lifestyle Brand Yogibo.',
-      excerpt:
-        'oco Seoul Gangnam’s “Camping with Yogibo” package turns its Royal and Presidential suites into urban glamping zones, complete with private pools, mini kitchens, Yogibo Zoola loungers, Nordèn kids tents, and in‑room Camp Set dining',
+      title_en: 'Noblesse Suhyun Partners with Lifestyle Brand Yogibo',
+      excerpt_en:
+        'Marriage Information Company Noblesse Suhyun partners with Yogibo to offer premium beanbag experiences and curated relationship services.',
+      title_ko: '노블레스수현, 라이프스타일 브랜드 요기보와 파트너십',
+      excerpt_ko:
+        '결혼정보회사 노블레스수현이 요기보와 파트너십을 체결하여 프리미엄 빈백 체험과 맞춤형 결혼 상담 서비스를 제공합니다.',
       link: 'https://www.cooknchefnews.com/news/view/1065573194725085',
-    }
-    
-    ,
+    },
     {
       id: 324,
       imgSrc: 'https://yogibo.kr/yogico/img/banner/창원LG세이커스.jpg',
-      title: 'Yogibo Strengthens Winter Sports Collaborations.',
-      excerpt:
-        'Yogibo teamed with Changwon LG Sakers for the 2022–23 KBL season, renaming family seating “Yogibo Seats” and installing Drop sofas and Support body pillows in burgundy and yellow to match team colors . It also maintains its “lying‑view” collaboration with Wonju DB Promy from the previous season',
+      title_en: 'Yogibo Strengthens Winter Sports Collaborations',
+      excerpt_en:
+        'Yogibo teamed with Changwon LG Sakers for the 2022–23 KBL season, installing branded seating and drop sofas in team colors; continued partnership with Wonju DB Promy.',
+      title_ko: '요기보, 겨울 스포츠 협업 강화',
+      excerpt_ko:
+        '요기보가 2022–23 KBL 시즌 창원 LG 세이커스와 협업하여 팀 컬러 빈백 좌석과 드롭 소파를 설치했습니다. 원주 DB 프로미와도 파트너십을 이어갑니다.',
       link: 'https://sports.khan.co.kr/article/202301061228003?pt=nv',
-    }
-    ,
-
-    ,
+    },
     {
       id: 32443,
       imgSrc: 'https://yogibo.kr/yogico/img/banner/어썸피플.jpg',
-      title: 'Yogibo Strengthens Winter Sports Collaborations.',
-      excerpt:
-        'Yogibo’s Awesome People campaign invites pregnancy & childbirth stories to raise low birth rate awareness and support mothers . All entrants receive a ₩10,000 voucher; winners get a Yogibo Mom Set and extra gifts for video interviews',
+      title_en: 'Yogibo’s Awesome People Campaign Supports Mothers',
+      excerpt_en:
+        'Yogibo’s Awesome People campaign invites pregnancy & childbirth stories to raise awareness of low birth rates. Participants receive vouchers; winners get Yogibo Mom Sets and additional gifts.',
+      title_ko: '요기보 Awesome People 캠페인으로 엄마 지원',
+      excerpt_ko:
+        '요기보의 Awesome People 캠페인이 출산 이야기를 모집하여 저출산 문제를 알립니다. 참가자 전원에게 바우처를, 우승자에게 요기보 맘 세트와 선물을 증정합니다.',
       link: 'https://www.babytimes.co.kr/news/articleView.html?idxno=61578',
-    }
-    ,
+    },
     {
       id: 123123,
       imgSrc: 'https://yogibo.kr/yogico/img/banner/img_news_modju.jpg',
-      title: 'Yogibo Launches ‘Modju’ Modular Sofa in Korea.',
-      excerpt:
-        'Yogibo launched its Modju modular sofa in Korea on January 10, offering Base, Top, and Corner modules in six colors for thousands of configurations . Each lightweight (<9 kg), zero‑scratch module adapts to changing spaces and lifestyles  . Available online from January 10 and in official stores from January 17',
+      title_en: 'Yogibo Launches ‘Modju’ Modular Sofa in Korea',
+      excerpt_en:
+        'Yogibo launched its Modju modular sofa in Korea on January 10, featuring configurable Base, Top, and Corner modules. Online sales began January 10; in-store from January 17.',
+      title_ko: '요기보, 한국에 모듈형 소파 ‘Modju’ 출시',
+      excerpt_ko:
+        '요기보가 1월 10일 한국에 모듈형 소파 Modju를 출시했습니다. 베이스, 탑, 코너 모듈로 구성되며, 온라인 판매는 10일부터, 매장 판매는 17일부터 시작됩니다.',
       link: 'https://www.edaily.co.kr/news/read?newsId=02010646632196408&mediaCodeNo=257&OutLnkChk=Y',
-    }
-    ,
-
+    },
     {
       id: 123143523,
       imgSrc: 'https://yogibo.kr/yogico/img/banner/유연석.jpg',
-      title: 'Yogibo Selects Actor Yoo Yeon‑seok as Official Brand Model.',
-      excerpt:
-        'Yogibo appointed actor Yoo Yeon‑seok as its official Korean model on December 10, 2021, kicking off a three‑part omnibus ad campaign emphasizing comfort, convenience, and design . Starting December 17, customers will receive one of three limited “Video Photo Cards” at random and enjoy extra discounts on the “Max” sofa ',
+      title_en: 'Yogibo Selects Actor Yoo Yeon-seok as Official Brand Model',
+      excerpt_en:
+        'Yogibo appointed Yoo Yeon-seok as its official Korean model on December 10, 2021. A special ad campaign launched December 17 with collectible video photo cards and Max sofa discounts.',
+      title_ko: '요기보, 배우 유연석을 공식 모델로 선정',
+      excerpt_ko:
+        '요기보가 2021년 12월 10일 배우 유연석을 공식 한국 모델로 선정했습니다. 12월 17일 캠페인과 영상 포토카드, 맥스 소파 할인 이벤트가 시작되었습니다.',
       link: 'https://www.segyebiz.com/newsView/20211210508236?OutUrl=naver',
-    }
-    ,
-
-
+    },
     {
       id: 234234,
       imgSrc: 'https://yogibo.kr/yogico/img/banner/드류베리모어.jpg',
-      title: 'Yogibo Selects Hollywood Actress Drew Barrymore as Brand Advertising Model.',
-      excerpt:
-        'Lifestyle brand Yogibo has signed Hollywood star Drew Barrymore as its advertising model; its first commercial—a playful parody of The Drew Barrymore Show—debuted on November 17. A longtime Yogibo fan who’s used the products with her two daughters, Barrymore praised the brand’s commitment to comfort and happiness and expressed her delight at the partnership',
+      title_en: 'Yogibo Selects Hollywood Actress Drew Barrymore as Brand Advertising Model',
+      excerpt_en:
+        'Yogibo signed Drew Barrymore as its advertising model; its first commercial—a playful parody of The Drew Barrymore Show—debuted on November 17.',
+      title_ko: '요기보, 드류 베리모어를 광고 모델로 기용',
+      excerpt_ko:
+        '요기보가 할리우드 배우 드류 베리모어를 광고 모델로 기용했습니다. 첫 번째 광고는 11월 17일 드류 베리모어 쇼 패러디로 공개되었습니다.',
       link: 'https://www.segyebiz.com/newsView/20211118516199?OutUrl=naver',
-    }
-    ,
+    },
     {
       id: 34234,
       imgSrc: 'https://yogibo.kr/yogico/img/banner/img_news_런칭.jpg',
-      title: 'Yogibo Launches Hybrid Beanbag Sofa.',
-      excerpt:
-        'On November 8, 2021, Yogibo launched a hybrid beanbag sofa featuring a patented, second‑generation filling that offers 9–10× the durability of EPS and 5–7× that of EPP, dramatically extending refill cycles  . Purchases made through November 22 at official stores and Yogibo Mall include one free repair service ',
+      title_en: 'Yogibo Launches Hybrid Beanbag Sofa',
+      excerpt_en:
+        'On November 8, 2021, Yogibo launched a hybrid beanbag sofa featuring a patented filling with 9–10× the durability of EPS and 5–7× that of EPP.',
+      title_ko: '요기보, 하이브리드 빈백 소파 출시',
+      excerpt_ko:
+        '2021년 11월 8일 요기보가 특허 충전재를 적용한 하이브리드 빈백 소파를 출시했습니다. EPS 대비 9–10배, EPP 대비 5–7배 내구성을 제공합니다.',
       link: 'https://www.segyebiz.com/newsView/20211108508168',
-    }
-    ,
-
+    },
     {
       id: 23422334,
       imgSrc: 'https://yogibo.kr/yogico/img/banner/img_news_kakaofriends.jpg',
-      title: 'Yogibo Officially Launches Kakao Friends Edition.',
-      excerpt:
-        'Yogibo’s Kakao Friends Edition marks the brand’s second official licensing collaboration—following its 2020 Disney Star Wars Special Edition—and features themed beanbag sofas and body pillows adorned with beloved Kakao Friends characters',
+      title_en: 'Yogibo Officially Launches Kakao Friends Edition',
+      excerpt_en:
+        'Yogibo’s Kakao Friends Edition—its second official licensing collaboration—features beanbag sofas and pillows adorned with popular Kakao Friends characters.',
+      title_ko: '요기보, 카카오프렌즈 에디션 공식 출시',
+      excerpt_ko:
+        '요기보의 두 번째 공식 라이선스 협업 카카오프렌즈 에디션이 출시되었습니다. 인기 캐릭터가 적용된 빈백 소파와 쿠션을 선보입니다.',
       link: 'https://www.discoverynews.kr/news/articleView.html?idxno=654877',
-    }
-    ,
+    },
     {
       id: 3243,
       imgSrc: 'https://yogibo.kr/yogico/img/banner/img_yogicorporation.jpg',
-      title:'Yogibo Korea Changes Company Name to Yogi Corporation.',
-      excerpt: 'Yogi Korea rebrands as Yogi Corporation, evolving into a smart lifestyle platform with AI‑powered home‑furnishing recommendations. Founded in July 2016, it leads the beanbag sofa market with washable, convertible designs and patented hybrid filling ',
+      title_en: 'Yogibo Korea Changes Company Name to Yogi Corporation',
+      excerpt_en:
+        'Yogi Korea rebrands as Yogi Corporation, evolving into a smart lifestyle platform with AI-powered home-furnishing recommendations. Founded in July 2016, it leads the beanbag sofa market.',
+      title_ko: '요기보 코리아, 사명 요기 코퍼레이션으로 변경',
+      excerpt_ko:
+        '요기보 코리아가 사명을 요기 코퍼레이션으로 변경하고 AI 홈 퍼니싱 추천을 제공하는 스마트 라이프스타일 플랫폼으로 진화합니다. 2016년 7월 설립되어 빈백 소파 시장을 선도하고 있습니다.',
       link: 'https://www.news2day.co.kr/article/20210602500064',
-    }
-    ,
-
+    },
     {
       id: 23423425,
       imgSrc: 'https://yogibo.kr/yogico/img/banner/img_news_인천면세점 copy.jpg',
-      title:'Yogibo Korea Changes Company Name to Yogi Corporation.',
-      excerpt: 'Yogibo opened its first duty‑free shop at Hyundai Duty Free in Incheon Airport Terminal 1 on December 1, offering premium beanbag sofas, travel‑ready cover sets, character plush toys, body pillows, and portable travel accessories  . The compact cover sets, exclusive to this location, reduce volume for easy packing and self‑assembly upon arrival  ',
+      title_en: 'Yogibo Opens First Duty-Free Shop at Incheon Airport',
+      excerpt_en:
+        'Yogibo opened its first duty-free shop at Hyundai Duty Free in Incheon Airport Terminal 1 on December 1, offering premium beanbag sofas, travel cover sets, character plush toys, body pillows, and portable accessories.',
+      title_ko: '요기보, 인천공항 면세점 1호점 오픈',
+      excerpt_ko:
+        '요기보가 12월 1일 인천공항 제1터미널 현대면세점에 첫 면세점을 열었습니다. 프리미엄 빈백 소파, 여행 커버 세트, 캐릭터 인형, 바디필로우, 휴대용 액세서리를 판매합니다.',
       link: 'https://www.kdfnews.com/news/articleView.html?idxno=62132',
-    }
-    ,
-
+    },
   ];
 
   return (
     <section id={id} className="NewsSection_02">
       <div className="NewsSection_02_header">
-        <h1 className="NewsSection_02_title"></h1>
+        <h1 className="NewsSection_02_title">
+          {lang === 'en' ? 'News & Events' : '뉴스 & 이벤트'}
+        </h1>
       </div>
       <div className="NewsSection_02_grid">
         {newsItems.map(item => (
           <div key={item.id} className="NewsSection_02_card">
             <div className="NewsSection_02_image">
-              <img src={item.imgSrc} alt={item.title} />
+              <img
+                src={item.imgSrc}
+                alt={lang === 'en' ? item.title_en : item.title_ko}
+              />
             </div>
-            <h2 className="NewsSection_02_cardTitle">{item.title}</h2>
-            <p className="NewsSection_02_cardExcerpt">{item.excerpt}</p>
+            <h2 className="NewsSection_02_cardTitle">
+              {lang === 'en' ? item.title_en : item.title_ko}
+            </h2>
+            <p className="NewsSection_02_cardExcerpt">
+              {lang === 'en' ? item.excerpt_en : item.excerpt_ko}
+            </p>
             <Link href={item.link} className="NewsSection_02_button">
-            Read full article
+              {lang === 'en' ? 'Read full article' : '전체 기사 보기'}
             </Link>
           </div>
         ))}
