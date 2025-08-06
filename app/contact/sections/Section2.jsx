@@ -2,7 +2,7 @@
 
 import React, { useState, useRef, useContext } from 'react';
 import axios from 'axios';
-import { LanguageContext } from '../contexts/LanguageContext';
+import { LanguageContext } from '@/contexts/LanguageContext';
 import './ContactSection_02.css';
 
 export default function ContactModal({ onClose = () => {} }) {
