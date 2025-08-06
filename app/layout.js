@@ -5,7 +5,7 @@ import { Anton } from 'next/font/google';
 import { Roboto_Condensed } from 'next/font/google';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-
+import { LanguageProvider } from '../contexts/LanguageContext'; 
 const roboto = Roboto_Condensed({
   weight: ['400'],
   subsets: ['latin'],
@@ -43,11 +43,13 @@ export default function RootLayout({ children }) {
         />
       <head />
       <body className="flex flex-col h-full">
+      <LanguageProvider>
         <Navbar />
         <main className="flex-1 w-full overflow-auto">
           {children}
         </main>
         <Footer />
+        </LanguageProvider>
       </body>
     </html>
   );

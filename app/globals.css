@@ -10,7 +10,7 @@
   --foreground: #171717;
   --font-base: 'Roboto Condensed', sans-serif;
 }
-
+.ko{font-family: 'Roboto Condensed', sans-serif !important;}
 /* 3) 테마 블록도 모두 Roboto Condensed 사용 */
 @theme inline {
   --color-background: var(--background);

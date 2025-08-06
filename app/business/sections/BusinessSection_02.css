@@ -1,3 +1,8 @@
+.BusinessSection_02.en .en { display: block; }
+.BusinessSection_02.en .ko { display: none; }
+.BusinessSection_02.ko .ko { display: block; }
+.BusinessSection_02.ko .en { display: none; }
+
 .BusinessSection_02 {
   position: relative;
   width: 100%;

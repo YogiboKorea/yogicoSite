@@ -1,8 +1,8 @@
 'use client';
 
-import React, { useRef, useEffect } from 'react';
+import React, { useContext, useRef, useEffect } from 'react';
 import './BusinessSection_03.css';
-
+import { LanguageContext } from '@/contexts/LanguageContext';
 const partners = [
   { name: 'LOTTE',             src: 'https://yogibo.openhost.cafe24.com/yogico/img/icon/img_01.webp' },
   { name: 'Panasonic',         src: 'https://yogibo.openhost.cafe24.com/yogico/img/icon/img_02.webp' },
@@ -31,19 +31,14 @@ const partners = [
 ];
 
 export default function BusinessSection_03({ id = 'bizSec3' }) {
+  const { lang } = useContext(LanguageContext);
   const ref = useRef(null);
 
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
     const io = new IntersectionObserver(
-      ([e]) => {
-        if (e.isIntersecting) {
-          el.classList.add('play');
-        } else {
-          el.classList.remove('play');
-        }
-      },
+      ([e]) => e.isIntersecting ? el.classList.add('play') : el.classList.remove('play'),
       { rootMargin: '-45% 0px -45% 0px', threshold: 0 }
     );
     io.observe(el);
@@ -51,11 +46,22 @@ export default function BusinessSection_03({ id = 'bizSec3' }) {
   }, []);
 
   return (
-    <section id={id} ref={ref} className="BusinessSection_03">
-      <h2 className="bs3-title">PARTNERS</h2>
-      <p className="bs3-sub">
-      “OUR CLIENTS ARE CALLED AS PARTNERS, NOT CUSTOMERS. BECAUSE THEIR SUCCESS IS OUR SUCCESS.“
-      </p>
+    <section id={id} ref={ref} className={`BusinessSection_03 ${lang}`}>
+      {/* EN */}
+      <div className="en">
+        <h2 className="bs3-title">PARTNERS</h2>
+        <p className="bs3-sub">
+          “OUR CLIENTS ARE CALLED AS PARTNERS, NOT CUSTOMERS. BECAUSE THEIR SUCCESS IS OUR SUCCESS.“
+        </p>
+      </div>
+
+      {/* KO */}
+      <div className="ko">
+        <h2 className="bs3-title">PARTNERS</h2>
+        <p className="bs3-sub">
+          “저희 고객은 단순 고객이 아닌 파트너로 부르며, 그들의 성공이 곧 저희의 성공입니다.“
+        </p>
+      </div>
 
       <div className="bs3-grid">
         {partners.map((p, i) => (
@@ -65,11 +71,7 @@ export default function BusinessSection_03({ id = 'bizSec3' }) {
             style={{ '--delay': `${(i + 1) * 0.05}s` }}
           >
             <div className="bs3-box-content">
-              {p.src ? (
-                <img src={p.src} alt={p.name} loading="lazy" />
-              ) : (
-                <span>{p.name}</span>
-              )}
+              <img src={p.src} alt={p.name} loading="lazy" />
             </div>
           </div>
         ))}

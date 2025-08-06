@@ -1,4 +1,13 @@
 /* 전체 기본 */
+
+/* 기본: en 보이고 ko 숨김 */
+.whoSection_02.en .en { display: block; }
+.whoSection_02.en .ko { display: none; }
+/* ko 모드: ko 보이고 en 숨김 */
+.whoSection_02.ko .ko { display: block; }
+.whoSection_02.ko .en { display: none; }
+
+
 ul li {
   list-style: none;
 }

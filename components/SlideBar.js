@@ -1,8 +1,9 @@
 'use client';
 
-import React from 'react';
+import React, { useContext } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { LanguageContext } from '../contexts/LanguageContext';
 import './Slidebar.css';
 
 const menuItems = [
@@ -10,12 +11,12 @@ const menuItems = [
   { href: '/who', label: 'WHO WE ARE' },
   { href: '/we', label: 'WHAT WE DO' },
   { href: '/news', label: 'NEWS' },
- { href: '/contact', label: 'CONTACT' },
-  
+  { href: '/contact', label: 'CONTACT' },
 ];
 
 export default function Slidebar({ isOpen, onClose }) {
   const pathname = usePathname();
+  const { lang, switchLang } = useContext(LanguageContext);
 
   return (
     <>
@@ -29,6 +30,25 @@ export default function Slidebar({ isOpen, onClose }) {
       <nav className={`slidebar ${isOpen ? 'open' : ''}`} aria-hidden={!isOpen}>
         <div className="inner">
           <header id="header">
+            {/* ─── 언어 선택 버튼 ───────────────────────────────── */}
+            <div className="lang-switcher">
+              <button
+                className={lang === 'en' ? 'active' : ''}
+                onClick={() => switchLang('en')}
+                aria-pressed={lang === 'en'}
+              >
+                EN
+              </button>
+              <button
+                className={lang === 'ko' ? 'active' : ''}
+                onClick={() => switchLang('ko')}
+                aria-pressed={lang === 'ko'}
+              >
+                KO
+              </button>
+            </div>
+
+            {/* 기존 네비게이션 */}
             <nav id="nav">
               <ul onClick={onClose}>
                 {menuItems.map(item => (
@@ -46,15 +66,8 @@ export default function Slidebar({ isOpen, onClose }) {
           </header>
 
           <footer id="footer">
-            <address style={{fontFamily:'Roboto Condensed'}}>
-              #201, 125, Bongeunsa-ro, <br />
-              Gangnam-gu, Seoul, Korea<br />
-            </address>
-
-            <address style={{fontFamily:'Roboto Condensed'}}>
-              +82-10-2880-0721  <br />
-              contact@yogico.kr<br />
-            </address>
+            <address>#201, 125, Bongeunsa-ro, Gangnam-gu, Seoul, Korea</address>
+            <address>+82-10-2880-0721<br/>contact@yogico.kr</address>
           </footer>
         </div>
       </nav>

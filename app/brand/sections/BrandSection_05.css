@@ -1,4 +1,6 @@
 /* ─── SECTION 전체 ─────────────────────────────────── */
+.BrandSection_05.en .ko { display: none; }
+.BrandSection_05.ko .en { display: none; }
 .BrandSection_05 {
   position: relative;
   width: 100%;

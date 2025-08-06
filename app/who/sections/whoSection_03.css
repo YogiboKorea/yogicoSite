@@ -1,5 +1,8 @@
 /* whoSection_03.css – WS2 기준 폰트·간격 커스터마이징 */
-
+.whoSection_03.en .en { display: block; }
+.whoSection_03.en .ko { display: none; }
+.whoSection_03.ko .ko { display: block; }
+.whoSection_03.ko .en { display: none; }
 /* ─── 기본 레이아웃 & 로직 (변경 없음) ───────────────────────────────── */
 .whoSection_03 {
   position: relative;

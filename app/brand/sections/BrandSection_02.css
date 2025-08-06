@@ -1,4 +1,6 @@
 /* BrandSection_02.css */
+.BrandSection_02.en .ps2-text > .ko { display: none; }
+.BrandSection_02.ko .ps2-text > .en { display: none; }
 
 /* ─── 1. 전체 섹션 ───────────────────────────────── */
 .BrandSection_02 {
