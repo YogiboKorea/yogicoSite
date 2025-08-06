@@ -59,9 +59,9 @@ export default function Section1({ id = 'news' }) {
       title_en: 'Bose Offers a Unique Experience in the Brand Zone at the Beenzino Concert',
       excerpt_en:
         'At Beenzino’s sold-out concert, Bose hosted a cinema-style booth streaming exclusive videos and unreleased audio on its speakers. Fans who shared on Instagram could win signed CDs and Bose headphones.',
-      title_ko: '비지노 콘서트 브랜드 존에서 보스의 특별 경험 제공',
+      title_ko: '빈지노 콘서트 브랜드 존에서 보스의 특별 경험 제공',
       excerpt_ko:
-        '비지노 매진 콘서트에서 보스는 시네마 스타일 부스를 운영하며 독점 영상과 미공개 오디오를 스피커로 스트리밍했습니다. 인스타그램 공유 고객에게는 사인 CD와 보스 헤드폰을 증정했습니다.',
+        '빈지노 매진 콘서트에서 보스는 시네마 스타일 부스를 운영하며 독점 영상과 미공개 오디오를 스피커로 스트리밍했습니다. 인스타그램 공유 고객에게는 사인 CD와 보스 헤드폰을 증정했습니다.',
       link: 'https://www.businesswire.com/news/home/20240919559349/en/Discover-the-Unique-Beauty-of-Seoul-at-2024-Seoul-Beauty-Travel-Week',
     },
     {
@@ -92,7 +92,7 @@ export default function Section1({ id = 'news' }) {
       title_en: 'Yogibo Concludes Sleep Travel Zone in Partnership with S-Omni',
       excerpt_en:
         'Yogibo closed its “Sleep Travel Zone” at Hyundai Department Store Pangyo on January 20 with S-OMNI, featuring the Waseda-University–validated Yogibo Max and AI sleep coaching via the upcoming SOMNIA app. Over two days, 400 attendees rated it 8/10 or higher, and 98% said they would recommend the experience.',
-      title_ko: '요기보, S-OMNI와 함께 수면 여행존 종료',
+      title_ko: '요기보, 에스옴니와 함께 수면 여행존 종료',
       excerpt_ko:
         '요기보는 1월 20일 현대백화점 판교점에서 S-OMNI와 함께 “수면 여행존”을 종료했습니다. 와세다대 검증 요기보 맥스와 AI 수면 코칭을 제공했으며, 2일간 400명 중 98%가 추천 의사를 밝혔습니다.',
       link: 'https://www.ajunews.com/view/20240125161636889',
