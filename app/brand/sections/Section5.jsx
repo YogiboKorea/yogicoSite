@@ -21,7 +21,7 @@ export default function BrandSection_05({ id = 'BrandSec5' }) {
         {/* 1st item */}
         <div className="bs5-item">
           <h3 className="bs5-item-title">
-            {lang === 'en' ? 'HYBRID FILLING MATERIAL' : '하이브리드 충전재'}
+            {lang === 'en' ? 'HYBRID FILLING MATERIAL' : 'HYBRID FILLING MATERIAL'}
           </h3>
           <p className="bs5-item-ref">
             {lang === 'en'
@@ -52,7 +52,7 @@ export default function BrandSection_05({ id = 'BrandSec5' }) {
         {/* 2nd item */}
         <div className="bs5-item">
           <h3 className="bs5-item-title">
-            {lang === 'en' ? 'REFILL CAP FOR BEANBAG' : '빈백 리필 캡'}
+            {lang === 'en' ? 'REFILL CAP FOR BEANBAG' : 'REFILL CAP FOR BEANBAG'}
           </h3>
           <p className="bs5-item-ref">
             {lang === 'en'

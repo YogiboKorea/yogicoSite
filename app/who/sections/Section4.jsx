@@ -93,7 +93,7 @@ export default function Section4({ id = 'sec4' }) {
                 alt="한준수 Junsoo Han"
               />
             </div>
-            <h3 className="ws4-name">한준수 / ANALYSIS MANAGER</h3>
+            <h3 className="ws4-name">JUNSOO HAN / ANALYSIS MANAGER</h3>
             <p className="ws4-bio">
               한준수 매니저는 사내, 에이전시, 프리랜서 등 다양한 환경에서 7년 이상의
               마케팅 및 콘텐츠 전략 수립 경험을 보유하고 있습니다. 창의적 실행과 데이터 기반
@@ -109,7 +109,7 @@ export default function Section4({ id = 'sec4' }) {
                 alt="김이현 Ihyeon Kim"
               />
             </div>
-            <h3 className="ws4-name">김이현 / MARKETING DIRECTOR</h3>
+            <h3 className="ws4-name">IHYEON KIM / MARKETING DIRECTOR</h3>
             <p className="ws4-bio">
               김이현 디렉터는 롯데시네마에서 8년을 포함해 11년 이상의 마케팅 및 HRD 경력을
               갖춘 전문가입니다. 마케팅, 디자인, 팀 리더십 역량을 결합해 창의적 실행과
@@ -124,7 +124,7 @@ export default function Section4({ id = 'sec4' }) {
                 alt="이유빈 Yubin Lee"
               />
             </div>
-            <h3 className="ws4-name">이유빈 /  MARKETING MANAGER</h3>
+            <h3 className="ws4-name">YUBIN LEE / MARKETING MANAGER</h3>
             <p className="ws4-bio">
               이유빈 매니저는 콘텐츠 기획·제작 및 디지털 마케팅 분야에서 4년 이상의 경험을
               보유한 다재다능한 전문가입니다. 트렌드 중심의 실행, 성과 분석, 캠페인 관리로

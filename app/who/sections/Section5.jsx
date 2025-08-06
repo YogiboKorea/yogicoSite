@@ -55,6 +55,7 @@ export default function Section05({ id = 'sec5' }) {
               His technical skills include proficiency in SAP, QuickBooks, Kronos, MS Dynamics 365 and
               other systems.
             </p>
+            <br/>
             <div className="ws5-edu">
               <strong>Education</strong>
               <p>University of Alaska Anchorage B.A. Accounting</p>
@@ -78,6 +79,7 @@ export default function Section05({ id = 'sec5' }) {
               Kolon Industries, Prada Group, and GS Retail demonstrate his ability to drive
               growth, manage large teams, and execute omni-channel strategies.
             </p>
+            <br/>
             <div className="ws5-edu">
               <strong>Education</strong>
               <p>Yonsei University, MBA</p>
@@ -101,6 +103,7 @@ export default function Section05({ id = 'sec5' }) {
               His strengths include ERP implementation, SCM optimization, flagship store launches,
               and a robust network within the sports brand ecosystem.
             </p>
+            <br/>
             <div className="ws5-edu">
               <strong>Education</strong>
               <p>Yonsei University, B.A. Textile &amp; Clothing</p>
@@ -128,12 +131,13 @@ export default function Section05({ id = 'sec5' }) {
                 alt="박호진 Hojin Park"
               />
             </div>
-            <h3 className="ws5-name">박호진 / 공인회계사</h3>
+            <h3 className="ws5-name">HOJIN PARK</h3>
             <p className="ws5-bio">
               박호진 자문위원은 미국에서 17년 이상의 회계 경력을 보유한 공인회계사(CPA)입니다.
               공공 및 민간 회계 모두에서 재무 보고, 감사, 세무 신고를 전문으로 하며,
               SAP, QuickBooks, Kronos, MS Dynamics 365 등 다양한 시스템에 능숙합니다.
             </p>
+            <br/>
             <div className="ws5-edu">
               <strong>학력</strong>
               <p>알래스카주립대학교 앵커리지 회계학 학사</p>
@@ -149,13 +153,14 @@ export default function Section05({ id = 'sec5' }) {
                 alt="이훈 Hoon Lee"
               />
             </div>
-            <h3 className="ws5-name">이훈 / 경영 전략가</h3>
+            <h3 className="ws5-name">HOON LEE</h3>
             <p className="ws5-bio">
               이훈 자문위원은 글로벌 리테일 및 소비재 브랜드의 시장 진입, 브랜드
               재포지셔닝, 비즈니스 턴어라운드를 주도한 경력을 보유한 경영 전문가입니다.
               JellyCat, Boardriders, Lululemon, Ralph Lauren, Adidas 등에서 성장을
               이끌었으며, 옴니채널 전략을 성공적으로 실행했습니다.
             </p>
+            <br/>
             <div className="ws5-edu">
               <strong>학력</strong>
               <p>연세대학교 경영전문대학원 MBA</p>
@@ -171,12 +176,13 @@ export default function Section05({ id = 'sec5' }) {
                 alt="김현중 Hyunjoong Kim"
               />
             </div>
-            <h3 className="ws5-name">김현중 / 제품 전략가</h3>
+            <h3 className="ws5-name">HYUNJOONG KIM</h3>
             <p className="ws5-bio">
               김현중 자문위원은 마케팅, 머천다이징, 영업 및 GTM 전략을 아우르는 소비재
               제품 전문가입니다. Adidas, Under Armour, 2XU 등에서 브랜드 혁신을 주도했으며,
               ERP 구현, SCM 최적화, 플래그십 스토어 런칭에 강점을 보유하고 있습니다.
             </p>
+            <br/>
             <div className="ws5-edu">
               <strong>학력</strong>
               <p>연세대학교 섬유·패션학 학사</p>

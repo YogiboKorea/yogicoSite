@@ -88,7 +88,7 @@ export default function Section03({ id = 'sec3' }) {
               <img src="https://yogibo.kr/yogico/step/Y_step_01.png" alt="이재홍 Jay Lee" />
             </div>
             <h3 className="ws3-name">
-              이재홍 / 공동창업자 &amp; COO
+            JAEHONG (Jay) LEE / CO-Founder &amp; COO
             </h3>
             <p className="ws3-bio">
               이재홍 COO는 홍익대학교에서 재료공학을 전공했으며, KCC 연구원으로 11년간
@@ -102,7 +102,7 @@ export default function Section03({ id = 'sec3' }) {
             <div className="ws3-avatar">
               <img src="https://yogibo.kr/yogico/step/Y_step_02.jpg" alt="김경수 Kim" />
             </div>
-            <h3 className="ws3-name">김경수 / CRO</h3>
+            <h3 className="ws3-name">KYUNGSOO KIM / CRO</h3>
             <p className="ws3-bio">
               김경수 CRO는 Wayne State University 화학공학 박사 출신으로, 30년 이상의
               산업 연구 및 기술 개발 경험을 보유하고 있습니다. 학계와 산업계를 아우르는
@@ -115,7 +115,7 @@ export default function Section03({ id = 'sec3' }) {
             <div className="ws3-avatar">
               <img src="https://yogibo.kr/yogico/step/Y_step_03.png" alt="홍덕희 Tim Hong" />
             </div>
-            <h3 className="ws3-name">홍덕희 / CPO</h3>
+            <h3 className="ws3-name">DUKHEE (TIM) HONG / CPO</h3>
             <p className="ws3-bio">
               홍덕희 CPO는 16년 이상의 재무·운영 전문 경력을 보유하고 있으며, 재무, 인사,
               관리 부문을 이끌어 왔습니다. 비즈니스 성장에 맞춘 효율적이고 확장 가능한
