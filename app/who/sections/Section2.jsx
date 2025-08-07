@@ -57,7 +57,7 @@ export default function Section02({ id = 'sec2' }) {
               <li>
                 <Link href="/we#sec8">Business Consulting and Development</Link>
               </li>
-              <li>
+              <li style={{marginBottom:'0px;'}}>
                 <Link href="/we/#hoe2">Brand Management Business</Link>
               </li>
               <br/>
