@@ -234,9 +234,6 @@ export default function Section1({ id = 'news' }) {
   return (
     <section id={id} className="NewsSection_02">
       <div className="NewsSection_02_header">
-        <h1 className="NewsSection_02_title">
-          {lang === 'en' ? 'News & Events' : '뉴스 & 이벤트'}
-        </h1>
       </div>
       <div className="NewsSection_02_grid">
         {newsItems.map(item => (

@@ -60,7 +60,8 @@ export default function Section02({ id = 'sec2' }) {
               <li>
                 <Link href="/we/#hoe2">Brand Management Business</Link>
               </li>
-              <li style={{ color: '#fff' }}>
+              <br/>
+              <li style={{ color: '#fff',margin:'0px;'}}>
                 "WE DON'T JUST TALK.<br className="br"/> WE GET THINGS DONE"
               </li>
             </ul>
