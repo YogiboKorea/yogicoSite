@@ -9,6 +9,19 @@ export default function Section1({ id = 'news' }) {
   const { lang } = useContext(LanguageContext);
 
   const newsItems = [
+
+    {
+      id: 14,
+      imgSrc: 'https://yogibo.openhost.cafe24.com/yogico/img/banner/yogi_banner3.png',
+      title_en: '"Significant synergies are expected by leveraging Busan Port and Israeli networks."',
+      excerpt_en:
+        'Yogi Corporation CEO Park Dae-jin said leveraging Busan Port and Israeli networks could create major synergies, prompting bilateral cooperation to expand exports and investment.',
+      title_ko: '“부산 항만·이스라엘 네트워크 활용 땐 시너지 클 것”',
+      excerpt_ko:
+        '요기코퍼레이션 박대진 대표는 부산 항만과 이스라엘 네트워크 연계로 큰 시너지가 가능하다며 양국 협력을 통해 수출·투자 등 사업 확장을 모색한다고 밝혔다.',
+      link: 'https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=2100&key=20210531.22021008370 ',
+    },
+
     {
       id: 1,
       imgSrc: 'https://yogibo.openhost.cafe24.com/yogico/img/banner/HDC%EC%98%81%EC%B0%BD.png',
