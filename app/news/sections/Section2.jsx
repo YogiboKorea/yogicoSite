@@ -10,6 +10,20 @@ export default function Section1({ id = 'news' }) {
 
   const newsItems = [
 
+
+    {
+      id: 142,
+      imgSrc: 'https://yogibo.openhost.cafe24.com/yogico/img/banner/20250822.png',
+      title_en: '"Yogibo Opens Pop-Up Store at The Hyundai Seoul, Showcases Relaxation Experience Space.',
+      excerpt_en:
+        'Global beanbag-sofa brand Yogibo has opened a pop-up store on the 5th floor of The Hyundai Seoul. (Running from today through the 7th of next month.) Visitors can try Yogibo products in exhibition and relaxation zones and take part in on-site promotions.',
+      title_ko: '요기보, 더현대 서울 팝업스토어 오픈… 휴식 체험 공간 선보여',
+      excerpt_ko:
+        '글로벌 빈백 소파 브랜드 요기보가 더현대 서울 5층에 팝업스토어를 열었다. (운영: 오늘부터 내달 7일까지) 방문객은 제품 전시·휴식 체험 공간과 현장 프로모션을 경험할 수 있다',
+      link: 'https://www.nbntv.co.kr/news/articleView.html?idxno=4007351 ',
+    },
+
+
     {
       id: 14,
       imgSrc: 'https://yogibo.openhost.cafe24.com/yogico/img/banner/yogi_banner3.png',
