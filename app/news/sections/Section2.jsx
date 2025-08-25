@@ -13,7 +13,7 @@ export default function Section1({ id = 'news' }) {
 
     {
       id: 142,
-      imgSrc: 'https://yogibo.openhost.cafe24.com/yogico/img/banner/20250822.png',
+      imgSrc: 'https://yogibo.openhost.cafe24.com/yogico/img/banner/banner_002_0825.png',
       title_en: '"Yogibo Opens Pop-Up Store at The Hyundai Seoul, Showcases Relaxation Experience Space.',
       excerpt_en:
         'Global beanbag-sofa brand Yogibo has opened a pop-up store on the 5th floor of The Hyundai Seoul. (Running from today through the 7th of next month.) Visitors can try Yogibo products in exhibition and relaxation zones and take part in on-site promotions.',
@@ -26,7 +26,7 @@ export default function Section1({ id = 'news' }) {
 
     {
       id: 14,
-      imgSrc: 'https://yogibo.openhost.cafe24.com/yogico/img/banner/yogi_banner3.png',
+      imgSrc: 'https://yogibo.openhost.cafe24.com/yogico/img/banner/banner_001_0825.png',
       title_en: '"Significant synergies are expected by leveraging Busan Port and Israeli networks."',
       excerpt_en:
         'Yogi Corporation CEO Park Dae-jin said leveraging Busan Port and Israeli networks could create major synergies, prompting bilateral cooperation to expand exports and investment.',
@@ -265,6 +265,7 @@ export default function Section1({ id = 'news' }) {
       <div className="NewsSection_02_grid">
         {newsItems.map(item => (
           <div key={item.id} className="NewsSection_02_card">
+            <Link href={item.link} >
             <div className="NewsSection_02_image">
               <img
                 src={item.imgSrc}
@@ -277,8 +278,6 @@ export default function Section1({ id = 'news' }) {
             <p className="NewsSection_02_cardExcerpt">
               {lang === 'en' ? item.excerpt_en : item.excerpt_ko}
             </p>
-            <Link href={item.link} className="NewsSection_02_button">
-              {lang === 'en' ? 'Read full article' : '전체 기사 보기'}
             </Link>
           </div>
         ))}
