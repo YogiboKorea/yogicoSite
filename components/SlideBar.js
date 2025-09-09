@@ -67,7 +67,7 @@ export default function Slidebar({ isOpen, onClose }) {
 
           <footer id="footer">
             <address>#201, 125, Bongeunsa-ro, Gangnam-gu, Seoul, Korea</address>
-            <address>+82-10-2880-0721<br/>contact@yogico.kr</address>
+            {/* <address>+82-10-2880-0721<br/>contact@yogico.kr</address> */}
           </footer>
         </div>
       </nav>

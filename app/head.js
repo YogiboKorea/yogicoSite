@@ -5,12 +5,15 @@ export default function Head() {
         {/* 기본 메타 */}
         <title>YOGI CORPORATION</title>
         <meta
-          name="description"
-          content="브랜드와 관련 기술 개발을 통해 국내외 라이프스타일 시장을 변화시킵니다."
+        name="description"
+        content="브랜드와 관련 기술 개발을 통해 국내외 라이프스타일 시장을 변화시킵니다."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
-  
+        <meta property="og:title" content="요기코퍼레이션" />
+        <meta property="og:description" content="요기코퍼레이션" />
+        <meta property="og:url" content="https://yogico.kr/" />
+
         {/* 검색엔진 인증 */}
         <meta
           name="google-site-verification"
