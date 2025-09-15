@@ -100,9 +100,10 @@ export default function Section02({ id = 'sec2' }) {
               and export to build a portfolio of lifestyle brands.<br/><br/>
               David currently serves as CEO of Yogi Corporation, overseeing multiple businesses that reflect his broad experience
               in international business and brand development.<br/><br/>
-              <strong>Education</strong><br/>
-              Hebrew University of Jerusalem B.A. Linguistics<br/>
-              Tel Aviv University M.A. Linguistics
+              {/* <strong>Education</strong><br/> */}
+              <Link href="https://www.linkedin.com/in/koisra/">
+                <img src='https://yogibo.openhost.cafe24.com/yogico/LI-Logo.png' style={{maxWidth:'100px'}}/>
+              </Link>
             </div>
 
             {/* 한글 CEO 설명 */}
