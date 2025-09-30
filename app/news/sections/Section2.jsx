@@ -10,6 +10,19 @@ export default function Section1({ id = 'news' }) {
 
   const newsItems = [
 
+    {
+      id: 213123,
+      imgSrc: 'https://yogibo.openhost.cafe24.com/yogico/img/banner/banner_002_0930.jpg',
+      title_en: '"Yogi Corporation Marks 9th Anniversary with Organizational and Business Restructuring',
+      excerpt_en:
+        'Yogibo’s exclusive distributor in Korea, Yogi Corporation, has restructured its organization and business framework on the occasion of its 9th anniversary. Through this restructuring, the company plans to streamline its system into two main divisions — Brand Operations and Business Development & Consulting — while strengthening its foundation for global market expansion.',
+      title_ko: '요기코퍼레이션, 창립 9주년 맞아 조직·사업 개편',
+      excerpt_ko:
+        '요기보의 국내 총판 기업 요기코퍼레이션이 창립 9주년을 맞아 조직과 사업 구조를 개편했다. 회사는 이번 개편을 통해 브랜드 운영 사업부, 사업개발 및 컨설팅 사업부 두 축으로 체제를 정비하고 글로벌 시장 진출 기반을 강화한다는 계획이다.',
+      link: 'https://www.nbntv.co.kr/news/articleView.html?idxno=4010035 ',
+    },
+
+
 
     {
       id: 142,
