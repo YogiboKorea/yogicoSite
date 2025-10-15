@@ -70,7 +70,7 @@ export default function ContactModal({ onClose = () => {} }) {
         <div className="contact-modal-header">
           <div className="logo-wrapper">
             <img
-              src="https://yogibo.openhost.cafe24.com/yogico/img/icon/coMake2.png"
+              src="/img/coMake2.png"
               alt="Yogi Corporation"
             />
           </div>

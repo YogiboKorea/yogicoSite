@@ -83,7 +83,7 @@ export default function Section02({ id = 'sec2' }) {
             {/* 모바일 전용: 이름 다음에 나오는 이미지 */}
             <div className="ceo-image mobile-inline">
               <img
-                src="/img//img/banner/boss.jpg"
+                src="/img/boss.png"
                 alt="CEO Daejin David Park"
                 loading="lazy"
               />
