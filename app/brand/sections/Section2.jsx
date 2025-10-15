@@ -10,13 +10,13 @@ import { LanguageContext } from '@/contexts/LanguageContext';
 import './BrandSection_02.css';
 
 const IMGS = [
-  'https://yogibo.openhost.cafe24.com/yogico/img/banner/banner_yogibo_01.png',
-  'https://yogibo.kr/web/product/big/202502/61b2d64c466bd82135bba11c08afac36.png',
-  'https://yogibo.kr/web/product/big/202412/1cf4d954f314ad51c5b04b09394bad6b.png',
-  'https://yogibo.kr/web/product/big/202502/68a4304d3420f20611c3114d5eba1255.png',
-  'https://yogibo.kr/web/product/big/202502/60a0fd8e620b53386dd440f4f635e0c1.png',
-  'https://yogibo.kr/web/product/big/202502/52d448cd509dec86ade7d89744677acb.png',
-  'https://yogibo.kr/web/product/big/202502/be77824a51fcf9fda40b49e45450d09e.png',
+  '/img/banner_yogibo_01.png',
+  '/img/banner_yogibo_02.png',
+  '/img/banner_yogibo_03.png',
+  '/img/banner_yogibo_04.png',
+  '/img/banner_yogibo_05.png',
+  '/img/banner_yogibo_06.png',
+  '/img/banner_yogibo_07.png',
 ];
 
 export default function BrandSection_02({ id = 'BrandSec2' }) {

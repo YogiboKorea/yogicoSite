@@ -10,13 +10,13 @@ import { LanguageContext } from '@/contexts/LanguageContext';
 import './BrandSection_03.css';
 
 const IMGS = [
-  'https://yogibo.openhost.cafe24.com/yogico/img/banner/img_001.png',
-  'https://yogibo.openhost.cafe24.com/yogico/img/banner/img_002.png',
-  'https://yogibo.openhost.cafe24.com/yogico/img/banner/img_003.png',
-  'https://yogibo.openhost.cafe24.com/yogico/img/banner/img_004.png',
-  'https://yogibo.openhost.cafe24.com/yogico/img/banner/img_005.png',
-  'https://yogibo.openhost.cafe24.com/yogico/img/banner/img_006.png',
-  'https://yogibo.openhost.cafe24.com/yogico/img/banner/img_007.png',
+  '/img/img_001.png',
+  '/img/img_002.png',
+  '/img/img_003.png',
+  '/img/img_004.png',
+  '/img/img_005.png',
+  '/img/img_006.png',
+  '/img/img_007.png',
 ];
 
 export default function BrandSection_03({ id = 'BrandSec3' }) {
