@@ -20,7 +20,7 @@ ul li {
 /* ===== 상단: 다크 인트로 ===== */
 .intro-section {
   position: relative;
-  background: url('https://yogibo.kr/yogico/img/banner/back.jpg') center / cover no-repeat;
+  background: url('/img/back.jpg') center / cover no-repeat;
   padding: 200px 80px 170px;
   overflow: hidden;
 }

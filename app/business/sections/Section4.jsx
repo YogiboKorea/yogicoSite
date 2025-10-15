@@ -32,13 +32,13 @@ export default function BusinessSection_04({ id = 'bizSec4' }) {
         <div className="bs4-logos">
           <img
             className="bs4-logo yogi"
-            src="https://yogibo.kr/yogico/img/icon/symbol.png"
+            src="/img/symbol.png"
             alt="Yogi"
           />
           <span className="bs4-multiply">×</span>
           <img
             className="bs4-logo"
-            src="https://yogibo.kr/yogico/img/icon/orchesta.png"
+            src="/img/orchesta.png"
             alt="Orchestra"
           />
         </div>
@@ -68,7 +68,7 @@ export default function BusinessSection_04({ id = 'bizSec4' }) {
         <div className="bs4-card_profile">
           <div className="bs4-card_avatar">
             <img
-              src="https://yogibo.openhost.cafe24.com/yogico/img/partners/Nimrod Moyal.png"
+              src="/img//Nimrod Moyal.png"
               alt={lang === 'en' ? 'Nimrod Moyal' : 'Nimrod Moyal'}
             />
           </div>
@@ -115,7 +115,7 @@ export default function BusinessSection_04({ id = 'bizSec4' }) {
         <div className="bs4-card_profile">
           <div className="bs4-card_avatar">
             <img
-              src="https://yogibo.openhost.cafe24.com/yogico/img/partners/Gilad Kroner.png"
+              src="/img//Gilad Kroner.png"
               alt={lang === 'en' ? 'Gilad Kroner' : 'Gilad Kroner'}
             />
           </div>
@@ -183,7 +183,7 @@ export default function BusinessSection_04({ id = 'bizSec4' }) {
         <div className="bs4-card_profile">
           <div className="bs4-card_avatar">
             <img
-              src="https://yogibo.openhost.cafe24.com/yogico/img/partners/Ran Landau.png"
+              src="/img//Ran Landau.png"
               alt={lang === 'en' ? 'Ran Landau' : 'Ran Landau'}
             />
           </div>
