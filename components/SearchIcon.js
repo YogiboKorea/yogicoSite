@@ -10,13 +10,13 @@ export default function SearchIcon({ mapOpen, setMapOpen }) {
       {/* 1) 검색 아이콘 버튼 */}
       <button className="search-icon-btn search-icon-btnContact" onClick={toggleMap}>
         <img 
-          src="https://yogibo.openhost.cafe24.com/yogico/img/icon/icon_map.png"
+          src="/img//icon_map.png"
           className="searchWhite"
           alt="Search map"
         />
          <img 
           className="searchBlack"
-          src="https://yogibo.openhost.cafe24.com/yogico/img/icon/icon_map_black.png"
+          src="/img//icon_map_black.png"
           alt="Search map"
           style={{display:'none'}}
         />
@@ -39,7 +39,7 @@ export default function SearchIcon({ mapOpen, setMapOpen }) {
           <button className="close-btn" onClick={toggleMap} />
           <div className="info-content">
             <img
-              src="https://yogibo.kr/yogico/img/icon/Signature03.png"
+              src="/img/Signature03.png"
               alt="Yogi Corporation"
               className="info-logo"
             />
