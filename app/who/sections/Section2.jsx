@@ -83,7 +83,7 @@ export default function Section02({ id = 'sec2' }) {
             {/* 모바일 전용: 이름 다음에 나오는 이미지 */}
             <div className="ceo-image mobile-inline">
               <img
-                src="/img/boss.png"
+                src="https://yogibo.openhost.cafe24.com/yogico/img/banner/boss.jpg"
                 alt="CEO Daejin David Park"
                 loading="lazy"
               />
@@ -102,7 +102,7 @@ export default function Section02({ id = 'sec2' }) {
               in international business and brand development.<br/>
               {/* <strong>Education</strong><br/> */}
               <Link href="https://www.linkedin.com/in/koisra/">
-                <img src='/img//LI-Logo.webp' style={{maxWidth:'50px',marginLeft:'-10px'}}/>
+                <img src='https://yogibo.openhost.cafe24.com/yogico/LI-Logo.webp' style={{maxWidth:'50px',marginLeft:'-10px'}}/>
               </Link>
             </div>
 
@@ -123,7 +123,7 @@ export default function Section02({ id = 'sec2' }) {
           {/* 데스크탑 전용 이미지 */}
           <div className="ceo-image desktop-only">
             <img
-              src="/img/boss.jpg"
+              src="https://yogibo.kr/yogico/img/banner/boss.jpg"
               alt="CEO Daejin David Park"
               loading="lazy"
             />
