@@ -12,7 +12,7 @@ export default function Section1({ id = 'news' }) {
 
     {
       id: 213123,
-      imgSrc: 'https://yogibo.openhost.cafe24.com/yogico/img/banner/banner_002_0930.jpg',
+      imgSrc: 'https://yogico.cafe24.com/photo/banner_002_0930.jpg',
       title_en: '"Yogi Corporation Marks 9th Anniversary with Organizational and Business Restructuring',
       excerpt_en:
         'Yogibo’s exclusive distributor in Korea, Yogi Corporation, has restructured its organization and business framework on the occasion of its 9th anniversary. Through this restructuring, the company plans to streamline its system into two main divisions — Brand Operations and Business Development & Consulting — while strengthening its foundation for global market expansion.',
