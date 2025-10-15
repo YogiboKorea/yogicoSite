@@ -99,10 +99,10 @@ export default function Section02({ id = 'sec2' }) {
               Expanding his career into the retail sector, he established infrastructure for import, manufacturing, distribution,
               and export to build a portfolio of lifestyle brands.<br/><br/>
               David currently serves as CEO of Yogi Corporation, overseeing multiple businesses that reflect his broad experience
-              in international business and brand development.<br/><br/>
+              in international business and brand development.<br/>
               {/* <strong>Education</strong><br/> */}
               <Link href="https://www.linkedin.com/in/koisra/">
-                <img src='https://yogibo.openhost.cafe24.com/yogico/LI-Logo.png' style={{maxWidth:'100px'}}/>
+                <img src='https://yogibo.openhost.cafe24.com/yogico/LI-Logo.webp' style={{maxWidth:'50px',marginLeft:'-10px'}}/>
               </Link>
             </div>
 

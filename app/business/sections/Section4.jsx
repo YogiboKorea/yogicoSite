@@ -127,7 +127,7 @@ export default function BusinessSection_04({ id = 'bizSec4' }) {
               <>
                 <p>
                   <span className="bs4-card_period">2024 – Present</span> Founder and CEO of
-                  Orchestra Ra’anana Israel
+                  Orchestra
                 </p>
                 <p>
                   <span className="bs4-card_period">2020 – 2024</span> CEO in Naterial, Israel · VP
