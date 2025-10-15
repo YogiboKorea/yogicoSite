@@ -33,7 +33,7 @@ export default function Section03({ id = 'sec3' }) {
           {/* 1 */}
           <article className="ws3-card">
             <div className="ws3-avatar">
-              <img src="https://yogibo.kr/yogico/step/Y_step_01.png" alt="Jaehong (Jay) Lee" />
+              <img src="/img/Y_step_01.png" alt="Jaehong (Jay) Lee" />
             </div>
             <h3 className="ws3-name">
               JAEHONG (Jay) LEE / CO-Founder &amp; COO
@@ -50,7 +50,7 @@ export default function Section03({ id = 'sec3' }) {
           {/* 2 */}
           <article className="ws3-card">
             <div className="ws3-avatar">
-              <img src="https://yogibo.kr/yogico/step/Y_step_02.jpg" alt="Kyungsoo Kim" />
+              <img src="/img/Y_step_02.jpg" alt="Kyungsoo Kim" />
             </div>
             <h3 className="ws3-name">KYUNGSOO KIM / CRO</h3>
             <p className="ws3-bio">
@@ -64,7 +64,7 @@ export default function Section03({ id = 'sec3' }) {
           {/* 3 */}
           <article className="ws3-card">
             <div className="ws3-avatar">
-              <img src="https://yogibo.kr/yogico/step/Y_step_03.png" alt="Dukhee (Tim) Hong" />
+              <img src="/img/Y_step_03.png" alt="Dukhee (Tim) Hong" />
             </div>
             <h3 className="ws3-name">DUKHEE (TIM) HONG / CPO</h3>
             <p className="ws3-bio">
@@ -85,7 +85,7 @@ export default function Section03({ id = 'sec3' }) {
           {/* 1 */}
           <article className="ws3-card">
             <div className="ws3-avatar">
-              <img src="https://yogibo.kr/yogico/step/Y_step_01.png" alt="이재홍 Jay Lee" />
+              <img src="/img/Y_step_01.png" alt="이재홍 Jay Lee" />
             </div>
             <h3 className="ws3-name">
             JAEHONG (Jay) LEE / CO-Founder &amp; COO
@@ -100,7 +100,7 @@ export default function Section03({ id = 'sec3' }) {
           {/* 2 */}
           <article className="ws3-card">
             <div className="ws3-avatar">
-              <img src="https://yogibo.kr/yogico/step/Y_step_02.jpg" alt="김경수 Kim" />
+              <img src="/img/Y_step_02.jpg" alt="김경수 Kim" />
             </div>
             <h3 className="ws3-name">KYUNGSOO KIM / CRO</h3>
             <p className="ws3-bio">
@@ -113,7 +113,7 @@ export default function Section03({ id = 'sec3' }) {
           {/* 3 */}
           <article className="ws3-card">
             <div className="ws3-avatar">
-              <img src="https://yogibo.kr/yogico/step/Y_step_03.png" alt="홍덕희 Tim Hong" />
+              <img src="/img/Y_step_03.png" alt="홍덕희 Tim Hong" />
             </div>
             <h3 className="ws3-name">DUKHEE (TIM) HONG / CPO</h3>
             <p className="ws3-bio">

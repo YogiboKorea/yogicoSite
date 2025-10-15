@@ -43,7 +43,7 @@ export default function Section05({ id = 'sec5' }) {
           <article className="ws5-card">
             <div className="ws5-avatar">
               <img
-                src="https://yogibo.openhost.cafe24.com/yogico/step/Y_a_step_01.png"
+                src="/img/Y_a_step_01.png"
                 alt="Hojin Park"
               />
             </div>
@@ -67,7 +67,7 @@ export default function Section05({ id = 'sec5' }) {
           <article className="ws5-card">
             <div className="ws5-avatar">
               <img
-                src="https://yogibo.openhost.cafe24.com/yogico/step/Y_a_step_03.png"
+                src="/img/Y_a_step_03.png"
                 alt="Hoon Lee"
               />
             </div>
@@ -91,7 +91,7 @@ export default function Section05({ id = 'sec5' }) {
           <article className="ws5-card">
             <div className="ws5-avatar">
               <img
-                src="https://yogibo.openhost.cafe24.com/yogico/step/Y_a_step_02.png"
+                src="/img/Y_a_step_02.png"
                 alt="Hyunjoong Kim"
               />
             </div>
@@ -127,7 +127,7 @@ export default function Section05({ id = 'sec5' }) {
           <article className="ws5-card">
             <div className="ws5-avatar">
               <img
-                src="https://yogibo.openhost.cafe24.com/yogico/step/Y_a_step_01.png"
+                src="/img/Y_a_step_01.png"
                 alt="박호진 Hojin Park"
               />
             </div>
@@ -149,7 +149,7 @@ export default function Section05({ id = 'sec5' }) {
           <article className="ws5-card">
             <div className="ws5-avatar">
               <img
-                src="https://yogibo.openhost.cafe24.com/yogico/step/Y_a_step_03.png"
+                src="/img/Y_a_step_03.png"
                 alt="이훈 Hoon Lee"
               />
             </div>
@@ -172,7 +172,7 @@ export default function Section05({ id = 'sec5' }) {
           <article className="ws5-card">
             <div className="ws5-avatar">
               <img
-                src="https://yogibo.openhost.cafe24.com/yogico/step/Y_a_step_02.png"
+                src="/img/Y_a_step_02.png"
                 alt="김현중 Hyunjoong Kim"
               />
             </div>

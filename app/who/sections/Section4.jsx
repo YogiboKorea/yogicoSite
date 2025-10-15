@@ -34,7 +34,7 @@ export default function Section4({ id = 'sec4' }) {
           <article className="ws4-card">
             <div className="ws4-avatar">
               <img
-                src="https://yogibo.openhost.cafe24.com/yogico/step/Y_s_step_02.png"
+                src="/img/Y_s_step_02.png"
                 alt="Junsoo Han"
               />
             </div>
@@ -50,7 +50,7 @@ export default function Section4({ id = 'sec4' }) {
           <article className="ws4-card">
             <div className="ws4-avatar">
               <img
-                src="https://yogibo.openhost.cafe24.com/yogico/step/Y_s_step_01.png"
+                src="/img/Y_s_step_01.png"
                 alt="Ihyeon Kim"
               />
             </div>
@@ -66,7 +66,7 @@ export default function Section4({ id = 'sec4' }) {
           <article className="ws4-card">
             <div className="ws4-avatar">
               <img
-                src="https://yogibo.openhost.cafe24.com/yogico/step/Y_s_step_03.jpg"
+                src="/img/Y_s_step_03.jpg"
                 alt="Yubin Lee"
               />
             </div>
@@ -89,7 +89,7 @@ export default function Section4({ id = 'sec4' }) {
           <article className="ws4-card">
             <div className="ws4-avatar">
               <img
-                src="https://yogibo.openhost.cafe24.com/yogico/step/Y_s_step_02.png"
+                src="/img/Y_s_step_02.png"
                 alt="한준수 Junsoo Han"
               />
             </div>
@@ -105,7 +105,7 @@ export default function Section4({ id = 'sec4' }) {
           <article className="ws4-card">
             <div className="ws4-avatar">
               <img
-                src="https://yogibo.openhost.cafe24.com/yogico/step/Y_s_step_01.png"
+                src="/img/Y_s_step_01.png"
                 alt="김이현 Ihyeon Kim"
               />
             </div>
@@ -120,7 +120,7 @@ export default function Section4({ id = 'sec4' }) {
           <article className="ws4-card">
             <div className="ws4-avatar">
               <img
-                src="https://yogibo.openhost.cafe24.com/yogico/step/Y_s_step_03.jpg"
+                src="/img/Y_s_step_03.jpg"
                 alt="이유빈 Yubin Lee"
               />
             </div>
