@@ -43,7 +43,7 @@ export default function BrandSection_05({ id = 'BrandSec5' }) {
           </p>
           <div className="bs5-item-img">
             <img
-              src="https://yogibo.openhost.cafe24.com/yogico/img/mainBanner/data1.jpg"
+              src="/img/data1.jpg"
               alt={lang === 'en' ? 'Certificate of Patent' : '특허 증명서'}
             />
           </div>
@@ -74,7 +74,7 @@ export default function BrandSection_05({ id = 'BrandSec5' }) {
           </p>
           <div className="bs5-item-img">
             <img
-              src="https://yogibo.openhost.cafe24.com/yogico/img/icon/d2.png"
+              src="/img/d2.png"
               alt={lang === 'en' ? 'Certificate of Design Registration' : '디자인 등록 증명서'}
             />
           </div>
