@@ -53,7 +53,7 @@ export default function BrandSection_02({ id = 'BrandSec2' }) {
           {lang === 'en' && (
             <>
               <img
-                src="https://yogibo.kr/web/img/icon/new2/main_logo_off.png"
+                src="/img/main_logo_off.png"
                 alt="yogibo"
                 className="ps2-logo"
               />

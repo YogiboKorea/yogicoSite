@@ -42,7 +42,7 @@ export default function BrandSection_03({ id = 'BrandSec3' }) {
           {lang === 'en' && (
             <>
               <img
-                src="//ecimg.cafe24img.com/pg978b90438673018/sallyfeel/web/img/icon/gnb_logo24.png"
+                src="/img/gnb_logo24.png"
                 alt="SallyFeel"
                 className="ps3-logo"
               />
@@ -59,7 +59,7 @@ export default function BrandSection_03({ id = 'BrandSec3' }) {
           {lang === 'ko' && (
             <>
               <img
-                src="//ecimg.cafe24img.com/pg978b90438673018/sallyfeel/web/img/icon/gnb_logo24.png"
+                src="/img/gnb_logo24.png"
                 alt="SallyFeel"
                 className="ps3-logo"
               />
