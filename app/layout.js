@@ -25,7 +25,6 @@ export const metadata = {
   description: '요기코퍼레이션은 브랜드와 기술 개발을 통해 국내외 라이프스타일 시장을 선도합니다. 회사 소개, 주요 서비스, 채용 정보를 확인하세요.',
   viewport: 'width=device-width, initial-scale=1',
   themeColor: '#000000',
-  manifest: '/manifest.json',
   
   // 검색엔진 인증
   verification: {
@@ -41,7 +40,6 @@ export const metadata = {
       { url: '/favicon.ico', type: 'image/x-icon', sizes: '16x16' },
       { url: '/favicon.svg', type: 'image/svg+xml', sizes: 'any' }
     ],
-    apple: '/apple-touch-icon.png', // apple-touch-icon 경로
   },
 
   // Open Graph (소셜 미디어 공유)
