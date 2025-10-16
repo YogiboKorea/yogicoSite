@@ -40,7 +40,7 @@
   content: '';
   position: absolute;
   inset: 0;                    
-  background: url('https://yogibo.openhost.cafe24.com/yogico/img/banner/whatwedo_bg_4.jpg')
+  background: url('/img/whatwedo_bg_4.jpg')
   no-repeat center/cover; 
 }
 

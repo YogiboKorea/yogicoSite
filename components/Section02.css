@@ -13,7 +13,7 @@
   position: relative;
   overflow: hidden;
 
-  background-image: url('https://yogibo.openhost.cafe24.com/yogico/img/banner/home_4_1.jpg');
+  background-image: url('/img/home_4_1.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
