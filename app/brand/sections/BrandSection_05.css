@@ -7,7 +7,7 @@
   padding: 150px 100px 100px;
   
   box-sizing: border-box;
-  background: url('http://yogibo.openhost.cafe24.com/yogico/img/banner/brandBg.jpg') center/cover no-repeat;
+  background: url('/img/brandBg.jpg') center/cover no-repeat;
   color: #fff;
   font-family: 'Roboto Condensed', sans-serif;
 }
