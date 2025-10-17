@@ -47,7 +47,7 @@ export const metadata = {
     type: 'website',
     title: '요기코퍼레이션',
     description: '요기코퍼레이션은 브랜드와 기술 개발을 통해 국내외 라이프스타일 시장을 선도합니다.',
-    url: 'https://yogico.kr/',
+    url: 'https://www.yogico.kr/',
     images: [
       {
         url: '/img/symbol.png', // 절대 경로 또는 전체 URL을 사용하세요.
