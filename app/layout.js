@@ -30,7 +30,7 @@ export const metadata = {
   verification: {
     google: 't6Dvzru0Y2bmv7Q62OpJWPyEo7qDCBTWK1Vg-Wz6NKw',
     other: {
-      'naver-site-verification': '3afd7285280e2ef8b340d6899e132b6d32432a5f',
+      'naver-site-verification': '804cb6654844616998dc629d0e37b3e16f2d4657',
     },
   },
 
