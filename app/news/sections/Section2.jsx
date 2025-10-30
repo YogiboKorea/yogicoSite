@@ -10,6 +10,20 @@ export default function Section1({ id = 'news' }) {
 
   const newsItems = [
 
+    
+    {
+      id: 12312312,
+      imgSrc: '/img/banner_002_1030.png',
+      title_en: '"Special Feature Series by Sports Seoul × International Wellness Association',
+      excerpt_en:
+        'A brand began as a mark seared by fire — a symbol to distinguish oneself from others, a sign of ownership. It served as proof of trust, yet at the same time, it drew boundaries between people.But now, a brand is no longer an external mark. We are moving from an era of outward distinction to one that connects the textures of our inner selves. People no longer give their hearts to brands that merely appear perfect. When a brand — once a symbol of possession — begins to breathe within the rhythm of everyday life, that is when true trust begins.',
+      title_ko: '스포츠서울 × 국제웰니스협회 공동 특집기획시리즈',
+      excerpt_ko:
+        '삶이 브랜드가 될 때 웰니스가 시작된다 - 완벽보다 진심, 소유보다 공존 브랜드는 불로 지진 인장에서 시작됐다. 타인과 나를 구분하고, 소유를 증명하기 위한 표식이었다. 그 표식은 신뢰의 증거였지만, 동시에 사람과 사람 사이의 경계를 만들었다. 그러나 이제 브랜드는 외부의 표시가 아니다. 겉을 구분하던 시대에서, 내면의 결을 이어주는 시대로 옮겨가고 있다. 사람들은 더 이상 완벽하게 보이는 브랜드에 마음을 주지 않는다. 소유의 상징이었던 브랜드가 삶의 리듬 속으로 들어와 함께 숨 쉴 때, 비로소 신뢰가 시작된다.',
+      link: 'https://www.nbntv.co.kr/news/articleView.html?idxno=4010035 ',
+    },
+
+
     {
       id: 213123,
       imgSrc: '/img/banner_002_0930.jpg',

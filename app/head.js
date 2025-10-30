@@ -21,8 +21,8 @@ export default function Head() {
         content="3afd7285280e2ef8b340d6899e132b6d32432a5f"
       />
 
-      <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16" />
-      <link rel="icon" href="/favicon.svg" type="image/svg+xml" sizes="any" />
+      <link rel="icon" href="/yogico.ico" type="image/x-icon" sizes="16x16" />
+      {/* <link rel="icon" href="/favicon.svg" type="image/svg+xml" sizes="any" /> */}
       <link rel="apple-touch-icon" href="/yogico.ico" />
       <link rel="manifest" href="/manifest.json" />
 
