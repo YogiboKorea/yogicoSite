@@ -10,6 +10,21 @@ export default function Section1({ id = 'news' }) {
 
   const newsItems = [
 
+       
+    {
+      id: 213,
+      imgSrc: '/img/20251107.png',
+      title_en: '[Wellness Brand Interview Series] Yogibo Corporation — Embracing Every Mode of Rest: Sitting, Lying, or Leaning',
+      excerpt_en:
+        'Yogibo is a brand that has redefined the concept of “comfortable rest” through its unique bead-filled sofas, body pillows, and other living furniture. With a wide range of color options and flexible forms, Yogibo products can be adapted to any space, offering multiple modes of relaxation—sitting, lying down, or reclining—all in one piece. The brand also stays attuned to emotional consumption trends by launching character collaborations and limited-edition collections.',
+      title_ko: '[웰니스브랜드 연쇄인터뷰] 요기코퍼레이션, 앉기·눕기·기대기 어떤 휴식 모드라도 다 받아준다',
+      excerpt_ko:
+        '요기코퍼레이션 박대진 대표가 말하는 ‘늘 처음처럼’ 오래가는 웰니스 전략 요기보(Yogibo)는 독창적인 비즈(beads) 쿠션을 활용한 소파와 바디필로우 등 리빙 가구를 통해 ‘편안한 휴식’의 개념을 재정의한 브랜드다. 다양한 컬러 옵션과 자유로운 형태로 공간에 맞춰 활용할 수 있으며, 한 제품 안에서 앉기·눕기·기대기의 여러 휴식 모드를 지원한다. 또한 캐릭터 콜라보레이션 제품이나 리미티드 에디션을 통해 감성 소비 트렌드에도 민감하게 반응하고 있다.',
+      link: 'https://n.news.naver.com/article/468/0001192417 ',
+    },
+
+
+
     
     {
       id: 12312312,
