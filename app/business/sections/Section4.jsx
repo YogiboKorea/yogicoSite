@@ -39,22 +39,22 @@ export default function BusinessSection_04({ id = 'bizSec4' }) {
           <img
             className="bs4-logo"
             src="/img/orchesta.png"
-            alt="Orchestra"
+            alt="Orchesta "
           />
         </div>
         <p className="bs4-desc">
           {lang === 'en' ? (
             <>
               Yogi Corporation is pursuing international market expansion through a strategic
-              partnership with Orchestra. Led by Gilad Kroner, Orchesta is a business
+              partnership with Orchesta . Led by Gilad Kroner, Orchesta is a business
               development and consulting firm comprised of seasoned experts who have spearheaded
               marketing initiatives for leading global brands such as H&amp;M, Mars‐Wrigley,
               Toyota, De’Longhi, and Pepsi etc.
             </>
           ) : (
             <>
-              요기 코퍼레이션은 Orchestra와의 전략적 파트너십을 통해 국제 시장 확장을
-              추진합니다. Gilad Kroner가 이끄는 Orchestra는 H&amp;M, Mars‐Wrigley,
+              요기 코퍼레이션은 Orchesta 와의 전략적 파트너십을 통해 국제 시장 확장을
+              추진합니다. Gilad Kroner가 이끄는 Orchesta 는 H&amp;M, Mars‐Wrigley,
               Toyota, De’Longhi, Pepsi 등 글로벌 주요 브랜드의 마케팅을 주도해 온
               전문가들로 구성된 비즈니스 개발 및 컨설팅 회사입니다.
             </>
@@ -127,7 +127,7 @@ export default function BusinessSection_04({ id = 'bizSec4' }) {
               <>
                 <p>
                   <span className="bs4-card_period">2024 – Present</span> Founder and CEO of
-                  Orchestra
+                  Orchesta 
                 </p>
                 <p>
                   <span className="bs4-card_period">2020 – 2024</span> CEO in Naterial, Israel · VP
@@ -195,7 +195,7 @@ export default function BusinessSection_04({ id = 'bizSec4' }) {
               <>
                 <p>
                   <span className="bs4-card_period">2025 – Present</span> Global Partner of
-                  Orchestra
+                  Orchesta 
                 </p>
                 <p>
                   <span className="bs4-card_period">2023 – Present</span> Global Sales And
