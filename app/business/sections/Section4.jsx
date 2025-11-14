@@ -46,7 +46,7 @@ export default function BusinessSection_04({ id = 'bizSec4' }) {
           {lang === 'en' ? (
             <>
               Yogi Corporation is pursuing international market expansion through a strategic
-              partnership with Orchestra. Led by Gilad Kroner, Orchestra is a business
+              partnership with Orchestra. Led by Gilad Kroner, Orchesta is a business
               development and consulting firm comprised of seasoned experts who have spearheaded
               marketing initiatives for leading global brands such as H&amp;M, Mars‐Wrigley,
               Toyota, De’Longhi, and Pepsi etc.
@@ -80,7 +80,7 @@ export default function BusinessSection_04({ id = 'bizSec4' }) {
               <>
                 <p>
                   <span className="bs4-card_period">2024 – Present</span> Global Partner of
-                  Orchestra · Global Project Director in NM REAL Intelligence (Partnership With
+                  Orchesta · Global Project Director in NM REAL Intelligence (Partnership With
                   Dynata Group) Hague, Netherlands
                 </p>
                 <p>
@@ -91,7 +91,7 @@ export default function BusinessSection_04({ id = 'bizSec4' }) {
             ) : (
               <>
                 <p>
-                  <span className="bs4-card_period">2024 – 현재</span> Orchestra 글로벌 파트너 ·
+                  <span className="bs4-card_period">2024 – 현재</span> Orchesta 글로벌 파트너 ·
                   NM REAL Intelligence 글로벌 프로젝트 디렉터 (Dynata 그룹 파트너십) 헤이그, 네덜란드
                 </p>
                 <p>
@@ -145,7 +145,7 @@ export default function BusinessSection_04({ id = 'bizSec4' }) {
             ) : (
               <>
                 <p>
-                  <span className="bs4-card_period">2024 – 현재</span> Orchestra 설립자 겸 CEO,
+                  <span className="bs4-card_period">2024 – 현재</span> Orchesta 설립자 겸 CEO,
                   라아나나, 이스라엘
                 </p>
                 <p>
@@ -209,7 +209,7 @@ export default function BusinessSection_04({ id = 'bizSec4' }) {
             ) : (
               <>
                 <p>
-                  <span className="bs4-card_period">2025 – 현재</span> Orchestra 글로벌 파트너
+                  <span className="bs4-card_period">2025 – 현재</span> Orchesta 글로벌 파트너
                 </p>
                 <p>
                   <span className="bs4-card_period">2023 – 현재</span> Mommy Care International
