@@ -10,6 +10,19 @@ export default function Section1({ id = 'news' }) {
 
   const newsItems = [
 
+    {
+      id: 213242343,
+      imgSrc: '/img/1202_banner.png',
+      title_en: 'Yogibo donates bean bag sofas worth 16 million KRW to support families of long-term hospitalized children … Launches ‘Rest Space Improvement’ campaign at RMHC House.',
+      excerpt_en:
+        'Through its ninth annual social contribution campaign, “Yogibo Awesome People,” Yogibo donated bean bag sofas worth 16 million KRW — including limited-edition Disney, Toy Story, and Kakao Friends products — to enhance the family lounge space at RMHC Korea Yangsan House. This support helps create a comfortable area outside hospital rooms, providing meaningful rest for long-term pediatric patients and their families during treatment.',
+      title_ko: '요기보, 장기 입원 환아 가족을 위해 1,600만 원 상당 빈백 소파 후원 … RMHC 하우스 ‘휴식 공간 개선’ 캠페인 진행',
+      excerpt_ko:
+        '올해로 아홉 번째 진행되는 사회공헌 캠페인 ‘Yogibo Awesome People(어썸피플)을 통해 요기보는 RMHC 코리아 양산하우스 내 가족 휴게 공간에 한정판 제품인 디즈니토이스토리카카오프렌즈 에디션을 포함하여 1,600만 원 상당의 요기보 빈백 소파를 후원했다. 이를 통해 장기 치료 중인 환아와 가족들이 병실 밖에서도 편안하게 쉴 수 있는 공간을 마련하며, 실질적인 휴식 지원에 기여했다.',
+      link: 'https://www.nbntv.co.kr/news/articleView.html?idxno=4014475 ',
+    },
+
+
        
     {
       id: 213,
