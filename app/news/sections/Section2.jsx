@@ -12,6 +12,20 @@ export default function Section1({ id = 'news' }) {
 
     {
       id: 213242343,
+      imgSrc: '/img/20251229.jpg',
+      title_en: 'HDC Young Chang to Host 2025 Christmas Concert with Yogibo',
+      excerpt_en:
+        'HDC Young Chang, a comprehensive musical instrument and culture company and an affiliate of the HDC Group, announced on the 23rd that it is preparing a special holiday event and performances in collaboration with global lifestyle brand Yogibo to celebrate Christmas. The event, jointly organized by the world-renowned digital instrument brand Kurzweil and Yogibo, known for providing premium relaxation, will take place at Starfield Hanam from December 22 through January 4, 2026. Centered around the themes of music and relaxation, the event is a hybrid cultural experience that combines a hands-on zone for Kurzweil’s latest digital pianos with an exhibition and experience space featuring Yogibo cushions and bean bags. In addition, the venue will include an area where visitors can freely try small instruments such as ukuleles and kalimbas, allowing people of all ages to easily enjoy music and unwind in a relaxing atmosphere.',
+      title_ko: 'HDC영창, 요기보와 2025년 크리스마스 공연 개최',
+      excerpt_ko:
+        ' HDC그룹의 계열사이자 종합 악기 문화기업인 HDC영창은 크리스마스를 맞이해 글로벌 라이프스타일 브랜드인 요기보와 함께하는 특별한 행사와 공연을 준비한다고 23일 밝혔다. 세계적인 디지털 악기 브랜드 커즈와일과 최상의 휴식을 제공하는 요기보가 함께 준비한 이번 행사는 12월 22일부터 2026년 1월 4일까지 하남 스타필드에서 진행된다. 이번 행사는 음악과 휴식을 테마로, 커즈와일의 최신 디지털 피아노 체험 존과 요기보의 쿠션, 빈백 전시·체험 공간이 결합된 복합 문화 이벤트다. 특히 행사장에는 우쿨렐레와 칼림바 등 소형 악기를 자유롭게 체험해볼 수 있는 공간도 함께 마련되어 있어, 남녀노소 누구나 손쉽게 음악을 즐기며 힐링할 수 있다. ',
+      link: 'https://www.nbntv.co.kr/news/articleView.html?idxno=4014475 ',
+    },
+
+
+
+    {
+      id: 213242343,
       imgSrc: '/img/1202_banner.png',
       title_en: 'Yogibo donates bean bag sofas worth 16 million KRW to support families of long-term hospitalized children … Launches ‘Rest Space Improvement’ campaign at RMHC House.',
       excerpt_en:
