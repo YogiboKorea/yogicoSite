@@ -11,7 +11,7 @@ export default function Section1({ id = 'news' }) {
   const newsItems = [
 
     {
-      id: 21324234333,
+      id: 213242343233,
       imgSrc: '/img/20251229.jpg',
       title_en: 'HDC Young Chang to Host 2025 Christmas Concert with Yogibo',
       excerpt_en:
