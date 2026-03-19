@@ -15,7 +15,7 @@ export const sectionComponents = [
   Section1,
   BusinessSection_01,
   BusinessSection_02,
-  BusinessSection_03,
+  //BusinessSection_03,
   BusinessSection_04,
   Section2,
   Section3,

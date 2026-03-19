@@ -55,10 +55,10 @@ export default function Section02({ id = 'sec2' }) {
 
             <ul className="pillar-list">
               <li>
-                <Link href="/we#sec8">Business Consulting and Development</Link>
+                <Link href="/we#sec8">Business Development & Trading</Link>
               </li>
               <li style={{marginBottom:'0px;'}}>
-                <Link href="/we/#hoe2">Brand Management Business</Link>
+                <Link href="https://www.yogico.kr/we#BrandSection_01">Brand Management and Operation</Link>
               </li>
               <br/>
               <li style={{ color: '#fff',margin:'0px;'}}>
