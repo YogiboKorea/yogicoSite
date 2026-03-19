@@ -39,7 +39,6 @@ export default function WePage() {
       <Section1 id="sec1" />
       <BusinessSection_01 id="sec7"/>
       <BusinessSection_02 id="sec8"/>
-      <BusinessSection_03 id="sec9"/>
       <BusinessSection_04 id="sec10"/>
       <Brand0 id="sec5" />
       <Brand1 id="sec5" />
