@@ -155,8 +155,9 @@ export default function ContactModal({ onClose = () => {} }) {
                 ? 'FOR MORE INFORMATION, PLEASE DOWNLOAD OUR BROCHURE.'
                 : '더 자세한 정보를 원하시면 브로셔를 다운로드해 주세요.'}
             </p>
+            {/* href 부분이 새 파일명으로 수정되었습니다 */}
             <a
-              href="http://yogico.cafe24.com/pdf/2026%20Yogi%20Corporation%20Inc_Beauty.pdf"
+              href="http://yogico.cafe24.com/pdf/Yogi%20Corporation%20Inc_Beauty.pdf2.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="download-brochure-btn"
