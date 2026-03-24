@@ -26,9 +26,8 @@
   overflow-y: auto;
   color: #000;
   font-family: 'Roboto Condensed', sans-serif;
-  margin-top:100px;
+  margin-top: 100px;
 }
-
 
 /* ── Modal ── */
 .contact-modal {
@@ -37,7 +36,7 @@
   width: 100%;
   max-width: 1000px;
   box-sizing: border-box;
-  color: #000!important;
+  color: #000 !important;
   display: flex;
   flex-direction: column;
 }
@@ -59,7 +58,6 @@
   justify-content: space-between;
   align-items: center;
   padding: 18px 24px;
-  /* margin-left: -80px; */
   text-align: center;
   align-content: space-around;
   flex-direction: column;
@@ -197,11 +195,10 @@
   background: #fff;
   border: 1px solid #ccc;
   color: #000;
-  font-size: 16px;
   border-radius: 4px;
   cursor: pointer;
   transition: background 0.2s ease;
-  font-size:22px;
+  font-size: 22px;
 }
 .send-button:hover:not(:disabled) {
   background: rgba(0, 0, 0, 0.05);
@@ -220,11 +217,63 @@
   text-align: left;
 }
 
+/* ── Download Section ── */
+.download-section {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.download-section .divider {
+  border: 0;
+  border-top: 1px solid #333;
+  margin-bottom: 18px;
+}
+
+.download-label {
+  font-size: 14px; /* 데스크톱에서 가독성을 위해 살짝 키움 */
+  color: #000;
+  margin-bottom: 12px;
+  text-align: left;
+  letter-spacing: -0.2px;
+}
+
+.download-brochure-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 14px 0;
+  border: 1px solid #000;
+  background-color: transparent;
+  color: #000;
+  font-size: 22px; /* 데스크톱: 제출 버튼(22px)과 동일하게 */
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  box-sizing: border-box;
+}
+
+.download-brochure-btn:hover {
+  background-color: #f5f5f5;
+}
+
+.download-icon {
+  margin-left: 10px;
+  width: 18px;
+  height: auto;
+}
+
 /* ── Responsive ── */
 @media (max-width: 900px) {
-  .contact-subtitle{font-size:18px;}
-  .contact-footer{font-size:16px;}
-  .send-button{font-size:18px;}
+  .contact-subtitle { font-size: 18px; }
+  .contact-footer { font-size: 16px; }
+  .send-button { font-size: 18px; }
+  
+  /* 반응형: 다운로드 버튼과 라벨 사이즈 조정 */
+  .download-brochure-btn { font-size: 18px; }
+  .download-label { font-size: 12px; }
+  
   .columns {
     flex-direction: column;
   }
@@ -234,6 +283,6 @@
   .contact-modal-header {
     margin: 0;
   }
-  .contact-overlay{padding:0px;}
-  .logo-wrapper img{max-width:250px;}
+  .contact-overlay { padding: 0px; }
+  .logo-wrapper img { max-width: 250px; }
 }

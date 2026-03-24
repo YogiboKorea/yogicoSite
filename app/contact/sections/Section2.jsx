@@ -147,6 +147,25 @@ export default function ContactModal({ onClose = () => {} }) {
             </button>
           </form>
 
+          {/* Download Brochure Section 추가 */}
+          <div className="download-section">
+            <hr className="divider" />
+            <p className="download-label">
+              {lang === 'en'
+                ? 'FOR MORE INFORMATION, PLEASE DOWNLOAD OUR BROCHURE.'
+                : '더 자세한 정보를 원하시면 브로셔를 다운로드해 주세요.'}
+            </p>
+            <a
+              href="http://yogico.cafe24.com/pdf/2026%20Yogi%20Corporation%20Inc_Beauty.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="download-brochure-btn"
+            >
+              {lang === 'en' ? 'DOWNLOAD BROCHURE' : '브로셔 다운로드'}
+              <img src="/img/group.png" alt="Download Icon" className="download-icon" />
+            </a>
+          </div>
+
           {/* Footer */}
           <div className="contact-footer">
             <p>
