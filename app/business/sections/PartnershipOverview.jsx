@@ -11,12 +11,18 @@ export default function PartnershipOverview({ id = 'partnershipOverview' }) {
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
+    const items = el.querySelectorAll('.pso-item');
     const io = new IntersectionObserver(
-      ([entry]) =>
-        entry.isIntersecting ? el.classList.add('play') : el.classList.remove('play'),
-      { rootMargin: '-45% 0px -45% 0px', threshold: 0 }
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('play');
+          }
+        });
+      },
+      { rootMargin: '0px 0px -15% 0px', threshold: 0.05 }
     );
-    io.observe(el);
+    items.forEach((item) => io.observe(item));
     return () => io.disconnect();
   }, []);
 

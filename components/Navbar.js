@@ -1,10 +1,13 @@
 'use client';
 import Link from 'next/link';
 import React, { useState } from 'react';
+import { usePathname } from 'next/navigation';
 import './Slidebar.css';          // Slidebar 스타일
 import Slidebar from './SlideBar';
 
 export default function Navbar() {
+  const pathname = usePathname();
+  const isContactPage = pathname === '/contact';
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = e => {
@@ -16,10 +19,16 @@ export default function Navbar() {
     <>
       <header className="navbar">
         <h1 className="logo locoContact">
-          <Link href="/" aria-label="Home"><img src="/img/symbol.png" className="logo" alt="로고"/></Link>
+          <Link href="/" aria-label="Home">
+            <img 
+              src="/img/symbol.png" 
+              className={`logo ${isContactPage ? 'contact-logo' : ''}`} 
+              alt="로고"
+            />
+          </Link>
         </h1>
         <button
-          className={`menu btn_tl ${menuOpen ? 'open_btn' : ''} btn_tl_contact`}
+          className={`menu btn_tl ${menuOpen ? 'open_btn' : ''} ${isContactPage ? 'btn_tl_contact' : ''}`}
           onClick={toggleMenu}
           aria-label="Toggle menu"
         >

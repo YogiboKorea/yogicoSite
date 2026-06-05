@@ -67,9 +67,11 @@ export default function Slidebar({ isOpen, onClose }) {
 
           <footer id="footer">
             <address>#201, 125, Bongeunsa-ro, Gangnam-gu, Seoul, Korea</address>
-            {/* +82-2-557-0920<br/> */}
-            <address>contact@yogico.kr</address>
-            <address>+82-2-557-0920</address>
+            <address className="footer-contact-line">
+              <a href="mailto:contact@yogico.kr">contact@yogico.kr</a>
+              <span className="footer-divider"> / </span>
+              <a href="tel:+82-2-557-0920">+82-2-557-0920</a>
+            </address>
           </footer>
         </div>
       </nav>

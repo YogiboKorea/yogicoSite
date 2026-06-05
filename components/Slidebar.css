@@ -155,6 +155,15 @@
   transform: translateY(-14px) rotate(-45deg);
 }
 
+/* Contact page styling updates */
+.contact-logo {
+  filter: invert(1) !important;
+}
+
+.btn_tl_contact:not(.open_btn) span {
+  background: #000 !important;
+}
+
 .logo {
   position: absolute;
   top: calc(12/720 * 100%);
@@ -248,11 +257,22 @@
   font-family: 'Roboto Condensed', sans-serif;
 }
 .inner #footer a {
-  display: block;
+  display: inline;
   color: #fff;
   text-decoration: none;
   font-weight: 400;
   font-family: 'Roboto Condensed', sans-serif;
+}
+.inner #footer .footer-contact-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  flex-wrap: wrap;
+}
+.inner #footer .footer-divider {
+  color: #aaa;
+  margin: 0 4px;
 }
 
 /* ─── 반응형: 900px 이하 ───────────────────────────────── */
