@@ -1,23 +1,8 @@
-// app/we/layout.js
+export const metadata = {
+  title: '요기코퍼레이션 | PARTNERSHIP',
+  description: '요기코퍼레이션의 전 세계 전략적 파트너들과의 글로벌 협력 사례 및 비즈니스 시너지 효과를 소개합니다.',
+};
 
-import { Anton } from 'next/font/google';
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
-import '../we/we.css';
-import '../../components/MainSection.css';
-
-const anton = Anton({
-  weight: '400',
-  subsets: ['latin'],
-  variable: '--font-anton', // 필요시 CSS 변수로도 사용 가능
-});
-
-export default function WeLayout({ children }) {
-  return (
-    <div className={anton.className}>
-      <Navbar />
-      {children}
-      <Footer />
-    </div>
-  );
+export default function PartnershipLayout({ children }) {
+  return children;
 }

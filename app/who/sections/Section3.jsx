@@ -50,14 +50,11 @@ export default function Section03({ id = 'sec3' }) {
           {/* 2 */}
           <article className="ws3-card">
             <div className="ws3-avatar">
-              <img src="/img/Y_step_02.jpg" alt="Kyungsoo Kim" />
+              <img src="/img/Y_a_step_03.png" alt="Hoon Lee" />
             </div>
-            <h3 className="ws3-name">KYUNGSOO KIM / CRO</h3>
+            <h3 className="ws3-name">HOON LEE / CBO</h3>
             <p className="ws3-bio">
-              Dr. Kim is a R&amp;D leader with a Ph.D. in Chemical Engineering from Wayne State
-              University and over 30 years of experience in industrial research and technology
-              development. His extensive background in both academia and industry enables him
-              to lead innovation in advanced materials and sustainable energy solutions.
+              Hoon Lee is a seasoned executive with extensive experience leading market entry, brand repositioning, and business turnarounds for global retail and consumer brands. His previous roles at JellyCat, Boardriders, Lululemon, Ralph Lauren, Adidas, Kolon Industries, Prada Group, and GS Retail demonstrate his ability to execute omni-channel strategies.
             </p>
           </article>
 
@@ -100,13 +97,13 @@ export default function Section03({ id = 'sec3' }) {
           {/* 2 */}
           <article className="ws3-card">
             <div className="ws3-avatar">
-              <img src="/img/Y_step_02.jpg" alt="김경수 Kim" />
+              <img src="/img/Y_a_step_03.png" alt="이훈 Hoon Lee" />
             </div>
-            <h3 className="ws3-name">KYUNGSOO KIM / CRO</h3>
+            <h3 className="ws3-name">HOON LEE / CBO</h3>
             <p className="ws3-bio">
-              김경수 CRO는 Wayne State University 화학공학 박사 출신으로, 30년 이상의
-              산업 연구 및 기술 개발 경험을 보유하고 있습니다. 학계와 산업계를 아우르는
-              경험으로 첨단 소재 및 지속가능 에너지 솔루션 혁신을 선도합니다.
+              이훈은 글로벌 리테일 및 소비재 브랜드의 시장 진입, 브랜드
+              재포지셔닝, 비즈니스 턴어라운드를 주도한 경력을 보유한 경영 전문가입니다.
+              JellyCat, Boardriders, Lululemon, Ralph Lauren, Adidas 등에서 옴니채널 전략을 성공적으로 실행했습니다.
             </p>
           </article>
 

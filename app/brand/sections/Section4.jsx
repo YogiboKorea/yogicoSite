@@ -133,7 +133,7 @@ export default function TripleChart() {
       <p className="excl-intro">
         {lang === 'en' ? (
           <>
-            Yogi Corporation has carried out extensive trials and R&amp;D over the past five years,
+            Yogi Corporation Inc. has carried out extensive trials and R&amp;D over the past five years,
             leading to the successful co-development of HRF (High Resilience Foam), a specialized
             filling material for beanbag sofas, in partnership with LOTTE Chemical. Commercialized
             on March 1, 2023, HRF addresses the limitations of conventional EPS (Expanded Polystyrene)

@@ -1,0 +1,203 @@
+/* PartnershipOverview.css */
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+.PartnershipOverview {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  background: #0b182b;
+  color: #fff;
+  font-family: 'Roboto Condensed', sans-serif;
+  overflow: hidden;
+  padding: 150px 100px 100px;
+}
+
+.pso-title {
+  font-family: 'Anton', sans-serif;
+  font-size: 50px;
+  color: #fff;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 200;
+  letter-spacing: 0.5px;
+}
+
+.pso-intro {
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  font-size: 22px;
+  line-height: 1.6;
+  color: #eee;
+  text-align: left;
+}
+
+.pso-map-container {
+  max-width: 750px;
+  margin: 0 auto 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pso-map {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  opacity: 0.85;
+}
+
+.pso-list {
+  max-width: 1700px;
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.pso-item {
+  background: #061123;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.6s ease, transform 0.6s ease;
+}
+
+.pso-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+
+/* Animation trigger on scroll */
+.PartnershipOverview.play .pso-item:nth-child(1) { opacity: 1; transform: translateY(0); transition-delay: 0.1s; }
+.PartnershipOverview.play .pso-item:nth-child(2) { opacity: 1; transform: translateY(0); transition-delay: 0.25s; }
+.PartnershipOverview.play .pso-item:nth-child(3) { opacity: 1; transform: translateY(0); transition-delay: 0.4s; }
+
+.pso-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding-bottom: 1rem;
+}
+
+.pso-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.pso-logo-icon {
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pso-brand-name {
+  font-size: 22px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+
+/* KR2USA text logo styling */
+.kr2usa-text-logo {
+  font-family: 'Marcellus', serif;
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: auto;
+  letter-spacing: 0.5px;
+}
+.kr2usa-text-logo .light-text {
+  color: #a3a3a3;
+  margin-right: 1px;
+}
+.kr2usa-text-logo .bold-text {
+  color: #ffffff;
+}
+
+/* Global Stride sphere styling */
+.sphere-globe {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, #ffffff 0%, #3a3a3a 50%, #000000 100%);
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
+}
+
+.pso-link {
+  font-size: 18px;
+  color: #aaa;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.pso-link:hover {
+  color: #3da4ff;
+  text-decoration: underline;
+}
+
+.pso-desc {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #ddd;
+  margin: 0;
+}
+
+.pso-desc strong {
+  color: #fff;
+  font-weight: 600;
+}
+
+/* Responsive Styles */
+@media (max-width: 900px) {
+  .PartnershipOverview {
+    padding: 10vh 4vw;
+  }
+  .pso-title {
+    font-size: 40px;
+  }
+  .pso-intro {
+    font-size: 18px;
+    margin-bottom: 2rem;
+  }
+  .pso-map-container {
+    margin-bottom: 3rem;
+  }
+  .pso-list {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    max-width: 800px;
+  }
+  .pso-item-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    padding-bottom: 0.75rem;
+  }
+  .pso-link {
+    font-size: 16px;
+  }
+  .pso-desc {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 500px) {
+  .pso-title {
+    font-size: 32px;
+  }
+}

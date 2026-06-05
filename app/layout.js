@@ -25,12 +25,7 @@ const anton = Anton({
 export const metadata = {
   title: '요기코퍼레이션',
   description: '요기코퍼레이션은 브랜드와 기술 개발을 통해 국내외 라이프스타일 시장을 선도합니다. 회사 소개, 주요 서비스, 채용 정보를 확인하세요.',
-  viewport: 'width=device-width, initial-scale=1',
-  themeColor: '#000000',
-  icons: {
-    icon: '/yogico.ico', // /public/icon.png 파일을 가리킵니다.
-    apple: '/yogico.ico', // /public/apple-icon.png 파일을 가리킵니다.
-  },
+  metadataBase: new URL('https://www.yogico.kr'),
   // 검색엔진 인증
   verification: {
     google: 't6Dvzru0Y2bmv7Q62OpJWPyEo7qDCBTWK1Vg-Wz6NKw',
@@ -70,6 +65,12 @@ export const metadata = {
     description: '요기코퍼레이션은 브랜드와 기술 개발을 통해 국내외 라이프스타일 시장을 선도합니다.',
     images: ['/img/symbol.png'], // 절대 경로 또는 전체 URL을 사용하세요.
   },
+};
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  themeColor: '#000000',
 };
 
 

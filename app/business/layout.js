@@ -1,30 +1,8 @@
-// app/we/layout.js
+export const metadata = {
+  title: '요기코퍼레이션 | BUSINESS',
+  description: '요기코퍼레이션의 비즈니스 개발, 글로벌 트레이딩, 유통망 구축 및 전략 컨설팅 비즈니스 영역을 소개합니다.',
+};
 
-import { Anton } from 'next/font/google';
-import { Roboto_Condensed } from 'next/font/google';
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
-import '../we/we.css';
-
-const roboto = Roboto_Condensed({
-  weight: ['400'],               // 필요에 따라 다른 weight 추가 가능
-  subsets: ['latin'],
-  variable: '--font-roboto-condensed',
-});
-
-const anton = Anton({
-  weight: ['400'],               // 필요에 따라 다른 weight 추가 가능
-  subsets: ['latin'],
-  variable: '--font-roboto-condensed',
-});
-
-
-export default function WeLayout({ children }) {
-  return (
-    <div className={roboto.className}>
-      <Navbar />
-      {children}
-      <Footer />
-    </div>
-  );
+export default function BusinessLayout({ children }) {
+  return children;
 }

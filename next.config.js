@@ -1,5 +1,8 @@
+const path = require('path');
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  outputFileTracingRoot: path.join(__dirname),
   // public/ 폴더 정적 파일만 그대로 서빙
   images: {
     unoptimized: true,

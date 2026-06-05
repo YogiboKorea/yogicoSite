@@ -1,25 +1,8 @@
-// app/we/layout.js
+export const metadata = {
+  title: '요기코퍼레이션 | RECRUIT',
+  description: '요기코퍼레이션과 함께 끊임없는 도전으로 글로벌 라이프스타일을 혁신해 나갈 인재 채용을 기다립니다.',
+};
 
-
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
-import '../we/we.css';
-import '../../components/MainSection.css';
-import { Roboto_Condensed } from 'next/font/google';
-
-const roboto = Roboto_Condensed({
-  weight: ['400'],         // 필요에 따라 배열로 여러 웨이트 지정 가능
-  subsets: ['latin'],      // 한글만 쓰신다면 'latin' 하나로 충분합니다
-  variable: '--font-roboto-condensed', // CSS 변수로도 쓰고 싶으면 선언
-});
-
-
-export default function WeLayout({ children }) {
-  return (
-    <div className={`${roboto.className} h-full`}>
-      <Navbar />
-      {children}
-      <Footer />
-    </div>
-  );
+export default function RecruitLayout({ children }) {
+  return children;
 }

@@ -63,31 +63,7 @@ export default function Section05({ id = 'sec5' }) {
             </div>
           </article>
 
-          {/* 2. Hoon Lee */}
-          <article className="ws5-card">
-            <div className="ws5-avatar">
-              <img
-                src="/img/Y_a_step_03.png"
-                alt="Hoon Lee"
-              />
-            </div>
-            <h3 className="ws5-name">HOON LEE</h3>
-            <p className="ws5-bio">
-              Hoon Lee is a seasoned executive with extensive experience leading market entry,
-              brand repositioning, and business turnarounds for global retail and consumer brands.
-              His previous roles at JellyCat, Boardriders, Lululemon, Ralph Lauren, Adidas,
-              Kolon Industries, Prada Group, and GS Retail demonstrate his ability to drive
-              growth, manage large teams, and execute omni-channel strategies.
-            </p>
-            <br/>
-            <div className="ws5-edu">
-              <strong>Education</strong>
-              <p>Yonsei University, MBA</p>
-              <p>State University of New York B.A. Business Administration and Management</p>
-            </div>
-          </article>
-
-          {/* 3. Hyunjoong Kim */}
+          {/* 2. Hyunjoong Kim */}
           <article className="ws5-card">
             <div className="ws5-avatar">
               <img
@@ -145,30 +121,7 @@ export default function Section05({ id = 'sec5' }) {
             </div>
           </article>
 
-          {/* 2. Hoon Lee */}
-          <article className="ws5-card">
-            <div className="ws5-avatar">
-              <img
-                src="/img/Y_a_step_03.png"
-                alt="이훈 Hoon Lee"
-              />
-            </div>
-            <h3 className="ws5-name">HOON LEE</h3>
-            <p className="ws5-bio">
-              이훈 자문위원은 글로벌 리테일 및 소비재 브랜드의 시장 진입, 브랜드
-              재포지셔닝, 비즈니스 턴어라운드를 주도한 경력을 보유한 경영 전문가입니다.
-              JellyCat, Boardriders, Lululemon, Ralph Lauren, Adidas 등에서 성장을
-              이끌었으며, 옴니채널 전략을 성공적으로 실행했습니다.
-            </p>
-            <br/>
-            <div className="ws5-edu">
-              <strong>학력</strong>
-              <p>연세대학교 경영전문대학원 MBA</p>
-              <p>뉴욕주립대학교 경영학 학사</p>
-            </div>
-          </article>
-
-          {/* 3. Hyunjoong Kim */}
+          {/* 2. Hyunjoong Kim */}
           <article className="ws5-card">
             <div className="ws5-avatar">
               <img

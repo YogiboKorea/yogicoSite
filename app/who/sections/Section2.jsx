@@ -29,7 +29,7 @@ export default function Section02({ id = 'sec2' }) {
           <div className="intro-text-block">
             {/* 영어 버전 */}
             <div className="intro-paragraph en">
-              Founded in 2016 and based in Gangnam, Seoul, Yogi Corporation combines deep
+              Founded in 2016 and based in Gangnam, Seoul, Yogi Corporation Inc. combines deep
               international experience with operational control across the full value chain.<br/><br/>
               We deliver strategic consulting and business development services while operating
               our own manufacturing and logistics infrastructure to ensure consistent quality
@@ -38,7 +38,7 @@ export default function Section02({ id = 'sec2' }) {
             <div className="intro-paragraph en">
               As an integrated retail brand operator, we maintain an omnichannel presence through
               both offline stores and dynamic<br/> e-commerce platforms.<br/><br/>
-              In essence, Yogi Corporation operates across two core business pillars:
+              In essence, Yogi Corporation Inc. operates across two core business pillars:
             </div>
 
             {/* 한글 버전 */}

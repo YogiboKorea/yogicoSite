@@ -63,6 +63,20 @@
   transition: filter 0.3s ease;
 }
 
+.ws3-edu {
+  margin-top: 1.5rem;
+  font-size: 22px;
+}
+.ws3-edu strong {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.ws3-edu p {
+  margin: 0.2rem 0;
+  font-size: 0.9em;
+  color: #eee;
+}
+
 
 
 /* ─── 폰트 크기 조정 ―───────────────────────────────── */
@@ -109,6 +123,7 @@
   .ws3-name{margin-top:40px;font-size:18px;font-family: 'Anton';font-weight: 200;}
   .ws3-role{margin-top:5px;font-size:18px;font-family: 'Anton';font-weight: 200;}
   .ws3-bio{margin-top:10px;font-size:18px;}
+  .ws3-edu{font-size:18px;}
   .whoSection_03{padding: 2rem 1.5rem;}
   
   

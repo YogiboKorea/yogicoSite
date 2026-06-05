@@ -5,7 +5,7 @@ import axios from 'axios';
 import { LanguageContext } from '@/contexts/LanguageContext';
 import './ContactSection_02.css';
 
-export default function ContactModal({ onClose = () => {} }) {
+export default function ContactModal({ onClose = () => { } }) {
   const { lang } = useContext(LanguageContext);
 
   const [companyEmail, setCompanyEmail] = useState('');
@@ -71,7 +71,7 @@ export default function ContactModal({ onClose = () => {} }) {
           <div className="logo-wrapper">
             <img
               src="/img/coMake2.png"
-              alt="Yogi Corporation"
+              alt="Yogi Corporation Inc."
             />
           </div>
         </div>
@@ -80,7 +80,7 @@ export default function ContactModal({ onClose = () => {} }) {
         <div className="contact-modal-body">
           <p className="contact-subtitle">
             {lang === 'en'
-              ? 'Thank you for your interest in Yogi Corporation. Please complete the form below to submit your inquiry.'
+              ? 'Thank you for your interest in Yogi Corporation Inc. Please complete the form below to submit your inquiry.'
               : '요기 코퍼레이션에 관심을 가져주셔서 감사합니다. 아래 양식을 작성하여 문의를 제출해 주세요.'}
           </p>
 
@@ -147,31 +147,13 @@ export default function ContactModal({ onClose = () => {} }) {
             </button>
           </form>
 
-          {/* Download Brochure Section 추가 */}
-          <div className="download-section">
-            <hr className="divider" />
-            <p className="download-label">
-              {lang === 'en'
-                ? 'FOR MORE INFORMATION, PLEASE DOWNLOAD OUR BROCHURE.'
-                : '더 자세한 정보를 원하시면 브로셔를 다운로드해 주세요.'}
-            </p>
-            {/* href 부분이 새 파일명으로 수정되었습니다 */}
-            <a
-              href="http://yogico.cafe24.com/pdf/Yogi%20Corporation%20Inc_Beauty.pdf2.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="download-brochure-btn"
-            >
-              {lang === 'en' ? 'DOWNLOAD BROCHURE' : '브로셔 다운로드'}
-              <img src="/img/group.png" alt="Download Icon" className="download-icon" />
-            </a>
-          </div>
+
 
           {/* Footer */}
           <div className="contact-footer">
             <p>
               {lang === 'en'
-                ? 'Yogi Corporation is committed to protecting your personal information. The information you provide will be securely managed in accordance with applicable laws and our privacy policy, and will be used solely for the purpose of responding to your inquiry and improving our services.'
+                ? 'Yogi Corporation Inc. is committed to protecting your personal information. The information you provide will be securely managed in accordance with applicable laws and our privacy policy, and will be used solely for the purpose of responding to your inquiry and improving our services.'
                 : '요기 코퍼레이션은 귀하의 개인정보 보호를 약속드립니다. 제공하신 정보는 관련 법령 및 개인정보 처리방침에 따라 안전하게 관리되며, 문의 응대 및 서비스 개선 목적에만 사용됩니다.'}
             </p>
           </div>

@@ -1,3 +1,10 @@
-# https://www.robotstxt.org/robotstxt.html
+# *
 User-agent: *
-Disallow:
+Allow: /
+
+# Host
+Host: https://yogico.kr
+
+# Sitemaps
+Sitemap: https://yogico.kr/sitemap.xml
+Sitemap: https://yogico.kr/rss.xml
