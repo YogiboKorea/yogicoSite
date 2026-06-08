@@ -49,7 +49,7 @@ export default function SearchIcon({ mapOpen, setMapOpen }) {
             <a href="tel:+82-2-557-0920">
               +82-2-557-0920 
             </a><br/>
-            <a href="mailto:contact@yogico.kr">contact@yogico.kr</a>
+            <a href="mailto:biz@yogico.kr">biz@yogico.kr</a>
             </address>
           </div>
         </div>

@@ -45,7 +45,7 @@ export default function ContactModal({ onClose = () => { } }) {
 
     try {
       await axios.post(
-        'https://port-0-ychat-lzgmwhc4d9883c97.sel4.cloudtype.app/send-email',
+        'https://port-0-admichat-lzgmwhc4d9883c97.sel4.cloudtype.app/send-email',
         formData,
         { headers: { 'Content-Type': 'multipart/form-data' } }
       );
