@@ -11,6 +11,20 @@ export default function Section1({ id = 'news' }) {
   const newsItems = [
 
     {
+      id: 20261021,
+      imgSrc: '/img/2026_imgs.jpg',
+      title_en: 'Syuelro Steps Up European Expansion with Major Nordic Distributor Dangaard, Entering Retail Chain ‘NORMAL’',
+      excerpt_en:
+        'Yogi Corporation, a K-beauty overseas business development company that serves as Nordic distributor Dangaard’s sales and liaison office in Korea, supported K-beauty brand Syuelro in signing a direct supply agreement with Dangaard. Through the deal, Syuelro will enter NORMAL, a Danish beauty and household-goods chain with more than 1,000 stores across 14 European countries, starting with an initial order of 40,000 units. Working with Yogi Corporation, Syuelro negotiated supply terms with Dangaard, and CEO Gong Minji credited Yogi Corporation’s support with building a direct partnership with Dangaard and minimizing export risks.',
+      title_ko: '슈엘로, 북유럽 대형 유통기업 단가르드 통해 유럽 리테일 체인 ‘노멀’ 진출 본격화',
+      excerpt_ko:
+        'K-뷰티 해외 사업개발 기업이자 북유럽 유통기업 단가르드의 한국 영업·연락사무소 역할을 맡고 있는 요기코퍼레이션이 K-뷰티 브랜드 슈엘로와 단가르드의 직접 공급 계약 체결을 지원했다. 이번 계약으로 슈엘로는 유럽 14개국에서 1,000개 이상의 매장을 운영하는 덴마크 뷰티·생활용품 체인 ‘노멀’에 초도 물량 4만 개를 공급하며 진출한다. 슈엘로는 요기코퍼레이션과의 협력을 통해 단가르드와 공급 조건을 협의했으며, 공민지 대표는 요기코퍼레이션의 지원으로 단가르드와 직접적인 파트너십을 구축하고 수출 과정의 리스크를 최소화할 수 있었다고 밝혔다.',
+      link: 'https://view.asiae.co.kr/article/2026102111041573105',
+    },
+
+
+
+    {
       id: 21324234321233,
       imgSrc: '/img/20251229.jpg',
       title_en: 'HDC Young Chang to Host 2025 Christmas Concert with Yogibo',
