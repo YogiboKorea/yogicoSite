@@ -28,21 +28,23 @@ export default function PartnershipOverview({ id = 'partnershipOverview' }) {
 
   return (
     <section id={id} ref={ref} className={`PartnershipOverview ${lang}`}>
+      {/* 숨김 처리: 제목 · 소개 문구 · 지도
       <h2 className="pso-title">STRATEGIC PARTNERSHIP</h2>
-      
+
       <p className="pso-intro">
-        {lang === 'en' 
+        {lang === 'en'
           ? 'Yogi Corporation Inc. provides global solutions through strategic partnerships with a worldwide network of industry experts.'
           : '요기 코퍼레이션은 전 세계 업계 전문가 네트워크와의 전략적 파트너십을 통해 글로벌 비즈니스 솔루션을 제공합니다.'}
       </p>
 
       <div className="pso-map-container">
-        <img 
-          src="/img/map.png" 
-          alt="World Map Partnership" 
-          className="pso-map" 
+        <img
+          src="/img/map.png"
+          alt="World Map Partnership"
+          className="pso-map"
         />
       </div>
+      */}
 
       <div className="pso-list">
         {/* ORCHESTA */}
