@@ -11,7 +11,7 @@ import Section4 from './sections/Section4';
 
 
 
-const sectionIds = ['sec1', 'sec2', 'sec3', 'sec3_5', 'sec4'];
+const sectionIds = ['sec1', 'sec2', 'sec3', 'sec4'];
 
 export default function WePage() {
   return (
@@ -23,7 +23,7 @@ export default function WePage() {
       <Section1 id="sec1" />
       <Section2 id="sec2" />
       <Section3 id="sec3" />
-      <PartnershipOverview id="sec3_5" />
+      {/* <PartnershipOverview id="sec3_5" /> */}
       <Section4 id="sec4" />
     </div>
   );
